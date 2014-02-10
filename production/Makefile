@@ -1,5 +1,5 @@
 PCBNAME=spam
-REV=3.0
+REV=2.0
 
 all: get_submodule
 
