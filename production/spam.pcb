@@ -823,7 +823,7 @@ Element["" "resistor" "R10" "1k" 272551 190000 -4051 -6051 0 100 ""]
 
 	)
 
-Element["" "NRJ6HF" "Output" "unknown" 285000 290000 268 -39406 0 100 ""]
+Element["" "NRJ6HF" "Output1" "unknown" 285000 290000 268 -39406 0 100 ""]
 (
 	Pin[28500 -16700 10000 3000 10000 6000 "S" "1" "warn,thermal(0X,1X)"]
 	Pin[28500 -41700 10000 3000 10000 6000 "R" "2" "warn"]
@@ -839,7 +839,7 @@ Element["" "NRJ6HF" "Output" "unknown" 285000 290000 268 -39406 0 100 ""]
 
 	)
 
-Element["" "JUMPER2" "Speaker" "unknown" 315000 187500 -13000 5500 1 100 ""]
+Element["" "JUMPER2" "Speaker1" "unknown" 315000 187500 -13000 5500 1 100 ""]
 (
 	Pin[0 -10000 6000 2000 6500 3600 "" "2" "warn"]
 	Pin[0 0 6000 2000 6500 3600 "" "1" ""]
@@ -934,7 +934,7 @@ Element["" "resistor" "R1" "5k" 205000 267449 6551 -1949 3 100 ""]
 
 	)
 
-Element["" "JUMPER2" "Pickup" "unknown" 140000 175000 -11000 5000 1 100 ""]
+Element["" "JUMPER2" "Pickup1" "unknown" 140000 175000 -11000 5000 1 100 ""]
 (
 	Pin[0 10000 6000 2000 6500 3600 "" "2" "warn"]
 	Pin[0 0 6000 2000 6500 3600 "" "1" "warn"]
@@ -946,7 +946,7 @@ Element["" "JUMPER2" "Pickup" "unknown" 140000 175000 -11000 5000 1 100 ""]
 
 	)
 
-Element["" "NRJ6HF" "Input" "unknown" 160000 290000 2268 -40906 0 100 ""]
+Element["" "NRJ6HF" "Input1" "unknown" 160000 290000 2268 -40906 0 100 ""]
 (
 	Pin[28500 -16700 10000 3000 10000 6000 "S" "1" "warn"]
 	Pin[28500 -41700 10000 3000 10000 6000 "R" "2" "warn,thermal(0X,1X)"]
@@ -962,7 +962,7 @@ Element["" "NRJ6HF" "Input" "unknown" 160000 290000 2268 -40906 0 100 ""]
 
 	)
 
-Element["" "JUMPER2" "LED" "unknown" 227500 282500 -11500 9500 1 100 ""]
+Element["" "JUMPER2" "LED1" "unknown" 227500 282500 -11500 9500 1 100 ""]
 (
 	Pin[-10000 0 6000 2000 6500 3600 "" "2" "warn,edge2"]
 	Pin[0 0 6000 2000 6500 3600 "" "1" "edge2"]
@@ -1058,7 +1058,7 @@ Element["" "resistor" "R7" "220" 227449 165000 -2449 -6051 0 100 ""]
 
 	)
 
-Element["" "JUMPER2" "Batt" "unknown" 140000 160000 11000 -10000 3 100 ""]
+Element["" "JUMPER2" "Batt1" "unknown" 140000 160000 11000 -10000 3 100 ""]
 (
 	Pin[0 -10000 6000 2000 6500 3600 "" "2" "warn"]
 	Pin[0 0 6000 2000 6500 3600 "" "1" "warn"]
@@ -1268,136 +1268,136 @@ Layer(10 "silk")
 )
 NetList()
 (
-	Net("GND" "(unknown)")
+	Net("unnamed_net11" "(unknown)")
 	(
-		Connect("C2-2")
-		Connect("C8-2")
-		Connect("Input-2")
-		Connect("J1-2")
-		Connect("LED1-2")
-		Connect("Output-1")
-		Connect("Pickup-1")
-		Connect("R1-2")
-		Connect("R3-2")
-		Connect("R6-1")
-		Connect("R8-2")
-		Connect("R9-2")
-		Connect("U1-3")
-		Connect("U2-4")
+		Connect("LED1-1")
+		Connect("R12-2")
 	)
-	Net("IN+" "(unknown)")
+	Net("T" "(unknown)")
 	(
-		Connect("C1-2")
-		Connect("R3-1")
-		Connect("R4-2")
-		Connect("U2-3")
-	)
-	Net("IN-" "(unknown)")
-	(
-		Connect("R2-2")
-		Connect("U2-2")
-	)
-	Net("OUT" "(unknown)")
-	(
-		Connect("C3-1")
-		Connect("R5-1")
-		Connect("U2-6")
-	)
-	Net("PIN2" "(unknown)")
-	(
-		Connect("C5-2")
-		Connect("U1-2")
-	)
-	Net("PIN4" "(unknown)")
-	(
-		Connect("C6-1")
-		Connect("R7-1")
-		Connect("U1-4")
+		Connect("Output1-3")
+		Connect("R11-1")
 	)
 	Net("R" "(unknown)")
 	(
-		Connect("Output-2")
+		Connect("Output1-2")
 		Connect("R10-2")
 	)
 	Net("SS" "(unknown)")
 	(
-		Connect("Output-4")
-		Connect("Speaker-1")
+		Connect("Output1-4")
+		Connect("Speaker1-1")
 	)
-	Net("T" "(unknown)")
+	Net("unnamed_net10" "(unknown)")
 	(
-		Connect("Output-3")
-		Connect("R11-1")
+		Connect("R9-1")
+		Connect("C7-1")
 	)
-	Net("unnamed_net1" "(unknown)")
+	Net("unnamed_net9" "(unknown)")
 	(
-		Connect("Batt-1")
-		Connect("Input-1")
-		Connect("J1-1")
+		Connect("R11-2")
+		Connect("R10-1")
+		Connect("Speaker1-2")
+		Connect("C7-2")
+		Connect("C6-2")
 	)
-	Net("unnamed_net2" "(unknown)")
+	Net("PIN2" "(unknown)")
 	(
-		Connect("C1-1")
-		Connect("Input-3")
-		Connect("Pickup-2")
-		Connect("R1-1")
+		Connect("U1-2")
+		Connect("C5-2")
 	)
-	Net("unnamed_net3" "(unknown)")
+	Net("PIN4" "(unknown)")
 	(
-		Connect("R2-3")
-		Connect("R5-2")
+		Connect("U1-4")
+		Connect("C6-1")
+		Connect("R7-1")
 	)
-	Net("unnamed_net4" "(unknown)")
+	Net("unnamed_net8" "(unknown)")
 	(
-		Connect("C2-1")
-		Connect("R2-1")
+		Connect("C5-1")
+		Connect("R8-1")
+		Connect("R7-2")
 	)
-	Net("unnamed_net5" "(unknown)")
+	Net("unnamed_net7" "(unknown)")
 	(
-		Connect("C3-2")
-		Connect("R6-3")
+		Connect("U1-1")
+		Connect("C4-1")
 	)
 	Net("unnamed_net6" "(unknown)")
 	(
 		Connect("C4-2")
 		Connect("R6-2")
 	)
-	Net("unnamed_net7" "(unknown)")
+	Net("unnamed_net5" "(unknown)")
 	(
-		Connect("C4-1")
-		Connect("U1-1")
+		Connect("R6-3")
+		Connect("C3-2")
 	)
-	Net("unnamed_net8" "(unknown)")
+	Net("OUT" "(unknown)")
 	(
-		Connect("C5-1")
-		Connect("R7-2")
-		Connect("R8-1")
+		Connect("U2-6")
+		Connect("C3-1")
+		Connect("R5-1")
 	)
-	Net("unnamed_net9" "(unknown)")
+	Net("IN+" "(unknown)")
 	(
-		Connect("C6-2")
-		Connect("C7-2")
-		Connect("R10-1")
-		Connect("R11-2")
-		Connect("Speaker-2")
+		Connect("U2-3")
+		Connect("R4-2")
+		Connect("R3-1")
+		Connect("C1-2")
 	)
-	Net("unnamed_net10" "(unknown)")
+	Net("unnamed_net4" "(unknown)")
 	(
-		Connect("C7-1")
-		Connect("R9-1")
+		Connect("C2-1")
+		Connect("R2-1")
 	)
-	Net("unnamed_net11" "(unknown)")
+	Net("unnamed_net3" "(unknown)")
 	(
-		Connect("LED-1")
-		Connect("R12-2")
+		Connect("R5-2")
+		Connect("R2-3")
+	)
+	Net("IN-" "(unknown)")
+	(
+		Connect("U2-2")
+		Connect("R2-2")
+	)
+	Net("GND" "(unknown)")
+	(
+		Connect("U1-3")
+		Connect("C8-2")
+		Connect("LED1-2")
+		Connect("J1-2")
+		Connect("Output1-1")
+		Connect("Input1-2")
+		Connect("U2-4")
+		Connect("R9-2")
+		Connect("R8-2")
+		Connect("R6-1")
+		Connect("C2-2")
+		Connect("R3-2")
+		Connect("R1-2")
+		Connect("Pickup1-1")
+	)
+	Net("unnamed_net2" "(unknown)")
+	(
+		Connect("Input1-3")
+		Connect("C1-1")
+		Connect("R1-1")
+		Connect("Pickup1-2")
 	)
 	Net("Vcc" "(unknown)")
 	(
-		Connect("Batt-2")
-		Connect("C8-1")
-		Connect("R4-1")
-		Connect("R12-1")
 		Connect("U1-5")
+		Connect("C8-1")
+		Connect("R12-1")
 		Connect("U2-7")
+		Connect("R4-1")
+		Connect("Batt1-2")
+	)
+	Net("unnamed_net1" "(unknown)")
+	(
+		Connect("J1-1")
+		Connect("Input1-1")
+		Connect("Batt1-1")
 	)
 )
