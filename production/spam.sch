@@ -568,3 +568,4 @@ label=TDA2003
 T 61600 46200 5 10 0 1 0 0 1
 footprint=TDA2003
 }
+C 43900 45500 1 90 1 ground.sym
