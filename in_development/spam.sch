@@ -30,17 +30,6 @@ value=5k
 T 47200 46200 5 10 0 1 0 0 1
 footprint=resistor
 }
-C 56400 46200 1 90 0 pot-1.sym
-{
-T 55500 47000 5 10 0 0 90 0 1
-device=VARIABLE_RESISTOR
-T 56000 46800 5 10 1 1 90 0 1
-refdes=R2
-T 54900 47000 5 10 0 1 90 0 1
-footprint=JUMPER3
-T 56500 46600 5 10 1 1 0 0 1
-value=100k
-}
 C 46000 47500 1 90 0 output-2.sym
 {
 T 45800 48400 5 10 0 0 90 0 1
@@ -111,17 +100,6 @@ device=none
 T 50100 46200 5 10 1 1 0 7 1
 value=IN+
 }
-C 56200 48000 1 270 0 resistor-1.sym
-{
-T 56600 47700 5 10 0 0 270 0 1
-device=RESISTOR
-T 56400 47600 5 10 1 1 0 0 1
-refdes=R5
-T 56400 47300 5 10 1 1 0 0 1
-value=1k
-T 56200 48000 5 10 0 1 0 0 1
-footprint=resistor
-}
 C 54900 48100 1 180 1 input-2.sym
 {
 T 54900 47900 5 10 0 0 180 6 1
@@ -131,29 +109,20 @@ device=none
 T 55100 48000 5 10 1 1 0 1 1
 value=OUT
 }
-C 54400 46800 1 180 1 input-2.sym
+C 56300 45800 1 270 0 capacitor-2.sym
 {
-T 54400 46600 5 10 0 0 180 6 1
-net=IN-:1
-T 55000 46100 5 10 0 0 180 6 1
-device=none
-T 54600 46700 5 10 1 1 0 1 1
-value=IN-
-}
-C 56100 46200 1 270 0 capacitor-2.sym
-{
-T 56800 46000 5 10 0 0 270 0 1
+T 57000 45600 5 10 0 0 270 0 1
 device=POLARIZED_CAPACITOR
-T 56600 45800 5 10 1 1 0 0 1
+T 56800 45400 5 10 1 1 0 0 1
 refdes=C2
-T 57000 46000 5 10 0 0 270 0 1
+T 57200 45600 5 10 0 0 270 0 1
 symversion=0.1
-T 56600 45500 5 10 1 1 0 0 1
+T 56800 45100 5 10 1 1 0 0 1
 value=4.7uf
-T 50800 46300 5 10 0 1 0 0 1
+T 51000 45900 5 10 0 1 0 0 1
 footprint=JUMPER2
 }
-C 56100 45000 1 0 0 ground.sym
+C 56300 44600 1 0 0 ground.sym
 C 56900 47800 1 0 0 capacitor-2.sym
 {
 T 57100 48500 5 10 0 0 0 0 1
@@ -569,3 +538,35 @@ T 61600 46200 5 10 0 1 0 0 1
 footprint=TDA2003
 }
 C 43900 45500 1 90 1 ground.sym
+C 56400 46700 1 270 0 resistor-1.sym
+{
+T 56800 46400 5 10 0 0 270 0 1
+device=RESISTOR
+T 56600 46300 5 10 1 1 0 0 1
+refdes=R5
+T 56600 46000 5 10 1 1 0 0 1
+value=1k
+T 56400 46700 5 10 0 1 0 0 1
+footprint=resistor
+}
+C 56600 46700 1 90 0 pot-1.sym
+{
+T 55700 47500 5 10 0 0 90 0 1
+device=VARIABLE_RESISTOR
+T 56200 47300 5 10 1 1 90 0 1
+refdes=R2
+T 55100 47500 5 10 0 1 90 0 1
+footprint=JUMPER3
+T 56700 47100 5 10 1 1 0 0 1
+value=100k
+}
+C 54600 47300 1 180 1 input-2.sym
+{
+T 54600 47100 5 10 0 0 180 6 1
+net=IN-:1
+T 55200 46600 5 10 0 0 180 6 1
+device=none
+T 54800 47200 5 10 1 1 0 1 1
+value=IN-
+}
+N 56500 47600 56500 48000 4
