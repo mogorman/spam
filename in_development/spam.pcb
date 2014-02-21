@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["" 600000 500000]
 
 Grid[500.0 0 0 1]
-Cursor[70500 181000 0.000000]
+Cursor[118000 223500 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 1000 1500 1000]
@@ -1537,6 +1537,147 @@ Element["hidename" "NRJ6HF" "Input1" "unknown" 160000 290000 2268 -40906 0 100 "
 	ElementLine [37000 -1200 37000 -94500 2500]
 
 	)
+
+Element["onsolder" "" "" "" 275083 134732 -787 98 2 100 "auto"]
+(
+	Pad[4921 -5315 6299 -7283 600 1200 1800 "" "325" "onsolder,nopaste"]
+	Pad[4528 -9055 6299 -7283 600 1200 1800 "" "326" "onsolder,nopaste"]
+	Pad[2362 -7480 4528 -9055 600 1200 1800 "" "327" "onsolder,nopaste"]
+	Pad[197 -8268 2362 -7480 600 1200 1800 "" "328" "onsolder,nopaste"]
+	Pad[-394 -11024 197 -8268 600 1200 1800 "" "329" "onsolder,nopaste"]
+	Pad[-2756 -11024 -394 -11024 600 1200 1800 "" "330" "onsolder,nopaste"]
+	Pad[-3150 -8268 -2756 -11024 600 1200 1800 "" "331" "onsolder,nopaste"]
+	Pad[-5512 -7480 -3150 -8268 600 1200 1800 "" "332" "onsolder,nopaste"]
+	Pad[-7874 -9055 -5512 -7480 600 1200 1800 "" "333" "onsolder,nopaste"]
+	Pad[-9449 -7283 -7874 -9055 600 1200 1800 "" "334" "onsolder,nopaste"]
+	Pad[-9449 -7283 -7874 -5118 600 1200 1800 "" "335" "onsolder,nopaste"]
+	Pad[-8858 -2756 -7874 -5118 600 1200 1800 "" "336" "onsolder,nopaste"]
+	Pad[-11417 -2362 -8858 -2756 600 1200 1800 "" "337" "onsolder,nopaste"]
+	Pad[-11417 -2362 -11417 0 600 1200 1800 "" "338" "onsolder,edge2,nopaste"]
+	Pad[-11417 0 -8858 394 600 1200 1800 "" "339" "onsolder,edge2,nopaste"]
+	Pad[-8858 394 -7874 2953 600 1200 1800 "" "340" "onsolder,edge2,nopaste"]
+	Pad[-9449 5118 -7874 2953 600 1200 1800 "" "341" "onsolder,edge2,nopaste"]
+	Pad[-9449 5118 -7874 6693 600 1200 1800 "" "342" "onsolder,edge2,nopaste"]
+	Pad[-7874 6693 -5709 5118 600 1200 1800 "" "343" "onsolder,edge2,nopaste"]
+	Pad[-5709 5118 -4724 5709 600 1200 1800 "" "344" "onsolder,edge2,nopaste"]
+	Pad[-4724 5709 -2953 1575 600 1200 1800 "" "345" "onsolder,edge2,nopaste"]
+	Pad[-3740 1181 -2953 1575 600 1200 1800 "" "346" "onsolder,edge2,nopaste"]
+	Pad[-4331 394 -3740 1181 600 1200 1800 "" "347" "onsolder,edge2,nopaste"]
+	Pad[-4528 -394 -4331 394 600 1200 1800 "" "348" "onsolder,edge2,nopaste"]
+	Pad[-4724 -984 -4528 -394 600 1200 1800 "" "349" "onsolder,edge2,nopaste"]
+	Pad[-4724 -1575 -4724 -984 600 1200 1800 "" "350" "onsolder,edge2,nopaste"]
+	Pad[-4724 -1575 -4528 -2362 600 1200 1800 "" "351" "onsolder,edge2,nopaste"]
+	Pad[-4528 -2362 -3937 -3346 600 1200 1800 "" "352" "onsolder,nopaste"]
+	Pad[-3937 -3346 -3150 -3937 600 1200 1800 "" "353" "onsolder,nopaste"]
+	Pad[-3150 -3937 -2165 -4331 600 1200 1800 "" "354" "onsolder,nopaste"]
+	Pad[-2165 -4331 -1575 -4331 600 1200 1800 "" "355" "onsolder,nopaste"]
+	Pad[-1575 -4331 -591 -4134 600 1200 1800 "" "356" "onsolder,nopaste"]
+	Pad[-591 -4134 0 -3937 600 1200 1800 "" "357" "onsolder,nopaste"]
+	Pad[0 -3937 591 -3543 600 1200 1800 "" "358" "onsolder,nopaste"]
+	Pad[591 -3543 1181 -2756 600 1200 1800 "" "359" "onsolder,nopaste"]
+	Pad[1181 -2756 1575 -1772 600 1200 1800 "" "360" "onsolder,nopaste"]
+	Pad[1575 -1772 1575 -787 600 1200 1800 "" "361" "onsolder,edge2,nopaste"]
+	Pad[1378 0 1575 -787 600 1200 1800 "" "362" "onsolder,edge2,nopaste"]
+	Pad[984 787 1378 0 600 1200 1800 "" "363" "onsolder,edge2,nopaste"]
+	Pad[394 1378 984 787 600 1200 1800 "" "364" "onsolder,edge2,nopaste"]
+	Pad[-197 1772 394 1378 600 1200 1800 "" "365" "onsolder,edge2,nopaste"]
+	Pad[-197 1772 1575 5709 600 1200 1800 "" "366" "onsolder,edge2,nopaste"]
+	Pad[1575 5709 2559 5118 600 1200 1800 "" "367" "onsolder,edge2,nopaste"]
+	Pad[2559 5118 4724 6693 600 1200 1800 "" "368" "onsolder,edge2,nopaste"]
+	Pad[4724 6693 6299 5118 600 1200 1800 "" "369" "onsolder,edge2,nopaste"]
+	Pad[4724 2756 6299 5118 600 1200 1800 "" "370" "onsolder,edge2,nopaste"]
+	Pad[4724 2756 5709 394 600 1200 1800 "" "371" "onsolder,edge2,nopaste"]
+	Pad[5709 394 8465 0 600 1200 1800 "" "372" "onsolder,edge2,nopaste"]
+	Pad[8465 -2362 8465 0 600 1200 1800 "" "373" "onsolder,edge2,nopaste"]
+	Pad[5709 -2756 8465 -2362 600 1200 1800 "" "374" "onsolder,nopaste"]
+	Pad[4724 -5118 5709 -2756 600 1200 1800 "" "375" "onsolder,nopaste"]
+	Pad[4724 -5118 4921 -5315 600 1200 1800 "" "376" "onsolder,nopaste"]
+	Pad[-2756 -10827 -394 -10827 600 1200 1800 "" "377" "onsolder,nopaste"]
+	Pad[-2756 -10433 -394 -10433 600 1200 1800 "" "378" "onsolder,nopaste"]
+	Pad[-2756 -10039 -394 -10039 600 1200 1800 "" "379" "onsolder,nopaste"]
+	Pad[-2756 -9646 -197 -9646 600 1200 1800 "" "380" "onsolder,nopaste"]
+	Pad[-2953 -9252 -197 -9252 600 1200 1800 "" "381" "onsolder,nopaste"]
+	Pad[-2756 -8858 0 -8858 600 1200 1800 "" "382" "onsolder,edge2,nopaste"]
+	Pad[-2953 -8465 0 -8465 600 1200 1800 "" "383" "onsolder,nopaste"]
+	Pad[-3150 -8071 394 -8071 600 1200 1800 "" "384" "onsolder,edge2,nopaste"]
+	Pad[-4331 -7677 1378 -7677 600 1200 1800 "" "385" "onsolder,nopaste"]
+	Pad[-5118 -7480 1969 -7480 600 1200 1800 "" "386" "onsolder,nopaste"]
+	Pad[4134 -8465 4921 -8465 600 1200 1800 "" "387" "onsolder,edge2,nopaste"]
+	Pad[3543 -8071 5315 -8071 600 1200 1800 "" "388" "onsolder,edge2,nopaste"]
+	Pad[3150 -7677 5512 -7677 600 1200 1800 "" "389" "onsolder,edge2,nopaste"]
+	Pad[-9252 -7283 5906 -7283 600 1200 1800 "" "390" "onsolder,nopaste"]
+	Pad[-8858 -7677 -5906 -7677 600 1200 1800 "" "391" "onsolder,nopaste"]
+	Pad[-8465 -8071 -6693 -8071 600 1200 1800 "" "392" "onsolder,nopaste"]
+	Pad[-8071 -8465 -7283 -8465 600 1200 1800 "" "393" "onsolder,nopaste"]
+	Pad[-9055 -6890 5906 -6890 600 1200 1800 "" "394" "onsolder,nopaste"]
+	Pad[-8661 -6496 5512 -6496 600 1200 1800 "" "395" "onsolder,nopaste"]
+	Pad[-8268 -6102 5118 -6102 600 1200 1800 "" "396" "onsolder,nopaste"]
+	Pad[-8071 -5709 4921 -5709 600 1200 1800 "" "397" "onsolder,nopaste"]
+	Pad[-7874 -5315 4528 -5315 600 1200 1800 "" "398" "onsolder,nopaste"]
+	Pad[-7874 -4921 4724 -4921 600 1200 1800 "" "399" "onsolder,nopaste"]
+	Pad[-8071 -4528 4724 -4528 600 1200 1800 "" "400" "onsolder,nopaste"]
+	Pad[0 -4134 4921 -4134 600 1200 1800 "" "401" "onsolder,edge2,nopaste"]
+	Pad[787 -3740 5118 -3740 600 1200 1800 "" "402" "onsolder,edge2,nopaste"]
+	Pad[984 -3346 5118 -3346 600 1200 1800 "" "403" "onsolder,edge2,nopaste"]
+	Pad[1378 -2953 5315 -2953 600 1200 1800 "" "404" "onsolder,edge2,nopaste"]
+	Pad[1575 -2559 5512 -2559 600 1200 1800 "" "405" "onsolder,edge2,nopaste"]
+	Pad[1575 -2362 7874 -2362 600 1200 1800 "" "406" "onsolder,edge2,nopaste"]
+	Pad[1772 -2165 8268 -2165 600 1200 1800 "" "407" "onsolder,edge2,nopaste"]
+	Pad[1772 -1772 8268 -1772 600 1200 1800 "" "408" "onsolder,edge2,nopaste"]
+	Pad[1969 -1378 8268 -1378 600 1200 1800 "" "409" "onsolder,edge2,nopaste"]
+	Pad[1772 -984 8268 -984 600 1200 1800 "" "410" "onsolder,edge2,nopaste"]
+	Pad[1772 -591 8268 -591 600 1200 1800 "" "411" "onsolder,edge2,nopaste"]
+	Pad[1772 -197 8268 -197 600 1200 1800 "" "412" "onsolder,edge2,nopaste"]
+	Pad[1575 197 5709 197 600 1200 1800 "" "413" "onsolder,edge2,nopaste"]
+	Pad[1378 591 5315 591 600 1200 1800 "" "414" "onsolder,edge2,nopaste"]
+	Pad[984 984 5118 984 600 1200 1800 "" "415" "onsolder,edge2,nopaste"]
+	Pad[591 1378 5118 1378 600 1200 1800 "" "416" "onsolder,edge2,nopaste"]
+	Pad[197 1772 4724 1772 600 1200 1800 "" "417" "onsolder,edge2,nopaste"]
+	Pad[197 2165 4724 2165 600 1200 1800 "" "418" "onsolder,edge2,nopaste"]
+	Pad[394 2559 4528 2559 600 1200 1800 "" "419" "onsolder,edge2,nopaste"]
+	Pad[394 2953 4528 2953 600 1200 1800 "" "420" "onsolder,edge2,nopaste"]
+	Pad[787 3346 4724 3346 600 1200 1800 "" "421" "onsolder,edge2,nopaste"]
+	Pad[984 3740 5118 3740 600 1200 1800 "" "422" "onsolder,edge2,nopaste"]
+	Pad[1181 4134 5315 4134 600 1200 1800 "" "423" "onsolder,edge2,nopaste"]
+	Pad[1181 4528 5709 4528 600 1200 1800 "" "424" "onsolder,edge2,nopaste"]
+	Pad[1378 4921 5906 4921 600 1200 1800 "" "425" "onsolder,edge2,nopaste"]
+	Pad[3150 5315 5709 5315 600 1200 1800 "" "426" "onsolder,edge2,nopaste"]
+	Pad[3740 5709 5315 5709 600 1200 1800 "" "427" "onsolder,edge2,nopaste"]
+	Pad[4331 6102 5118 6102 600 1200 1800 "" "428" "onsolder,edge2,nopaste"]
+	Pad[1575 5315 1772 5315 600 1200 1800 "" "429" "onsolder,edge2,nopaste"]
+	Pad[-8071 -4134 -3346 -4134 600 1200 1800 "" "430" "onsolder,nopaste"]
+	Pad[-8268 -3740 -3937 -3740 600 1200 1800 "" "431" "onsolder,nopaste"]
+	Pad[-8465 -3346 -4331 -3346 600 1200 1800 "" "432" "onsolder,nopaste"]
+	Pad[-8465 -2953 -4528 -2953 600 1200 1800 "" "433" "onsolder,nopaste"]
+	Pad[-8661 -2559 -4724 -2559 600 1200 1800 "" "434" "onsolder,nopaste"]
+	Pad[-11220 -2165 -4921 -2165 600 1200 1800 "" "435" "onsolder,nopaste"]
+	Pad[-11417 -1772 -4921 -1772 600 1200 1800 "" "436" "onsolder,nopaste"]
+	Pad[-11220 -1378 -5118 -1378 600 1200 1800 "" "437" "onsolder,nopaste"]
+	Pad[-11220 -984 -4921 -984 600 1200 1800 "" "438" "onsolder,nopaste"]
+	Pad[-11220 -591 -4724 -591 600 1200 1800 "" "439" "onsolder,nopaste"]
+	Pad[-11220 -197 -4528 -197 600 1200 1800 "" "440" "onsolder,nopaste"]
+	Pad[-9055 197 -4528 197 600 1200 1800 "" "441" "onsolder,nopaste"]
+	Pad[-8661 591 -4528 591 600 1200 1800 "" "442" "onsolder,nopaste"]
+	Pad[-8465 984 -4134 984 600 1200 1800 "" "443" "onsolder,nopaste"]
+	Pad[-8268 1378 -3740 1378 600 1200 1800 "" "444" "onsolder,nopaste"]
+	Pad[-8268 1575 -3150 1575 600 1200 1800 "" "445" "onsolder,nopaste"]
+	Pad[-8071 1969 -3150 1969 600 1200 1800 "" "446" "onsolder,nopaste"]
+	Pad[-7874 2362 -3543 2362 600 1200 1800 "" "447" "onsolder,nopaste"]
+	Pad[-7874 2756 -3740 2756 600 1200 1800 "" "448" "onsolder,nopaste"]
+	Pad[-7874 3150 -3740 3150 600 1200 1800 "" "449" "onsolder,nopaste"]
+	Pad[-7874 3543 -4134 3543 600 1200 1800 "" "450" "onsolder,nopaste"]
+	Pad[-8268 3937 -4134 3937 600 1200 1800 "" "451" "onsolder,nopaste"]
+	Pad[-8465 4134 -4331 4134 600 1200 1800 "" "452" "onsolder,nopaste"]
+	Pad[-8858 4528 -4331 4528 600 1200 1800 "" "453" "onsolder,nopaste"]
+	Pad[-9055 4724 -4528 4724 600 1200 1800 "" "454" "onsolder,nopaste"]
+	Pad[-9055 4921 -4528 4921 600 1200 1800 "" "455" "onsolder,nopaste"]
+	Pad[-9252 5118 -4724 5118 600 1200 1800 "" "456" "onsolder,nopaste"]
+	Pad[-8858 5315 -6496 5315 600 1200 1800 "" "457" "onsolder,nopaste"]
+	Pad[-8661 5512 -6890 5512 600 1200 1800 "" "458" "onsolder,nopaste"]
+	Pad[-8465 5906 -6890 5906 600 1200 1800 "" "459" "onsolder,nopaste"]
+	Pad[-8268 6102 -7677 6102 600 1200 1800 "" "460" "onsolder,nopaste"]
+
+	)
 Layer(1 "component")
 (
 	Line[297500 180000 297500 175000 2500 2000 ""]
@@ -1711,12 +1852,88 @@ Layer(9 "silk")
 	Text[293000 279500 2 140 "OUT" "clearline,onsolder"]
 	Text[178500 274000 3 100 "Sound Producing Amplifier Module" "clearline,onsolder"]
 	Text[169500 274000 3 100 "Ver:" "clearline,onsolder"]
-	Text[169500 259000 3 100 "3.0" "clearline,onsolder"]
+	Text[169500 259000 3 100 "XXX" "clearline,onsolder"]
 	Text[169500 246000 3 100 "- Buffalo Nickel" "clearline,onsolder"]
-	Text[304500 274000 3 100 "Copyright 2014" "clearline,onsolder"]
-	Text[296000 274000 3 100 "Tim Heath" "clearline,onsolder"]
-	Text[289500 274000 3 100 "Matthew O'Gorman" "clearline,onsolder"]
-	Text[282500 274000 3 100 "This board is licensed GPLv3" "clearline,onsolder"]
+	Text[307500 284500 3 100 "Copyright 2014" "clearline,onsolder"]
+	Text[287000 278000 3 100 "This boad is" "clearline,onsolder"]
+	Text[280500 278000 3 100 "Licensed GPLv3" "clearline,onsolder"]
+	Text[299500 278000 3 100 "Tim Heath" "clearline,onsolder"]
+	Text[293500 278000 3 100 "Matt O'Gorman" "clearline,onsolder"]
+	Polygon("clearpoly")
+	(
+		[306564 201491] [306781 201090] [306629 201220] 
+	)
+	Polygon("clearpoly")
+	(
+		[307845 201654] [308018 201318] [307866 201448] 
+	)
+	Polygon("clearpoly")
+	(
+		[302799 204058] [303575 203737] [303580 203461] [303705 203347] [304698 202967] 
+		[307427 199267] [308219 198784] [309114 198909] [309141 199571] [308903 200254] 
+		[310861 200564] [312950 200059] [314529 199479] [315554 199251] [315744 199826] 
+		[314784 201670] [311507 206380] [310937 207551] [310367 208940] [309760 210020] 
+		[309049 210269] [308761 209320] [309635 207676] [311480 205181] [313270 202783] 
+		[314067 201198] [312939 201160] [310508 201160] [308604 201801] [307720 202972] 
+		[307318 203211] [307134 202945] [307324 202191] [307720 201291] [308251 200151] 
+		[308469 199511] [308181 199495] [307850 199837] [307535 200569] [306684 201773] 
+		[305669 202967] [304871 203667] [305072 204578] [303933 204459] [302387 204616] 
+		[301616 204622] 
+	)
+	Polygon("clearpoly")
+	(
+		[295301 217550] [294889 217832] [295079 216156] [295572 213753] [296055 211870] 
+		[296723 210964] [296999 211143] [296701 211957] [295621 215874] [297184 219710] 
+		[299180 222547] [300412 224348] [300911 225764] [299104 224327] [297520 222688] 
+		[295453 221071] [293191 220664] [291715 218999] [293294 217577] 
+	)
+	Polygon("clearpoly")
+	(
+		[292724 205229] [291851 206683] [290082 206944] [289105 205663] [288964 204432] 
+		[290196 203520] [292062 204285] 
+	)
+	Polygon("clearpoly")
+	(
+		[294748 198567] [294379 199885] [293386 200873] [291986 200439] [291352 199484] 
+		[291856 197335] [292740 196880] [293836 197341] 
+	)
+	Polygon("clearpoly")
+	(
+		[299381 198258] [295030 195230] [292323 194590] [290163 195149] [288443 196636] 
+		[287141 198681] [286561 199951] [285129 203889] [286593 208392] [288362 210090] 
+		[290489 210492] [293560 209353] [296549 206748] [298106 204730] [298735 203499] 
+		[299305 202061] [299810 200922] [300217 200569] [300499 201459] [300358 203200] 
+		[299842 205246] [299028 207074] [295795 210649] [293999 211962] [292073 212662] 
+		[288671 212011] [286279 210204] [284423 206135] [284678 201405] [286452 197401] 
+		[287776 195811] [291531 193890] [296061 195089] 
+	)
+	Polygon("clearpoly")
+	(
+		[273828 205680] [272455 212402] [272336 215955] [272477 217610] [272580 219352] 
+		[272954 219872] [272905 219758] [272943 219644] [273236 220041] [276535 224419] 
+		[282112 228141] [284749 229426] [287131 230408] [289284 231179] [291829 231911] 
+		[293006 232074] [295312 232275] [297021 231965] [297092 231070] [297612 230989] 
+		[298133 231629] [297911 232562] [297607 233544] [297867 234336] [301161 236246] 
+		[304763 237809] [305712 238590] [306271 238980] [305832 238411] [305175 236159] 
+		[305034 233490] [305137 230718] [305213 228157] [305425 227001] [305419 226350] 
+		[305002 225781] [303955 224853] [306456 223784] [308610 220540] [308805 219585] 
+		[308903 218435] [308517 215538] [307915 212586] [307427 210763] [306928 209260] 
+		[305989 206597] [310281 213134] [310997 215662] [311138 217936] [310416 220399] 
+		[310324 220632] [309608 221739] [308338 223665] [307237 225694] [306266 228363] 
+		[305609 231895] [305354 234993] [306434 238064] [307123 239409] [306901 240250] 
+		[306304 239859] [305088 238915] [301828 237418] [300086 237049] [298730 236338] 
+		[297374 235682] [295936 235383] [294433 234852] [292778 234239] [291411 233702] 
+		[289805 233040] [288037 232253] [286241 231385] [285107 230799] [283539 229936] 
+		[282004 229019] [280051 227739] [277783 226079] [277273 225634] [275992 224500] 
+		[273779 222422] [272021 220572] [272710 214897] [273074 211924] [273236 210557] 
+	)
+	Polygon("clearpoly")
+	(
+		[302050 227462] [303124 228824] [303889 231499] [304166 234342] [304117 235161] 
+		[303553 234884] [303303 234770] [301600 233485] [301057 233333] [300938 233474] 
+		[300520 233056] [300629 232768] [301437 232362] [302284 232296] [302712 231531] 
+		[302256 229025] [301839 228233] 
+	)
 )
 Layer(10 "silk")
 (
@@ -1773,52 +1990,25 @@ Layer(10 "silk")
 )
 NetList()
 (
-	Net("GND" "(unknown)")
+	Net("unnamed_net11" "(unknown)")
 	(
-		Connect("C2-2")
-		Connect("C8-2")
-		Connect("Input1-2")
-		Connect("Input1-6")
-		Connect("J1-2")
-		Connect("LED1-2")
-		Connect("Output1-1")
-		Connect("Pickup1-1")
-		Connect("R1-2")
-		Connect("R3-2")
-		Connect("R6-1")
-		Connect("R8-2")
-		Connect("R9-2")
-		Connect("U1-3")
-		Connect("U2-4")
+		Connect("R2-1")
+		Connect("R5-1")
 	)
-	Net("IN+" "(unknown)")
+	Net("unnamed_net10" "(unknown)")
 	(
-		Connect("C1-2")
-		Connect("R3-1")
-		Connect("R4-2")
-		Connect("U2-3")
+		Connect("LED1-1")
+		Connect("R12-2")
 	)
 	Net("IN-" "(unknown)")
 	(
 		Connect("R2-2")
 		Connect("U2-2")
 	)
-	Net("OUT" "(unknown)")
+	Net("T" "(unknown)")
 	(
-		Connect("C3-1")
-		Connect("R2-3")
-		Connect("U2-6")
-	)
-	Net("PIN2" "(unknown)")
-	(
-		Connect("C5-2")
-		Connect("U1-2")
-	)
-	Net("PIN4" "(unknown)")
-	(
-		Connect("C6-1")
-		Connect("R7-1")
-		Connect("U1-4")
+		Connect("Output1-3")
+		Connect("R11-1")
 	)
 	Net("R" "(unknown)")
 	(
@@ -1830,80 +2020,107 @@ NetList()
 		Connect("Output1-4")
 		Connect("Speaker1-1")
 	)
-	Net("T" "(unknown)")
+	Net("unnamed_net9" "(unknown)")
 	(
-		Connect("Output1-3")
-		Connect("R11-1")
+		Connect("R9-1")
+		Connect("C7-1")
 	)
-	Net("unnamed_net1" "(unknown)")
+	Net("unnamed_net8" "(unknown)")
 	(
-		Connect("Batt1-1")
-		Connect("Input1-1")
-		Connect("J1-1")
+		Connect("R11-2")
+		Connect("R10-1")
+		Connect("Speaker1-2")
+		Connect("C7-2")
+		Connect("C6-2")
 	)
-	Net("unnamed_net2" "(unknown)")
+	Net("PIN2" "(unknown)")
 	(
-		Connect("C1-1")
-		Connect("Input1-3")
-		Connect("Pickup1-2")
-		Connect("R1-1")
+		Connect("U1-2")
+		Connect("C5-2")
 	)
-	Net("unnamed_net3" "(unknown)")
+	Net("PIN4" "(unknown)")
 	(
-		Connect("C2-1")
-		Connect("R5-2")
+		Connect("U1-4")
+		Connect("C6-1")
+		Connect("R7-1")
 	)
-	Net("unnamed_net4" "(unknown)")
+	Net("unnamed_net7" "(unknown)")
 	(
-		Connect("C3-2")
-		Connect("R6-3")
+		Connect("C5-1")
+		Connect("R8-1")
+		Connect("R7-2")
+	)
+	Net("unnamed_net6" "(unknown)")
+	(
+		Connect("U1-1")
+		Connect("C4-1")
 	)
 	Net("unnamed_net5" "(unknown)")
 	(
 		Connect("C4-2")
 		Connect("R6-2")
 	)
-	Net("unnamed_net6" "(unknown)")
+	Net("unnamed_net4" "(unknown)")
 	(
-		Connect("C4-1")
-		Connect("U1-1")
+		Connect("R6-3")
+		Connect("C3-2")
 	)
-	Net("unnamed_net7" "(unknown)")
+	Net("OUT" "(unknown)")
 	(
-		Connect("C5-1")
-		Connect("R7-2")
-		Connect("R8-1")
+		Connect("U2-6")
+		Connect("R2-3")
+		Connect("C3-1")
 	)
-	Net("unnamed_net8" "(unknown)")
+	Net("unnamed_net3" "(unknown)")
 	(
-		Connect("C6-2")
-		Connect("C7-2")
-		Connect("R10-1")
-		Connect("R11-2")
-		Connect("Speaker1-2")
+		Connect("R5-2")
+		Connect("C2-1")
 	)
-	Net("unnamed_net9" "(unknown)")
+	Net("IN+" "(unknown)")
 	(
-		Connect("C7-1")
-		Connect("R9-1")
+		Connect("U2-3")
+		Connect("R4-2")
+		Connect("R3-1")
+		Connect("C1-2")
 	)
-	Net("unnamed_net10" "(unknown)")
+	Net("GND" "(unknown)")
 	(
-		Connect("LED1-1")
-		Connect("R12-2")
+		Connect("U1-3")
+		Connect("C8-2")
+		Connect("LED1-2")
+		Connect("J1-2")
+		Connect("Output1-1")
+		Connect("Input1-6")
+		Connect("Input1-2")
+		Connect("U2-4")
+		Connect("R9-2")
+		Connect("R8-2")
+		Connect("R6-1")
+		Connect("C2-2")
+		Connect("R3-2")
+		Connect("R1-2")
+		Connect("Pickup1-1")
 	)
-	Net("unnamed_net11" "(unknown)")
+	Net("unnamed_net2" "(unknown)")
 	(
-		Connect("R2-1")
-		Connect("R5-1")
+		Connect("Input1-3")
+		Connect("C1-1")
+		Connect("R1-1")
+		Connect("Pickup1-2")
 	)
 	Net("Vcc" "(unknown)")
 	(
-		Connect("Batt1-2")
-		Connect("C8-1")
-		Connect("R4-1")
-		Connect("R12-1")
 		Connect("U1-5")
+		Connect("C8-1")
+		Connect("R12-1")
 		Connect("U2-7")
+		Connect("R4-1")
+		Connect("Batt1-2")
+	)
+	Net("unnamed_net1" "(unknown)")
+	(
+		Connect("J1-1")
+		Connect("Input1-1")
+		Connect("Batt1-1")
 	)
 )
