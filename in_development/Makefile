@@ -1,5 +1,9 @@
 PCBNAME=spam
-REV=2.0
+REV=3.0
+SOLDERMASK=red
+SILKSCREEN=white
+#CUSTOMPCB=/home/mog/nonapt/pcb/src/pcb
+#CUSTOMPCB_ARGS=--photo-mask-colour $(SOLDERMASK) --photo-silk-colour $(SILKSCREEN)
 
 all: get_submodule
 
