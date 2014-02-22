@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["" 600000 500000]
 
 Grid[500.0 0 0 1]
-Cursor[263000 319500 0.000000]
+Cursor[150500 160000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 1000 1500 1000]
@@ -1836,11 +1836,6 @@ Layer(8 "signal3")
 )
 Layer(9 "silk")
 (
-	Line[150000 150000 145000 150000 1000 2000 "clearline"]
-	Line[147500 147500 147500 152500 1000 2000 "clearline"]
-	Line[150000 160000 145000 160000 1000 2000 "clearline"]
-	Line[150000 185000 145000 185000 1000 2000 "clearline"]
-	Line[147500 182500 147500 187500 1000 2000 "clearline"]
 	Line[220000 272500 215000 272500 1000 2000 "clearline"]
 	Line[230000 272500 225000 272500 1000 2000 "clearline"]
 	Line[227500 270000 227500 275000 1000 2000 "clearline"]
@@ -1851,7 +1846,11 @@ Layer(9 "silk")
 	Line[210000 122500 210000 132500 1000 2000 "clearline"]
 	Line[200000 122500 200000 132500 1000 2000 "clearline"]
 	Line[190000 122500 190000 132500 1000 2000 "clearline"]
-	Text[168000 151000 2 110 "Power" "clearline,onsolder"]
+	Line[152000 150000 147000 150000 1000 2000 "clearline"]
+	Line[149500 147500 149500 152500 1000 2000 "clearline"]
+	Line[151500 160000 146500 160000 1000 2000 "clearline"]
+	Line[152000 185000 147000 185000 1000 2000 "clearline"]
+	Line[149500 182500 149500 187500 1000 2000 "clearline"]
 	Text[155500 190500 2 110 "Pickup" "clearline,onsolder"]
 	Text[211500 269500 2 100 "LED" "clearline,onsolder"]
 	Text[319000 163000 2 110 "Speaker" "clearline,onsolder"]
@@ -1863,11 +1862,12 @@ Layer(9 "silk")
 	Text[169500 274000 3 100 "Ver:" "clearline,onsolder"]
 	Text[169500 259000 3 100 "XXX" "clearline,onsolder"]
 	Text[169500 246000 3 100 "- Buffalo Nickel" "clearline,onsolder"]
-	Text[307500 284500 3 100 "Copyright 2014" "clearline,onsolder"]
-	Text[287000 278000 3 100 "This boad is" "clearline,onsolder"]
-	Text[280500 278000 3 100 "Licensed GPLv3" "clearline,onsolder"]
-	Text[299500 278000 3 100 "Tim Heath" "clearline,onsolder"]
-	Text[293500 278000 3 100 "Matt O'Gorman" "clearline,onsolder"]
+	Text[307000 281500 3 95 "Copyright 2014" "clearline,onsolder"]
+	Text[280500 275000 3 95 "Licensed GPLv3" "clearline,onsolder"]
+	Text[299500 275000 3 95 "Tim Heath" "clearline,onsolder"]
+	Text[293500 275000 3 95 "Matt O'Gorman" "clearline,onsolder"]
+	Text[286500 275000 3 95 "This board is" "clearline,onsolder"]
+	Text[173500 151500 2 110 "Power" "clearline,selected,onsolder"]
 	Polygon("clearpoly")
 	(
 		[306564 201491] [306781 201090] [306629 201220] 
@@ -1981,8 +1981,6 @@ Layer(10 "silk")
 	Text[156000 128500 0 100 "1000uF" "clearline"]
 	Text[286500 133500 0 100 "2200uF" "clearline"]
 	Text[199500 192500 0 80 "4.7uF" "clearline"]
-	Text[270500 184000 0 90 "1K" "clearline"]
-	Text[270500 174000 0 90 "1K" "clearline"]
 	Text[268000 164000 0 90 "10K" "clearline"]
 	Text[208000 155500 1 90 "10uF" "clearline"]
 	Text[185500 155000 1 90 "10uF" "clearline"]
@@ -1991,60 +1989,37 @@ Layer(10 "silk")
 	Text[230000 188000 0 75 "100K" "clearline"]
 	Text[305500 189500 1 100 "SPK" "clearline"]
 	Text[194500 132000 0 100 "10K pot" "clearline"]
-	Text[283500 263000 1 100 "Free your amp" "clearline"]
-	Text[294500 274000 1 100 "with this meaty sound" "clearline"]
 	Text[241000 274500 1 100 "390`" "clearline"]
 	Text[228000 168500 0 100 "10`" "clearline"]
 	Text[225500 158500 0 100 "220`" "clearline"]
+	Text[157500 262500 1 100 "Made with" "clearline"]
+	Text[167000 278500 1 100 "100% more babering" "clearline"]
+	Text[283500 269000 1 100 "Free your amp" "clearline"]
+	Text[294500 280000 1 100 "with this meaty sound" "clearline"]
+	Text[270000 174000 0 85 "1 K" "clearline"]
+	Text[270000 184000 0 85 "1 K" "clearline"]
 )
 NetList()
 (
-	Net("GND" "(unknown)")
+	Net("unnamed_net11" "(unknown)")
 	(
-		Connect("C2-2")
-		Connect("C8-2")
-		Connect("Input1-2")
-		Connect("Input1-6")
-		Connect("J1-2")
-		Connect("LED1-2")
-		Connect("Output1-1")
-		Connect("Pickup1-1")
-		Connect("R1-2")
-		Connect("R3-2")
-		Connect("R6-1")
-		Connect("R8-2")
-		Connect("R9-2")
-		Connect("U1-3")
-		Connect("U2-4")
+		Connect("R2-1")
+		Connect("R5-1")
 	)
-	Net("IN+" "(unknown)")
+	Net("unnamed_net10" "(unknown)")
 	(
-		Connect("C1-2")
-		Connect("R3-1")
-		Connect("R4-2")
-		Connect("U2-3")
+		Connect("LED1-1")
+		Connect("R12-2")
 	)
 	Net("IN-" "(unknown)")
 	(
 		Connect("R2-2")
 		Connect("U2-2")
 	)
-	Net("OUT" "(unknown)")
+	Net("T" "(unknown)")
 	(
-		Connect("C3-1")
-		Connect("R2-3")
-		Connect("U2-6")
-	)
-	Net("PIN2" "(unknown)")
-	(
-		Connect("C5-2")
-		Connect("U1-2")
-	)
-	Net("PIN4" "(unknown)")
-	(
-		Connect("C6-1")
-		Connect("R7-1")
-		Connect("U1-4")
+		Connect("Output1-3")
+		Connect("R11-1")
 	)
 	Net("R" "(unknown)")
 	(
@@ -2056,80 +2031,107 @@ NetList()
 		Connect("Output1-4")
 		Connect("Speaker1-1")
 	)
-	Net("T" "(unknown)")
+	Net("unnamed_net9" "(unknown)")
 	(
-		Connect("Output1-3")
-		Connect("R11-1")
+		Connect("R9-1")
+		Connect("C7-1")
 	)
-	Net("unnamed_net1" "(unknown)")
+	Net("unnamed_net8" "(unknown)")
 	(
-		Connect("Batt1-1")
-		Connect("Input1-1")
-		Connect("J1-1")
+		Connect("R11-2")
+		Connect("R10-1")
+		Connect("Speaker1-2")
+		Connect("C7-2")
+		Connect("C6-2")
 	)
-	Net("unnamed_net2" "(unknown)")
+	Net("PIN2" "(unknown)")
 	(
-		Connect("C1-1")
-		Connect("Input1-3")
-		Connect("Pickup1-2")
-		Connect("R1-1")
+		Connect("U1-2")
+		Connect("C5-2")
 	)
-	Net("unnamed_net3" "(unknown)")
+	Net("PIN4" "(unknown)")
 	(
-		Connect("C2-1")
-		Connect("R5-2")
+		Connect("U1-4")
+		Connect("C6-1")
+		Connect("R7-1")
 	)
-	Net("unnamed_net4" "(unknown)")
+	Net("unnamed_net7" "(unknown)")
 	(
-		Connect("C3-2")
-		Connect("R6-3")
+		Connect("C5-1")
+		Connect("R8-1")
+		Connect("R7-2")
+	)
+	Net("unnamed_net6" "(unknown)")
+	(
+		Connect("U1-1")
+		Connect("C4-1")
 	)
 	Net("unnamed_net5" "(unknown)")
 	(
 		Connect("C4-2")
 		Connect("R6-2")
 	)
-	Net("unnamed_net6" "(unknown)")
+	Net("unnamed_net4" "(unknown)")
 	(
-		Connect("C4-1")
-		Connect("U1-1")
+		Connect("R6-3")
+		Connect("C3-2")
 	)
-	Net("unnamed_net7" "(unknown)")
+	Net("OUT" "(unknown)")
 	(
-		Connect("C5-1")
-		Connect("R7-2")
-		Connect("R8-1")
+		Connect("U2-6")
+		Connect("R2-3")
+		Connect("C3-1")
 	)
-	Net("unnamed_net8" "(unknown)")
+	Net("unnamed_net3" "(unknown)")
 	(
-		Connect("C6-2")
-		Connect("C7-2")
-		Connect("R10-1")
-		Connect("R11-2")
-		Connect("Speaker1-2")
+		Connect("R5-2")
+		Connect("C2-1")
 	)
-	Net("unnamed_net9" "(unknown)")
+	Net("IN+" "(unknown)")
 	(
-		Connect("C7-1")
-		Connect("R9-1")
+		Connect("U2-3")
+		Connect("R4-2")
+		Connect("R3-1")
+		Connect("C1-2")
 	)
-	Net("unnamed_net10" "(unknown)")
+	Net("GND" "(unknown)")
 	(
-		Connect("LED1-1")
-		Connect("R12-2")
+		Connect("U1-3")
+		Connect("C8-2")
+		Connect("LED1-2")
+		Connect("J1-2")
+		Connect("Output1-1")
+		Connect("Input1-6")
+		Connect("Input1-2")
+		Connect("U2-4")
+		Connect("R9-2")
+		Connect("R8-2")
+		Connect("R6-1")
+		Connect("C2-2")
+		Connect("R3-2")
+		Connect("R1-2")
+		Connect("Pickup1-1")
 	)
-	Net("unnamed_net11" "(unknown)")
+	Net("unnamed_net2" "(unknown)")
 	(
-		Connect("R2-1")
-		Connect("R5-1")
+		Connect("Input1-3")
+		Connect("C1-1")
+		Connect("R1-1")
+		Connect("Pickup1-2")
 	)
 	Net("Vcc" "(unknown)")
 	(
-		Connect("Batt1-2")
-		Connect("C8-1")
-		Connect("R4-1")
-		Connect("R12-1")
 		Connect("U1-5")
+		Connect("C8-1")
+		Connect("R12-1")
 		Connect("U2-7")
+		Connect("R4-1")
+		Connect("Batt1-2")
+	)
+	Net("unnamed_net1" "(unknown)")
+	(
+		Connect("J1-1")
+		Connect("Input1-1")
+		Connect("Batt1-1")
 	)
 )
