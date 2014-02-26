@@ -1,5 +1,5 @@
 PCBNAME=spam
-REV=3.0
+REV=4.0
 SOLDERMASK=red
 SILKSCREEN=white
 #CUSTOMPCB=/home/mog/nonapt/pcb/src/pcb
