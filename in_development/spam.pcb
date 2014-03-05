@@ -1547,7 +1547,7 @@ Element["hidename" "NRJ6HF" "Input1" "unknown" 160000 290000 2268 -40906 0 100 "
 
 	)
 
-Element["onsolder" "" "" "" 275083 134732 -787 98 2 100 "auto"]
+Element["hidename,onsolder" "oshw" "ICO1" "unknown" 275083 134732 -787 98 2 100 "auto"]
 (
 	Pad[4921 -5315 6299 -7283 600 1200 1800 "" "325" "onsolder,nopaste"]
 	Pad[4528 -9055 6299 -7283 600 1200 1800 "" "326" "onsolder,nopaste"]
