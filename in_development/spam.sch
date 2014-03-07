@@ -579,3 +579,20 @@ refdes=ICO1
 T 59400 43200 5 10 1 1 0 0 1
 footprint=oshw
 }
+C 40300 37800 1 0 0 title-A2.sym
+T 56600 38500 14 10 1 0 0 0 1
+Spam
+T 56500 38200 14 8 1 0 0 0 1
+http://dev.meatstand.com/meatstand/spam.git
+T 57600 37900 14 10 1 0 0 0 1
+1
+T 58100 37900 14 10 1 0 0 0 1
+1
+T 60500 37900 14 10 1 0 0 0 1
+Matthew O'Gorman <mog@rldn.net>
+T 60400 38200 14 10 1 0 0 0 1
+XXX
+T 62000 38200 14 10 1 0 0 0 1
+GIT_REV
+T 60800 38500 14 10 1 0 0 0 1
+This schematic is licensed GPLv3
