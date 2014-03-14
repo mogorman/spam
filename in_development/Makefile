@@ -1,14 +1,22 @@
 PCBNAME=spam
-AUTHOR="Tim Heath <crashcartpro@gmail.com>  ,  Matthew O'Gorman <mog@rldn.net>"
-REV=4.0
+AUTHOR="Matthew O'Gorman <mog@rldn.net>  , Tim Heath <crashcartpro@gmail.com>"
+REV=12.0
 STACK=+
 SOLDERMASK=red
 SILKSCREEN=white
-#CUSTOMPCB=/home/mog/nonapt/pcb/src/pcb
-#CUSTOMPCB_ARGS=--photo-mask-colour $(SOLDERMASK) --photo-silk-colour $(SILKSCREEN)
-all: get_submodule
+CUSTOMPCB=/home/mog/nonapt/pcb/src/pcb
+CUSTOMPCB_ARGS=--photo-mask-colour $(SOLDERMASK) --photo-silk-colour $(SILKSCREEN)
+all: dummy
 
-get_submodule:
+dummy:
+	@echo ""
+
+ifeq "$(wildcard ../meatstand_common/schematics )" ""
+	@echo "I didn't have meatstand_common cloned."
+	@echo "I will get it for you now."
 	../update_submodule.sh
+	@echo "I got my dependencies I am ready to go"
+	@make
+endif
 
 -include ../meatstand_common/schematics/production_Makefile
