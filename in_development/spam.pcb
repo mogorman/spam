@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["Spam" 300000 250000]
 
 Grid[500.0 0 0 1]
-Cursor[234000 54500 0.000000]
+Cursor[84000 127500 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 600 1500 1000]
@@ -1860,16 +1860,16 @@ Layer(9 "silk")
 	Text[212500 201500 2 140 "OUT" "clearline,onsolder"]
 	Text[98000 196000 3 100 "Sound Producing Amplifier Module" "clearline,onsolder"]
 	Text[89000 196000 3 100 "Ver:" "clearline,onsolder"]
-	Text[89000 181000 3 100 "XXX" "clearline,onsolder"]
-	Text[89000 168000 3 100 "- Buffalo Nickel" "clearline,onsolder"]
+	Text[88500 182500 3 100 "Buffalo Nickel -" "clearline,onsolder"]
 	Text[226500 203500 3 95 "Copyright 2014" "clearline,onsolder"]
 	Text[200000 197000 3 95 "Licensed GPLv3" "clearline,onsolder"]
 	Text[219000 197000 3 95 "Tim Heath" "clearline,onsolder"]
 	Text[213000 197000 3 95 "Matt O'Gorman" "clearline,onsolder"]
 	Text[206000 197000 3 95 "This board is" "clearline,onsolder"]
 	Text[93000 73500 2 110 "Power" "clearline,onsolder"]
-	Text[229500 49000 2 75 "GIT_REV" "clearline,onsolder"]
-	Text[238500 48000 2 90 "git:" "clearline,selected,onsolder"]
+	Text[229500 49000 2 75 "@git@" "clearline,onsolder"]
+	Text[238500 48000 2 90 "git:" "clearline,onsolder"]
+	Text[88500 135000 3 100 "@version@" "clearline,onsolder"]
 	Polygon("clearpoly")
 	(
 		[226064 123491] [226281 123090] [226129 123220] 
@@ -2000,7 +2000,7 @@ Layer(10 "silk")
 	Text[214000 202000 1 100 "with this meaty sound" "clearline"]
 	Text[189500 96000 0 85 "1 K" "clearline"]
 	Text[189500 106000 0 85 "1 K" "clearline"]
-	Text[60500 121500 0 60 "HACKVANA_C" "clearline"]
+	Text[60500 121500 0 60 "@hackvana_c@" "clearline"]
 )
 NetList()
 (

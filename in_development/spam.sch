@@ -570,13 +570,13 @@ T 54800 47200 5 10 1 1 0 1 1
 value=IN-
 }
 N 56500 47600 56500 48000 4
-C 58700 43100 1 0 0 include-1.sym
+C 40600 38100 1 0 0 include-1.sym
 {
-T 58800 43200 5 10 1 1 0 0 1
+T 40700 38200 5 10 1 1 0 0 1
 device=include
-T 58700 43400 5 10 1 1 0 0 1
+T 40600 38400 5 10 1 1 0 0 1
 refdes=ICO1
-T 59400 43200 5 10 1 1 0 0 1
+T 41300 38200 5 10 1 1 0 0 1
 footprint=oshw
 }
 C 40300 37800 1 0 0 title-A2.sym
@@ -591,8 +591,8 @@ T 58100 37900 14 10 1 0 0 0 1
 T 60500 37900 14 10 1 0 0 0 1
 Matthew O'Gorman <mog@rldn.net>
 T 60400 38200 14 10 1 0 0 0 1
-XXX
+@version@
 T 62000 38200 14 10 1 0 0 0 1
-GIT_REV
+@git@
 T 60800 38500 14 10 1 0 0 0 1
 This schematic is licensed GPLv3
