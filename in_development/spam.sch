@@ -10,13 +10,13 @@ symversion=0.1
 T 46100 46800 5 10 0 1 90 0 1
 footprint=JUMPER2
 }
-C 46100 45200 1 0 0 jumper-1.sym
+C 45400 44700 1 0 0 jumper-1.sym
 {
-T 46400 45700 5 8 0 0 0 0 1
+T 45700 45200 5 8 0 0 0 0 1
 device=JUMPER
-T 46400 45700 5 10 1 1 0 0 1
+T 45700 45200 5 10 1 1 0 0 1
 refdes=Pickup1
-T 46100 45200 5 10 0 1 0 0 1
+T 45400 44700 5 10 0 1 0 0 1
 footprint=JUMPER2
 }
 C 47200 46200 1 270 0 resistor-1.sym
@@ -42,8 +42,8 @@ value=Vcc
 C 46200 47100 1 180 1 ground.sym
 N 43600 46500 46400 46500 4
 N 46400 46500 46400 46800 4
-C 46000 44900 1 0 0 ground.sym
-N 43600 46200 47300 46200 4
+C 45300 44400 1 0 0 ground.sym
+N 43600 46200 45700 46200 4
 C 47300 46000 1 0 0 capacitor-2.sym
 {
 T 47500 46700 5 10 0 0 0 0 1
@@ -303,7 +303,7 @@ device=RESISTOR
 T 51000 43100 5 10 1 1 90 0 1
 refdes=R10
 T 51300 43100 5 10 1 1 90 0 1
-value=1k
+value=100
 T 50600 42900 5 10 0 1 0 0 1
 footprint=resistor
 }
@@ -314,7 +314,7 @@ device=RESISTOR
 T 50400 43500 5 10 1 1 0 0 1
 refdes=R11
 T 50400 43200 5 10 1 1 0 0 1
-value=1k
+value=100
 T 50200 43900 5 10 0 1 0 0 1
 footprint=resistor
 }
@@ -537,7 +537,6 @@ label=TDA2003
 T 61600 46200 5 10 0 1 0 0 1
 footprint=TDA2003
 }
-C 43900 45500 1 90 1 ground.sym
 C 56400 46700 1 270 0 resistor-1.sym
 {
 T 56800 46400 5 10 0 0 270 0 1
@@ -579,7 +578,7 @@ refdes=ICO1
 T 41300 38200 5 10 1 1 0 0 1
 footprint=oshw
 }
-C 40300 37800 1 0 0 title-A2.sym
+C 40000 37800 1 0 0 title-A2.sym
 T 56600 38500 14 10 1 0 0 0 1
 Spam
 T 56500 38200 14 8 1 0 0 0 1
@@ -596,3 +595,28 @@ T 62000 38200 14 10 1 0 0 0 1
 @git@
 T 60800 38500 14 10 1 0 0 0 1
 This schematic is licensed GPLv3
+C 45700 45600 1 0 0 resistor-1.sym
+{
+T 46000 46000 5 10 0 0 0 0 1
+device=RESISTOR
+T 45900 45800 5 10 1 1 0 0 1
+refdes=R?
+T 45700 45600 5 10 0 1 0 0 1
+footprint=resistor
+T 46200 45800 5 10 1 1 0 0 1
+value=100
+}
+C 45700 46100 1 0 0 resistor-1.sym
+{
+T 46000 46500 5 10 0 0 0 0 1
+device=RESISTOR
+T 45900 46300 5 10 1 1 0 0 1
+refdes=R?
+T 46200 46300 5 10 1 1 0 0 1
+value=100
+T 45700 46100 5 10 0 1 0 0 1
+footprint=resistor
+}
+N 46600 45700 46600 46200 4
+N 46600 46200 47300 46200 4
+N 45500 45700 45700 45700 4
