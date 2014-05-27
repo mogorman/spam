@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["Spam" 600000 500000]
 
 Grid[500.0 0 0 1]
-Cursor[380500 111000 0.000000]
+Cursor[232500 304500 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 600 1500 1000]
@@ -1871,6 +1871,7 @@ Layer(9 "silk")
 	Text[286500 275000 3 95 "This board is" "clearline,onsolder"]
 	Text[175000 147000 2 110 "Power" "clearline,onsolder"]
 	Text[176500 154000 2 90 "9-12 vdc" "clearline,onsolder"]
+	Text[159500 271500 3 100 "git:@git@" "clearline,onsolder"]
 	Polygon("clearpoly")
 	(
 		[306564 201491] [306781 201090] [306629 201220] 
@@ -2002,6 +2003,7 @@ Layer(10 "silk")
 	Text[308000 188000 1 100 "SPK" "clearline"]
 	Text[212500 231000 1 85 "100`" "clearline"]
 	Text[203000 231000 1 85 "100`" "clearline"]
+	Text[176500 264000 1 70 "@hackvana_c@" "clearline"]
 )
 NetList()
 (
