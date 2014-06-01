@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["Spam" 600000 500000]
 
 Grid[500.0 0 0 1]
-Cursor[232500 304500 0.000000]
+Cursor[209000 309500 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 600 1500 1000]
@@ -1865,13 +1865,13 @@ Layer(9 "silk")
 	Text[167000 259000 3 100 "@v@" "clearline,onsolder"]
 	Text[167000 244500 3 100 "- Buffalo Nickel" "clearline,onsolder"]
 	Text[307000 281500 3 95 "Copyright 2014" "clearline,onsolder"]
-	Text[280500 275000 3 95 "Licensed GPLv3" "clearline,onsolder"]
 	Text[299500 275000 3 95 "Tim Heath" "clearline,onsolder"]
 	Text[293500 275000 3 95 "Matt O'Gorman" "clearline,onsolder"]
 	Text[286500 275000 3 95 "This board is" "clearline,onsolder"]
 	Text[175000 147000 2 110 "Power" "clearline,onsolder"]
 	Text[176500 154000 2 90 "9-12 vdc" "clearline,onsolder"]
 	Text[159500 271500 3 100 "git:@git@" "clearline,onsolder"]
+	Text[280000 275000 3 60 "Licensed CC-BY-SA 4.0" "clearline,onsolder"]
 	Polygon("clearpoly")
 	(
 		[306564 201491] [306781 201090] [306629 201220] 

@@ -1,6 +1,6 @@
 PCBNAME=spam
 AUTHOR="Matthew O'Gorman <mog@rldn.net>  , Tim Heath <crashcartpro@gmail.com>"
-REV=4.0
+REV=5.1
 STACK=+
 SOLDERMASK=red
 SILKSCREEN=white
