@@ -568,7 +568,7 @@ refdes=ICO1
 T 41300 38200 5 10 1 1 0 0 1
 footprint=oshw
 }
-C 39900 37800 1 0 0 title-A2.sym
+C 40300 37800 1 0 0 title-A2.sym
 T 56600 38500 14 10 1 0 0 0 1
 Spam
 T 56500 38200 14 8 1 0 0 0 1
