@@ -28,11 +28,11 @@ if [ "$?" != "0" ]; then
     echo "I failed to create all the files I should have. build failed"
     exit 1
 fi
-New_spam=`git diff HEAD^ HEAD --spam.pcb|wc -l`
+New_spam=`git diff HEAD^ HEAD -- spam.pcb|wc -l`
 New_schematic=`git diff HEAD^ HEAD -- spam.sch|wc -l`
 
 if [ "$New_spam" == "0" ]; then
-    echo "No changes to pig don't bother saving image."
+    echo "No changes to spam don't bother saving image."
 else
     copy_files board.png ~/artifacts/spam/board.png
     cp *.zip gerbers.zip
