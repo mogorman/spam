@@ -1,12 +1,12 @@
 *.sch~
 *.pcb-
-in_development/*.png
-in_development/bom
-in_development/gerbers
-in_development/hackvana_gerbers
-in_development/order
-in_development/*.ps
-in_development/*.zip
-in_development/*.pdf
-in_development/xy
+hardware/*.png
+hardware/bom
+hardware/gerbers
+hardware/hackvana_gerbers
+hardware/order
+hardware/*.ps
+hardware/*.zip
+hardware/*.pdf
+hardware/xy
 
