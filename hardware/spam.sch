@@ -9,6 +9,8 @@ T 44800 47100 5 10 0 0 90 0 1
 symversion=0.1
 T 46100 46800 5 10 0 1 90 0 1
 footprint=JUMPER2
+T 45800 47200 5 10 0 1 0 0 1
+manufacturer-part=121-0622/O-GR
 }
 C 45400 44700 1 0 0 jumper-1.sym
 {
@@ -26,9 +28,11 @@ device=RESISTOR
 T 47400 45800 5 10 1 1 0 0 1
 refdes=R1
 T 47400 45500 5 10 1 1 0 0 1
-value=5k
+value=56k
 T 47200 46200 5 10 0 1 0 0 1
 footprint=resistor
+T 47400 45800 5 10 0 1 0 0 1
+manufacturer-part=660-MF1/4DC5602F
 }
 C 46000 47500 1 90 0 output-2.sym
 {
@@ -56,6 +60,8 @@ T 47800 46500 5 10 1 1 0 0 1
 value=10uf
 T 47300 46000 5 10 0 1 0 0 1
 footprint=JUMPER2
+T 47300 46000 5 10 0 1 0 0 1
+manufacturer-part=140-REA100M1HBK0511P
 }
 C 47100 45000 1 0 0 ground.sym
 C 48800 46200 1 270 0 resistor-1.sym
@@ -68,6 +74,8 @@ T 49000 45500 5 10 1 1 0 0 1
 value=330k
 T 48800 46200 5 10 0 1 0 0 1
 footprint=resistor
+T 48800 46200 5 10 0 1 0 0 1
+manufacturer-part=660-MF1/4DC3303F
 }
 C 48700 45000 1 0 0 ground.sym
 N 48900 46200 48200 46200 4
@@ -81,6 +89,8 @@ T 49100 46500 5 10 1 1 0 0 1
 value=330k
 T 48800 47100 5 10 0 1 0 0 1
 footprint=resistor
+T 48800 47100 5 10 0 1 0 0 1
+manufacturer-part=660-MF1/4DC3303F
 }
 C 48800 48500 1 270 0 input-2.sym
 {
@@ -121,32 +131,38 @@ T 56800 45100 5 10 1 1 0 0 1
 value=4.7uf
 T 51000 45900 5 10 0 1 0 0 1
 footprint=JUMPER2
+T 56700 45400 5 10 0 1 0 0 1
+manufacturer-part=140-REA4R7M1HBK0511P
 }
 C 56300 44600 1 0 0 ground.sym
 C 56900 47800 1 0 0 capacitor-2.sym
 {
 T 57100 48500 5 10 0 0 0 0 1
 device=POLARIZED_CAPACITOR
-T 57300 48300 5 10 1 1 90 0 1
+T 57300 48500 5 10 1 1 180 0 1
 refdes=C3
 T 57100 48700 5 10 0 0 0 0 1
 symversion=0.1
-T 57600 48300 5 10 1 1 90 0 1
+T 57800 48500 5 10 1 1 180 0 1
 value=10uf
 T 56900 47800 5 10 0 1 0 0 1
 footprint=JUMPER2
+T 56900 47800 5 10 0 1 0 0 1
+manufacturer-part=140-REA100M1HBK0511P
 }
 N 56300 48000 56900 48000 4
 C 58100 46300 1 270 1 pot-1.sym
 {
 T 59000 47100 5 10 0 0 90 2 1
 device=VARIABLE_RESISTOR
-T 58500 46900 5 10 1 1 90 2 1
+T 58700 46900 5 10 1 1 180 2 1
 refdes=R6
 T 59600 47100 5 10 0 1 90 2 1
 footprint=JUMPER3
 T 57700 46700 5 10 1 1 0 0 1
 value=10k
+T 58200 46900 5 10 0 1 0 0 1
+manufacturer-part=858-36PR100KLF
 }
 N 57800 48000 58200 48000 4
 N 58200 48000 58200 47200 4
@@ -155,14 +171,16 @@ C 59600 46600 1 0 1 capacitor-2.sym
 {
 T 59400 47300 5 10 0 0 0 6 1
 device=POLARIZED_CAPACITOR
-T 59200 47100 5 10 1 1 90 2 1
+T 59200 47100 5 10 1 1 180 2 1
 refdes=C4
 T 59400 47500 5 10 0 0 0 6 1
 symversion=0.1
-T 58900 47100 5 10 1 1 90 2 1
+T 59600 47100 5 10 1 1 180 2 1
 value=10uf
 T 59600 46600 5 10 0 1 0 0 1
 footprint=JUMPER2
+T 59600 46600 5 10 0 1 0 0 1
+manufacturer-part=140-REA100M1HBK0511P
 }
 C 59500 46100 1 180 1 input-2.sym
 {
@@ -185,6 +203,8 @@ T 45900 42300 5 10 1 1 0 0 1
 value=220
 T 45700 43000 5 10 0 1 0 0 1
 footprint=resistor
+T 45800 42600 5 10 0 1 0 0 1
+manufacturer-part=660-MF1/4DC2200F
 }
 C 45700 42100 1 270 0 resistor-1.sym
 {
@@ -196,6 +216,8 @@ T 45900 41400 5 10 1 1 0 0 1
 value=10
 T 45700 42100 5 10 0 1 0 0 1
 footprint=resistor
+T 45900 41700 5 10 0 1 0 0 1
+manufacturer-part=660-MF1/4DC10R0F
 }
 C 45800 42300 1 180 0 capacitor-2.sym
 {
@@ -209,6 +231,8 @@ T 45000 41700 5 10 1 1 0 0 1
 value=470uf
 T 45800 42300 5 10 0 1 0 0 1
 footprint=JUMPER2
+T 45400 42100 5 10 0 1 0 0 1
+manufacturer-part=140-REA471M1EBK1012P
 }
 C 60900 46500 1 0 1 output-2.sym
 {
@@ -259,6 +283,8 @@ T 46500 42700 5 10 1 1 0 2 1
 value=2200uf
 T 46400 43200 5 10 0 1 0 0 1
 footprint=JUMPER2
+T 46900 43000 5 10 0 1 0 0 1
+manufacturer-part=140-REA222M1CBK1320P
 }
 N 45800 43000 46400 43000 4
 C 48100 42100 1 90 0 capacitor-1.sym
@@ -273,6 +299,8 @@ T 48000 42200 5 10 1 1 0 0 1
 value=0.1uf
 T 48100 42100 5 10 0 1 0 0 1
 footprint=JUMPER2
+T 47900 42400 5 10 0 1 0 0 1
+manufacturer-part=21RZ310-RC
 }
 N 47300 43000 50600 43000 4
 C 47800 42100 1 270 0 resistor-1.sym
@@ -285,6 +313,8 @@ T 48000 41400 5 10 1 1 0 0 1
 value=10k
 T 47800 42100 5 10 0 1 0 0 1
 footprint=resistor
+T 47900 41700 5 10 0 1 0 0 1
+manufacturer-part=660-MF1/4DC1002F
 }
 C 47700 40900 1 0 0 ground.sym
 C 49100 42000 1 0 0 jumper-1.sym
@@ -295,17 +325,21 @@ T 49400 42500 5 10 1 1 0 0 1
 refdes=Speaker1
 T 49100 42000 5 10 0 1 0 0 1
 footprint=JUMPER2
+T 49100 42400 5 10 0 1 0 0 1
+manufacturer-part=665-AS07708PS2R
 }
 C 50600 42900 1 0 0 resistor-1.sym
 {
 T 50900 43300 5 10 0 0 0 0 1
 device=RESISTOR
-T 51000 43100 5 10 1 1 90 0 1
+T 51000 42900 5 10 1 1 180 0 1
 refdes=R10
-T 51300 43100 5 10 1 1 90 0 1
+T 51500 42900 5 10 1 1 180 0 1
 value=100
 T 50600 42900 5 10 0 1 0 0 1
 footprint=resistor
+T 50600 42900 5 10 0 1 0 0 1
+manufacturer-part=660-MF1/4DC1000F
 }
 C 50200 43900 1 270 0 resistor-1.sym
 {
@@ -317,6 +351,8 @@ T 50400 43200 5 10 1 1 0 0 1
 value=100
 T 50200 43900 5 10 0 1 0 0 1
 footprint=resistor
+T 50200 43900 5 10 0 1 0 0 1
+manufacturer-part=660-MF1/4DC1000F
 }
 C 50200 43900 1 270 1 output-2.sym
 {
@@ -354,6 +390,8 @@ T 52700 48000 5 10 1 1 0 0 1
 refdes=U2
 T 51300 48000 5 10 1 1 0 0 1
 label=TL071CP
+T 52000 47400 5 10 0 1 0 0 1
+manufacturer-part=595-TL071CP
 }
 C 51100 47400 1 0 1 output-2.sym
 {
@@ -400,6 +438,8 @@ T 42000 47100 5 10 1 1 0 0 1
 refdes=Input1
 T 41900 46400 5 10 0 1 0 0 1
 footprint=NRJ6HF
+T 42300 45900 5 10 0 1 0 0 1
+manufacturer-part=550-20311   +  550-1005
 }
 T 42400 45300 9 10 1 0 0 0 1
 TS
@@ -422,6 +462,8 @@ T 57500 43800 5 10 1 1 0 6 1
 refdes=Output1
 T 57600 43100 5 10 0 1 0 6 1
 footprint=NRJ6HF
+T 57300 43200 5 10 0 1 0 0 1
+manufacturer-part=550-20311
 }
 T 57100 42000 9 10 1 0 0 6 1
 TS
@@ -516,6 +558,8 @@ T 46800 50900 5 10 1 1 0 0 1
 value=1000uf
 T 46300 50400 5 10 0 1 0 0 1
 footprint=JUMPER2
+T 46700 50600 5 10 0 1 0 0 1
+manufacturer-part=140-REA102M1CBK1016P
 }
 C 47500 50800 1 90 1 ground.sym
 C 62800 45800 1 0 1 TDA2003.sym
@@ -537,17 +581,21 @@ T 56600 46000 5 10 1 1 0 0 1
 value=1k
 T 56400 46700 5 10 0 1 0 0 1
 footprint=resistor
+T 56500 46200 5 10 0 1 0 0 1
+manufacturer-part=660-MF1/4DC1001F
 }
 C 56600 46700 1 90 0 pot-1.sym
 {
 T 55700 47500 5 10 0 0 90 0 1
 device=VARIABLE_RESISTOR
-T 56200 47300 5 10 1 1 90 0 1
+T 56100 47400 5 10 1 1 180 0 1
 refdes=R2
 T 55100 47500 5 10 0 1 90 0 1
 footprint=JUMPER3
 T 56700 47100 5 10 1 1 0 0 1
 value=100k
+T 56600 47100 5 10 0 1 0 0 1
+manufacturer-part=RV170SF-10-15R1-B100K
 }
 C 54600 47300 1 180 1 input-2.sym
 {
@@ -589,23 +637,27 @@ C 45700 45600 1 0 0 resistor-1.sym
 {
 T 46000 46000 5 10 0 0 0 0 1
 device=RESISTOR
-T 45900 45800 5 10 1 1 0 0 1
+T 45700 45800 5 10 1 1 0 0 1
 refdes=R13
 T 45700 45600 5 10 0 1 0 0 1
 footprint=resistor
 T 46200 45800 5 10 1 1 0 0 1
 value=100
+T 45700 45600 5 10 0 1 0 0 1
+manufacturer-part=660-MF1/4DC1000F
 }
 C 45700 46100 1 0 0 resistor-1.sym
 {
 T 46000 46500 5 10 0 0 0 0 1
 device=RESISTOR
-T 45900 46300 5 10 1 1 0 0 1
+T 45700 46300 5 10 1 1 0 0 1
 refdes=R14
 T 46200 46300 5 10 1 1 0 0 1
 value=100
 T 45700 46100 5 10 0 1 0 0 1
 footprint=resistor
+T 45700 46100 5 10 0 1 0 0 1
+manufacturer-part=660-MF1/4DC1000F
 }
 N 46600 45700 46600 46200 4
 N 46600 46200 47300 46200 4
