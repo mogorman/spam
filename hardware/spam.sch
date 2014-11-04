@@ -30,7 +30,7 @@ refdes=R1
 T 47400 45500 5 10 1 1 0 0 1
 value=56k
 T 47200 46200 5 10 0 1 0 0 1
-footprint=resistor
+footprint=1206
 T 47400 45800 5 10 0 1 0 0 1
 manufacturer-part=660-MF1/4DC5602F
 }
@@ -59,7 +59,7 @@ symversion=0.1
 T 47800 46500 5 10 1 1 0 0 1
 value=10uf
 T 47300 46000 5 10 0 1 0 0 1
-footprint=JUMPER2
+footprint=5mm_EL_Cap
 T 47300 46000 5 10 0 1 0 0 1
 manufacturer-part=140-REA100M1HBK0511P
 }
@@ -73,7 +73,7 @@ refdes=R3
 T 49000 45500 5 10 1 1 0 0 1
 value=330k
 T 48800 46200 5 10 0 1 0 0 1
-footprint=resistor
+footprint=1206
 T 48800 46200 5 10 0 1 0 0 1
 manufacturer-part=660-MF1/4DC3303F
 }
@@ -88,7 +88,7 @@ refdes=R4
 T 49100 46500 5 10 1 1 0 0 1
 value=330k
 T 48800 47100 5 10 0 1 0 0 1
-footprint=resistor
+footprint=1206
 T 48800 47100 5 10 0 1 0 0 1
 manufacturer-part=660-MF1/4DC3303F
 }
@@ -130,7 +130,7 @@ symversion=0.1
 T 56800 45100 5 10 1 1 0 0 1
 value=4.7uf
 T 51000 45900 5 10 0 1 0 0 1
-footprint=JUMPER2
+footprint=1206
 T 56700 45400 5 10 0 1 0 0 1
 manufacturer-part=140-REA4R7M1HBK0511P
 }
@@ -146,7 +146,7 @@ symversion=0.1
 T 57800 48500 5 10 1 1 180 0 1
 value=10uf
 T 56900 47800 5 10 0 1 0 0 1
-footprint=JUMPER2
+footprint=5mm_EL_Cap
 T 56900 47800 5 10 0 1 0 0 1
 manufacturer-part=140-REA100M1HBK0511P
 }
@@ -178,7 +178,7 @@ symversion=0.1
 T 59600 47100 5 10 1 1 180 2 1
 value=10uf
 T 59600 46600 5 10 0 1 0 0 1
-footprint=JUMPER2
+footprint=5mm_EL_Cap
 T 59600 46600 5 10 0 1 0 0 1
 manufacturer-part=140-REA100M1HBK0511P
 }
@@ -202,7 +202,7 @@ refdes=R7
 T 45900 42300 5 10 1 1 0 0 1
 value=220
 T 45700 43000 5 10 0 1 0 0 1
-footprint=resistor
+footprint=1206
 T 45800 42600 5 10 0 1 0 0 1
 manufacturer-part=660-MF1/4DC2200F
 }
@@ -215,7 +215,7 @@ refdes=R8
 T 45900 41400 5 10 1 1 0 0 1
 value=10
 T 45700 42100 5 10 0 1 0 0 1
-footprint=resistor
+footprint=1206
 T 45900 41700 5 10 0 1 0 0 1
 manufacturer-part=660-MF1/4DC10R0F
 }
@@ -312,7 +312,7 @@ refdes=R9
 T 48000 41400 5 10 1 1 0 0 1
 value=10k
 T 47800 42100 5 10 0 1 0 0 1
-footprint=resistor
+footprint=1206
 T 47900 41700 5 10 0 1 0 0 1
 manufacturer-part=660-MF1/4DC1002F
 }
@@ -337,7 +337,7 @@ refdes=R10
 T 51500 42900 5 10 1 1 180 0 1
 value=100
 T 50600 42900 5 10 0 1 0 0 1
-footprint=resistor
+footprint=1206
 T 50600 42900 5 10 0 1 0 0 1
 manufacturer-part=660-MF1/4DC1000F
 }
@@ -350,7 +350,7 @@ refdes=R11
 T 50400 43200 5 10 1 1 0 0 1
 value=100
 T 50200 43900 5 10 0 1 0 0 1
-footprint=resistor
+footprint=1206
 T 50200 43900 5 10 0 1 0 0 1
 manufacturer-part=660-MF1/4DC1000F
 }
@@ -385,7 +385,7 @@ N 60900 46400 60300 46400 4
 C 51100 46700 1 0 0 TL071CP.sym
 {
 T 51900 47100 5 10 0 1 0 0 1
-footprint=DIP8
+footprint=SO8
 T 52700 48000 5 10 1 1 0 0 1
 refdes=U2
 T 51300 48000 5 10 1 1 0 0 1
@@ -514,7 +514,7 @@ refdes=R12
 T 47100 49900 5 10 1 1 180 0 1
 value=390
 T 46300 49500 5 10 0 1 90 0 1
-footprint=resistor
+footprint=1206
 }
 C 47200 49400 1 0 0 led-1.sym
 {
@@ -525,7 +525,7 @@ refdes=LED1
 T 48000 50200 5 10 0 0 0 0 1
 symversion=0.1
 T 47200 49400 5 10 0 1 0 0 1
-footprint=JUMPER2
+footprint=0805
 }
 C 44900 49500 1 0 0 input-2.sym
 {
@@ -536,7 +536,6 @@ device=none
 T 45100 49600 5 10 1 1 180 7 1
 value=Vcc
 }
-C 48400 49800 1 90 1 ground.sym
 C 44900 50500 1 0 0 input-2.sym
 {
 T 44900 50700 5 10 0 0 0 0 1
@@ -580,7 +579,7 @@ refdes=R5
 T 56600 46000 5 10 1 1 0 0 1
 value=1k
 T 56400 46700 5 10 0 1 0 0 1
-footprint=resistor
+footprint=1206
 T 56500 46200 5 10 0 1 0 0 1
 manufacturer-part=660-MF1/4DC1001F
 }
@@ -640,7 +639,7 @@ device=RESISTOR
 T 45700 45800 5 10 1 1 0 0 1
 refdes=R13
 T 45700 45600 5 10 0 1 0 0 1
-footprint=resistor
+footprint=1206
 T 46200 45800 5 10 1 1 0 0 1
 value=100
 T 45700 45600 5 10 0 1 0 0 1
@@ -655,7 +654,7 @@ refdes=R14
 T 46200 46300 5 10 1 1 0 0 1
 value=100
 T 45700 46100 5 10 0 1 0 0 1
-footprint=resistor
+footprint=1206
 T 45700 46100 5 10 0 1 0 0 1
 manufacturer-part=660-MF1/4DC1000F
 }
@@ -679,3 +678,15 @@ N 44300 47800 41400 47800 4
 N 42700 43900 42700 44600 4
 N 41400 44600 42700 44600 4
 N 41400 44600 41400 47800 4
+C 49300 49800 1 90 1 ground.sym
+C 48100 49400 1 0 0 led-1.sym
+{
+T 48900 50000 5 10 0 0 0 0 1
+device=LED
+T 48900 49800 5 10 1 1 0 0 1
+refdes=LED2
+T 48900 50200 5 10 0 0 0 0 1
+symversion=0.1
+T 48100 49400 5 10 0 1 0 0 1
+footprint=JUMPER2
+}
