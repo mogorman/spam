@@ -298,7 +298,7 @@ symversion=0.1
 T 48000 42200 5 10 1 1 0 0 1
 value=0.1uf
 T 48100 42100 5 10 0 1 0 0 1
-footprint=JUMPER2
+footprint=1206
 T 47900 42400 5 10 0 1 0 0 1
 manufacturer-part=21RZ310-RC
 }
