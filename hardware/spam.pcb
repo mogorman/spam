@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["Spam" 600000 500000]
 
 Grid[2500.0 1000 800 1]
-Cursor[91000 108300 0.000000]
+Cursor[151000 133300 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 600 1500 1000]
@@ -1615,18 +1615,18 @@ Element["" "1206" "R1" "56k" 209405 280800 -14960 -2650 0 100 ""]
 
 	)
 
-Element["" "5mm_EL_Cap" "C4" "10uf" 208500 180427 -9000 -2500 0 100 ""]
+Element["" "5mm_EL_Cap" "C4" "10uf" 208500 180425 -9000 -1750 0 100 ""]
 (
-	Pad[0 -10434 0 -5316 3937 1200 4537 "1" "1" "square"]
-	Pad[0 5314 0 10432 3937 1200 4537 "2" "2" "square,edge2"]
-	ElementLine [-10433 10433 -2559 10433 600]
-	ElementLine [2559 -10433 8071 -10433 600]
-	ElementLine [10433 -8071 8071 -10433 600]
-	ElementLine [-10433 -8071 -8071 -10433 600]
-	ElementLine [-10433 -8071 -10433 10433 600]
-	ElementLine [2559 10433 10433 10433 600]
-	ElementLine [10433 -8071 10433 10433 600]
-	ElementLine [-8071 -10433 -2559 -10433 600]
+	Pad[0 5316 0 10434 3937 1200 4537 "1" "1" "square,edge2"]
+	Pad[0 -10432 0 -5314 3937 1200 4537 "2" "2" "square"]
+	ElementLine [2559 -10433 10433 -10433 600]
+	ElementLine [-8071 10433 -2559 10433 600]
+	ElementLine [-10433 8071 -8071 10433 600]
+	ElementLine [10433 8071 8071 10433 600]
+	ElementLine [10433 -10433 10433 8071 600]
+	ElementLine [-10433 -10433 -2559 -10433 600]
+	ElementLine [-10433 -10433 -10433 8071 600]
+	ElementLine [2559 10433 8071 10433 600]
 
 	)
 
@@ -2066,12 +2066,12 @@ NetList()
 	)
 	Net("unnamed_net6" "(unknown)")
 	(
-		Connect("C4-2")
+		Connect("C4-1")
 		Connect("R6-2")
 	)
 	Net("unnamed_net7" "(unknown)")
 	(
-		Connect("C4-1")
+		Connect("C4-2")
 		Connect("U1-1")
 	)
 	Net("unnamed_net8" "(unknown)")
