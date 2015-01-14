@@ -35,7 +35,8 @@ if [ "$New_spam" == "0" ]; then
     echo "No changes to spam don't bother saving image."
 else
     copy_files board.png ~/artifacts/spam/board.png
-    cp *.zip gerbers.zip
+    File=`ls *.zip|grep -v oshpark`
+    cp "${File}" gerbers.zip
     copy_files gerbers.zip ~/artifacts/spam/gerbers.zip
 fi
 
