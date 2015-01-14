@@ -5,8 +5,8 @@ FileVersion[20070407]
 
 PCB["Spam" 600000 500000]
 
-Grid[2500.0 1000 800 1]
-Cursor[116000 118300 0.000000]
+Grid[500.0 1000 800 1]
+Cursor[174000 191800 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 600 1500 1000]
@@ -1725,7 +1725,7 @@ Element["hidename,onsolder" "JUMPER3" "R2" "100k" 241000 215879 -5000 -11000 2 1
 
 	)
 
-Element["hidename" "JUMPER2" "C5" "470uf" 246000 180800 -4500 -8500 2 100 ""]
+Element["hidename" "JUMPER2" "C5" "470uf" 246000 178300 -4500 -8500 2 100 ""]
 (
 	Pin[-10000 0 8000 2400 8600 4000 "" "1" ""]
 	Pin[10000 0 8000 2400 8600 4000 "" "2" "square"]
@@ -1793,8 +1793,6 @@ Layer(1 "component")
 	Line[176000 186548 176000 193300 2000 2000 "clearline"]
 	Line[231157 210958 193658 210958 2000 2000 "clearline"]
 	Line[193658 210958 176000 193300 2000 2000 "clearline"]
-	Line[236690 143300 236690 180110 2000 2000 "clearline"]
-	Line[236690 180110 236000 180800 2000 2000 "clearline"]
 	Line[273500 187610 283500 187610 2000 2000 "clearline"]
 	Line[303500 187610 303500 213300 2000 2000 "clearline"]
 	Line[303500 213300 313500 223300 2000 2000 "clearline"]
@@ -1809,6 +1807,8 @@ Layer(1 "component")
 	Line[178500 158300 176000 160800 2000 2000 "clearline"]
 	Line[218500 183300 208500 193300 2000 2000 "clearline"]
 	Line[221000 238300 221000 243300 2000 2000 "clearline"]
+	Line[236690 143300 236690 177610 2000 2000 "clearline"]
+	Line[236690 177610 236000 178300 2000 2000 "clearline"]
 	Polygon("clearpoly,lock")
 	(
 		[133500 118300] [323500 118300] [323500 290800] [133500 290800] 
@@ -1894,7 +1894,7 @@ Layer(9 "silk")
 	Text[170000 275500 3 100 "Ver:" "clearline,onsolder"]
 	Text[170000 260500 3 100 "@v@" "clearline,onsolder"]
 	Text[170000 246000 3 100 "- Liberty Nickel" "clearline,onsolder"]
-	Text[162500 273000 3 100 "git:@git@" "clearline,onsolder"]
+	Text[162500 273000 3 100 "git:@git@" "clearline,selected,onsolder"]
 	Polygon("clearpoly")
 	(
 		[294533 215224] [295607 216586] [296372 219261] [296649 222104] [296600 222923] 
@@ -1973,12 +1973,12 @@ Layer(9 "silk")
 )
 Layer(10 "silk")
 (
-	Line[226000 200800 226000 225800 1000 1000 "clearline"]
+	Line[226000 198300 226000 225800 1000 1000 "clearline"]
 	Line[226000 225800 231000 230800 1000 1000 "clearline"]
 	Line[231000 230800 251000 230800 1000 1000 "clearline"]
 	Line[251000 230800 256000 225800 1000 1000 "clearline"]
-	Line[256000 225800 256000 200800 1000 1000 "clearline"]
-	Line[226000 200800 256000 200800 1000 1000 "clearline"]
+	Line[256000 225800 256000 198300 1000 1000 "clearline"]
+	Line[226000 198300 256000 198300 1000 1000 "clearline"]
 	Text[152000 173000 3 100 "Pickup" "clearline"]
 	Text[204800 212300 0 60 "TL071CP" "clearline"]
 	Text[238800 231800 0 60 "330K" "clearline"]
@@ -1991,7 +1991,7 @@ Layer(10 "silk")
 	Text[177300 141800 0 80 "10uF" "clearline"]
 	Text[280200 168300 1 80 "0.1uF" "clearline"]
 	Text[251800 231800 0 60 "1K" "clearline"]
-	Text[233000 201500 0 80 "10K pot" "clearline"]
+	Text[233000 200000 0 80 "10K pot" "clearline"]
 	Text[230000 158500 0 80 "10`" "clearline"]
 	Text[237500 133000 0 80 "220`" "clearline"]
 	Text[283500 269000 1 100 "Free your amp" "clearline"]
