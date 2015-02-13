@@ -1,1857 +1,1856 @@
-# release: pcb 20110918
- 
+# release: pcb 20140316
+
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
-FileVersion[20070407]
+FileVersion[20091103]
 
-PCB["Spam" 600000 500000]
+PCB["Spam" 6000.00mil 5000.00mil]
 
-Grid[500.0 1000 800 1]
-Cursor[174000 191800 0.000000]
+Grid[500.000000 10.00mil 8.00mil 1]
 PolyArea[200000000.000000]
 Thermal[0.500000]
-DRC[1000 1000 1000 600 1500 1000]
+DRC[10.00mil 10.00mil 10.00mil 6.00mil 15.00mil 10.00mil]
 Flags("showdrc,nameonpcb,clearnew,snappin")
 Groups("1,c:2,s:3:4:5:6:7:8")
-Styles["Signal,1000,2000,1000,1000:Power,2000,2800,1400,1000:Fat,0,1,0,0:Skinny,0,0,0,600"]
+Styles["Signal,10.00mil,20.00mil,10.00mil,10.00mil:Power,20.00mil,28.00mil,14.00mil,10.00mil:Fat,0.0000,0.01mil,0.0000,0.0000:Skinny,0.0000,0.0000,0.0000,6.00mil"]
 
-Symbol[' ' 1200]
-(
-)
-Symbol['!' 1200]
-(
-	SymbolLine[200 800 200 3600 800]
-	SymbolLine[200 4600 0 4800 800]
-	SymbolLine[0 4800 200 5000 800]
-	SymbolLine[200 5000 400 4800 800]
-	SymbolLine[400 4800 200 4600 800]
-)
-Symbol['"' 1200]
-(
-	SymbolLine[0 800 0 2200 800]
-	SymbolLine[1600 800 1600 2200 800]
-)
-Symbol['#' 1200]
-(
-	SymbolLine[1600 0 200 6400 800]
-	SymbolLine[2800 0 1400 6400 800]
-	SymbolLine[200 2600 3000 2600 800]
-	SymbolLine[0 3800 2800 3800 800]
-)
-Symbol['$' 1200]
-(
-	SymbolLine[1000 0 1000 5800 800]
-	SymbolLine[1800 0 1800 5800 800]
-	SymbolLine[2800 1400 2400 1000 800]
-	SymbolLine[2400 1000 1800 800 800]
-	SymbolLine[1800 800 1000 800 800]
-	SymbolLine[1000 800 400 1000 800]
-	SymbolLine[400 1000 0 1400 800]
-	SymbolLine[0 1400 0 1800 800]
-	SymbolLine[0 1800 200 2200 800]
-	SymbolLine[200 2200 400 2400 800]
-	SymbolLine[400 2400 800 2600 800]
-	SymbolLine[800 2600 2000 3000 800]
-	SymbolLine[2000 3000 2400 3200 800]
-	SymbolLine[2400 3200 2600 3400 800]
-	SymbolLine[2600 3400 2800 3800 800]
-	SymbolLine[2800 3800 2800 4400 800]
-	SymbolLine[2800 4400 2400 4800 800]
-	SymbolLine[2400 4800 1800 5000 800]
-	SymbolLine[1800 5000 1000 5000 800]
-	SymbolLine[1000 5000 400 4800 800]
-	SymbolLine[400 4800 0 4400 800]
-)
-Symbol['%' 1200]
-(
-	SymbolLine[3600 800 0 5000 800]
-	SymbolLine[1000 800 1400 1200 800]
-	SymbolLine[1400 1200 1400 1600 800]
-	SymbolLine[1400 1600 1200 2000 800]
-	SymbolLine[1200 2000 800 2200 800]
-	SymbolLine[800 2200 400 2200 800]
-	SymbolLine[400 2200 0 1800 800]
-	SymbolLine[0 1800 0 1400 800]
-	SymbolLine[0 1400 200 1000 800]
-	SymbolLine[200 1000 600 800 800]
-	SymbolLine[600 800 1000 800 800]
-	SymbolLine[1000 800 1400 1000 800]
-	SymbolLine[1400 1000 2000 1200 800]
-	SymbolLine[2000 1200 2600 1200 800]
-	SymbolLine[2600 1200 3200 1000 800]
-	SymbolLine[3200 1000 3600 800 800]
-	SymbolLine[2800 3600 2400 3800 800]
-	SymbolLine[2400 3800 2200 4200 800]
-	SymbolLine[2200 4200 2200 4600 800]
-	SymbolLine[2200 4600 2600 5000 800]
-	SymbolLine[2600 5000 3000 5000 800]
-	SymbolLine[3000 5000 3400 4800 800]
-	SymbolLine[3400 4800 3600 4400 800]
-	SymbolLine[3600 4400 3600 4000 800]
-	SymbolLine[3600 4000 3200 3600 800]
-	SymbolLine[3200 3600 2800 3600 800]
-)
-Symbol['&' 1200]
-(
-	SymbolLine[4000 2600 4000 2400 800]
-	SymbolLine[4000 2400 3800 2200 800]
-	SymbolLine[3800 2200 3600 2200 800]
-	SymbolLine[3600 2200 3400 2400 800]
-	SymbolLine[3400 2400 3200 2800 800]
-	SymbolLine[3200 2800 2800 3800 800]
-	SymbolLine[2800 3800 2400 4400 800]
-	SymbolLine[2400 4400 2000 4800 800]
-	SymbolLine[2000 4800 1600 5000 800]
-	SymbolLine[1600 5000 800 5000 800]
-	SymbolLine[800 5000 400 4800 800]
-	SymbolLine[400 4800 200 4600 800]
-	SymbolLine[200 4600 0 4200 800]
-	SymbolLine[0 4200 0 3800 800]
-	SymbolLine[0 3800 200 3400 800]
-	SymbolLine[200 3400 400 3200 800]
-	SymbolLine[400 3200 1800 2400 800]
-	SymbolLine[1800 2400 2000 2200 800]
-	SymbolLine[2000 2200 2200 1800 800]
-	SymbolLine[2200 1800 2200 1400 800]
-	SymbolLine[2200 1400 2000 1000 800]
-	SymbolLine[2000 1000 1600 800 800]
-	SymbolLine[1600 800 1200 1000 800]
-	SymbolLine[1200 1000 1000 1400 800]
-	SymbolLine[1000 1400 1000 1800 800]
-	SymbolLine[1000 1800 1200 2400 800]
-	SymbolLine[1200 2400 1600 3000 800]
-	SymbolLine[1600 3000 2600 4400 800]
-	SymbolLine[2600 4400 3000 4800 800]
-	SymbolLine[3000 4800 3400 5000 800]
-	SymbolLine[3400 5000 3800 5000 800]
-	SymbolLine[3800 5000 4000 4800 800]
-	SymbolLine[4000 4800 4000 4600 800]
-)
-Symbol[''' 1200]
-(
-	SymbolLine[200 1200 0 1000 800]
-	SymbolLine[0 1000 200 800 800]
-	SymbolLine[200 800 400 1000 800]
-	SymbolLine[400 1000 400 1400 800]
-	SymbolLine[400 1400 200 1800 800]
-	SymbolLine[200 1800 0 2000 800]
-)
-Symbol['(' 1200]
-(
-	SymbolLine[1400 0 1000 400 800]
-	SymbolLine[1000 400 600 1000 800]
-	SymbolLine[600 1000 200 1800 800]
-	SymbolLine[200 1800 0 2800 800]
-	SymbolLine[0 2800 0 3600 800]
-	SymbolLine[0 3600 200 4600 800]
-	SymbolLine[200 4600 600 5400 800]
-	SymbolLine[600 5400 1000 6000 800]
-	SymbolLine[1000 6000 1400 6400 800]
-)
-Symbol[')' 1200]
-(
-	SymbolLine[0 0 400 400 800]
-	SymbolLine[400 400 800 1000 800]
-	SymbolLine[800 1000 1200 1800 800]
-	SymbolLine[1200 1800 1400 2800 800]
-	SymbolLine[1400 2800 1400 3600 800]
-	SymbolLine[1400 3600 1200 4600 800]
-	SymbolLine[1200 4600 800 5400 800]
-	SymbolLine[800 5400 400 6000 800]
-	SymbolLine[400 6000 0 6400 800]
-)
-Symbol['*' 1200]
-(
-	SymbolLine[1000 800 1000 3200 800]
-	SymbolLine[0 1400 2000 2600 800]
-	SymbolLine[2000 1400 0 2600 800]
-)
-Symbol['+' 1200]
-(
-	SymbolLine[1800 1400 1800 5000 800]
-	SymbolLine[0 3200 3600 3200 800]
-)
-Symbol[',' 1200]
-(
-	SymbolLine[400 4800 200 5000 800]
-	SymbolLine[200 5000 0 4800 800]
-	SymbolLine[0 4800 200 4600 800]
-	SymbolLine[200 4600 400 4800 800]
-	SymbolLine[400 4800 400 5200 800]
-	SymbolLine[400 5200 200 5600 800]
-	SymbolLine[200 5600 0 5800 800]
-)
-Symbol['-' 1200]
-(
-	SymbolLine[0 3200 3600 3200 800]
-)
-Symbol['.' 1200]
-(
-	SymbolLine[200 4600 0 4800 800]
-	SymbolLine[0 4800 200 5000 800]
-	SymbolLine[200 5000 400 4800 800]
-	SymbolLine[400 4800 200 4600 800]
-)
-Symbol['/' 1200]
-(
-	SymbolLine[3600 0 0 6400 800]
-)
-Symbol['0' 1200]
-(
-	SymbolLine[1200 800 600 1000 800]
-	SymbolLine[600 1000 200 1600 800]
-	SymbolLine[200 1600 0 2600 800]
-	SymbolLine[0 2600 0 3200 800]
-	SymbolLine[0 3200 200 4200 800]
-	SymbolLine[200 4200 600 4800 800]
-	SymbolLine[600 4800 1200 5000 800]
-	SymbolLine[1200 5000 1600 5000 800]
-	SymbolLine[1600 5000 2200 4800 800]
-	SymbolLine[2200 4800 2600 4200 800]
-	SymbolLine[2600 4200 2800 3200 800]
-	SymbolLine[2800 3200 2800 2600 800]
-	SymbolLine[2800 2600 2600 1600 800]
-	SymbolLine[2600 1600 2200 1000 800]
-	SymbolLine[2200 1000 1600 800 800]
-	SymbolLine[1600 800 1200 800 800]
-)
-Symbol['1' 1200]
-(
-	SymbolLine[0 1600 400 1400 800]
-	SymbolLine[400 1400 1000 800 800]
-	SymbolLine[1000 800 1000 5000 800]
-)
-Symbol['2' 1200]
-(
-	SymbolLine[200 1800 200 1600 800]
-	SymbolLine[200 1600 400 1200 800]
-	SymbolLine[400 1200 600 1000 800]
-	SymbolLine[600 1000 1000 800 800]
-	SymbolLine[1000 800 1800 800 800]
-	SymbolLine[1800 800 2200 1000 800]
-	SymbolLine[2200 1000 2400 1200 800]
-	SymbolLine[2400 1200 2600 1600 800]
-	SymbolLine[2600 1600 2600 2000 800]
-	SymbolLine[2600 2000 2400 2400 800]
-	SymbolLine[2400 2400 2000 3000 800]
-	SymbolLine[2000 3000 0 5000 800]
-	SymbolLine[0 5000 2800 5000 800]
-)
-Symbol['3' 1200]
-(
-	SymbolLine[400 800 2600 800 800]
-	SymbolLine[2600 800 1400 2400 800]
-	SymbolLine[1400 2400 2000 2400 800]
-	SymbolLine[2000 2400 2400 2600 800]
-	SymbolLine[2400 2600 2600 2800 800]
-	SymbolLine[2600 2800 2800 3400 800]
-	SymbolLine[2800 3400 2800 3800 800]
-	SymbolLine[2800 3800 2600 4400 800]
-	SymbolLine[2600 4400 2200 4800 800]
-	SymbolLine[2200 4800 1600 5000 800]
-	SymbolLine[1600 5000 1000 5000 800]
-	SymbolLine[1000 5000 400 4800 800]
-	SymbolLine[400 4800 200 4600 800]
-	SymbolLine[200 4600 0 4200 800]
-)
-Symbol['4' 1200]
-(
-	SymbolLine[2000 800 0 3600 800]
-	SymbolLine[0 3600 3000 3600 800]
-	SymbolLine[2000 800 2000 5000 800]
-)
-Symbol['5' 1200]
-(
-	SymbolLine[2400 800 400 800 800]
-	SymbolLine[400 800 200 2600 800]
-	SymbolLine[200 2600 400 2400 800]
-	SymbolLine[400 2400 1000 2200 800]
-	SymbolLine[1000 2200 1600 2200 800]
-	SymbolLine[1600 2200 2200 2400 800]
-	SymbolLine[2200 2400 2600 2800 800]
-	SymbolLine[2600 2800 2800 3400 800]
-	SymbolLine[2800 3400 2800 3800 800]
-	SymbolLine[2800 3800 2600 4400 800]
-	SymbolLine[2600 4400 2200 4800 800]
-	SymbolLine[2200 4800 1600 5000 800]
-	SymbolLine[1600 5000 1000 5000 800]
-	SymbolLine[1000 5000 400 4800 800]
-	SymbolLine[400 4800 200 4600 800]
-	SymbolLine[200 4600 0 4200 800]
-)
-Symbol['6' 1200]
-(
-	SymbolLine[2400 1400 2200 1000 800]
-	SymbolLine[2200 1000 1600 800 800]
-	SymbolLine[1600 800 1200 800 800]
-	SymbolLine[1200 800 600 1000 800]
-	SymbolLine[600 1000 200 1600 800]
-	SymbolLine[200 1600 0 2600 800]
-	SymbolLine[0 2600 0 3600 800]
-	SymbolLine[0 3600 200 4400 800]
-	SymbolLine[200 4400 600 4800 800]
-	SymbolLine[600 4800 1200 5000 800]
-	SymbolLine[1200 5000 1400 5000 800]
-	SymbolLine[1400 5000 2000 4800 800]
-	SymbolLine[2000 4800 2400 4400 800]
-	SymbolLine[2400 4400 2600 3800 800]
-	SymbolLine[2600 3800 2600 3600 800]
-	SymbolLine[2600 3600 2400 3000 800]
-	SymbolLine[2400 3000 2000 2600 800]
-	SymbolLine[2000 2600 1400 2400 800]
-	SymbolLine[1400 2400 1200 2400 800]
-	SymbolLine[1200 2400 600 2600 800]
-	SymbolLine[600 2600 200 3000 800]
-	SymbolLine[200 3000 0 3600 800]
-)
-Symbol['7' 1200]
-(
-	SymbolLine[2800 800 800 5000 800]
-	SymbolLine[0 800 2800 800 800]
-)
-Symbol['8' 1200]
-(
-	SymbolLine[1000 800 400 1000 800]
-	SymbolLine[400 1000 200 1400 800]
-	SymbolLine[200 1400 200 1800 800]
-	SymbolLine[200 1800 400 2200 800]
-	SymbolLine[400 2200 800 2400 800]
-	SymbolLine[800 2400 1600 2600 800]
-	SymbolLine[1600 2600 2200 2800 800]
-	SymbolLine[2200 2800 2600 3200 800]
-	SymbolLine[2600 3200 2800 3600 800]
-	SymbolLine[2800 3600 2800 4200 800]
-	SymbolLine[2800 4200 2600 4600 800]
-	SymbolLine[2600 4600 2400 4800 800]
-	SymbolLine[2400 4800 1800 5000 800]
-	SymbolLine[1800 5000 1000 5000 800]
-	SymbolLine[1000 5000 400 4800 800]
-	SymbolLine[400 4800 200 4600 800]
-	SymbolLine[200 4600 0 4200 800]
-	SymbolLine[0 4200 0 3600 800]
-	SymbolLine[0 3600 200 3200 800]
-	SymbolLine[200 3200 600 2800 800]
-	SymbolLine[600 2800 1200 2600 800]
-	SymbolLine[1200 2600 2000 2400 800]
-	SymbolLine[2000 2400 2400 2200 800]
-	SymbolLine[2400 2200 2600 1800 800]
-	SymbolLine[2600 1800 2600 1400 800]
-	SymbolLine[2600 1400 2400 1000 800]
-	SymbolLine[2400 1000 1800 800 800]
-	SymbolLine[1800 800 1000 800 800]
-)
-Symbol['9' 1200]
-(
-	SymbolLine[2600 2200 2400 2800 800]
-	SymbolLine[2400 2800 2000 3200 800]
-	SymbolLine[2000 3200 1400 3400 800]
-	SymbolLine[1400 3400 1200 3400 800]
-	SymbolLine[1200 3400 600 3200 800]
-	SymbolLine[600 3200 200 2800 800]
-	SymbolLine[200 2800 0 2200 800]
-	SymbolLine[0 2200 0 2000 800]
-	SymbolLine[0 2000 200 1400 800]
-	SymbolLine[200 1400 600 1000 800]
-	SymbolLine[600 1000 1200 800 800]
-	SymbolLine[1200 800 1400 800 800]
-	SymbolLine[1400 800 2000 1000 800]
-	SymbolLine[2000 1000 2400 1400 800]
-	SymbolLine[2400 1400 2600 2200 800]
-	SymbolLine[2600 2200 2600 3200 800]
-	SymbolLine[2600 3200 2400 4200 800]
-	SymbolLine[2400 4200 2000 4800 800]
-	SymbolLine[2000 4800 1400 5000 800]
-	SymbolLine[1400 5000 1000 5000 800]
-	SymbolLine[1000 5000 400 4800 800]
-	SymbolLine[400 4800 200 4400 800]
-)
-Symbol[':' 1200]
-(
-	SymbolLine[200 2200 0 2400 800]
-	SymbolLine[0 2400 200 2600 800]
-	SymbolLine[200 2600 400 2400 800]
-	SymbolLine[400 2400 200 2200 800]
-	SymbolLine[200 4600 0 4800 800]
-	SymbolLine[0 4800 200 5000 800]
-	SymbolLine[200 5000 400 4800 800]
-	SymbolLine[400 4800 200 4600 800]
-)
-Symbol[';' 1200]
-(
-	SymbolLine[200 2200 0 2400 800]
-	SymbolLine[0 2400 200 2600 800]
-	SymbolLine[200 2600 400 2400 800]
-	SymbolLine[400 2400 200 2200 800]
-	SymbolLine[400 4800 200 5000 800]
-	SymbolLine[200 5000 0 4800 800]
-	SymbolLine[0 4800 200 4600 800]
-	SymbolLine[200 4600 400 4800 800]
-	SymbolLine[400 4800 400 5200 800]
-	SymbolLine[400 5200 200 5600 800]
-	SymbolLine[200 5600 0 5800 800]
-)
-Symbol['<' 1200]
-(
-	SymbolLine[3200 1400 0 3200 800]
-	SymbolLine[0 3200 3200 5000 800]
-)
-Symbol['=' 1200]
-(
-	SymbolLine[0 2600 3600 2600 800]
-	SymbolLine[0 3800 3600 3800 800]
-)
-Symbol['>' 1200]
-(
-	SymbolLine[0 1400 3200 3200 800]
-	SymbolLine[3200 3200 0 5000 800]
-)
-Symbol['?' 1200]
-(
-	SymbolLine[0 1800 0 1600 800]
-	SymbolLine[0 1600 200 1200 800]
-	SymbolLine[200 1200 400 1000 800]
-	SymbolLine[400 1000 800 800 800]
-	SymbolLine[800 800 1600 800 800]
-	SymbolLine[1600 800 2000 1000 800]
-	SymbolLine[2000 1000 2200 1200 800]
-	SymbolLine[2200 1200 2400 1600 800]
-	SymbolLine[2400 1600 2400 2000 800]
-	SymbolLine[2400 2000 2200 2400 800]
-	SymbolLine[2200 2400 2000 2600 800]
-	SymbolLine[2000 2600 1200 3000 800]
-	SymbolLine[1200 3000 1200 3600 800]
-	SymbolLine[1200 4600 1000 4800 800]
-	SymbolLine[1000 4800 1200 5000 800]
-	SymbolLine[1200 5000 1400 4800 800]
-	SymbolLine[1400 4800 1200 4600 800]
-)
-Symbol['@' 1200]
-(
-	SymbolLine[3000 2400 2800 2000 800]
-	SymbolLine[2800 2000 2400 1800 800]
-	SymbolLine[2400 1800 1800 1800 800]
-	SymbolLine[1800 1800 1400 2000 800]
-	SymbolLine[1400 2000 1200 2200 800]
-	SymbolLine[1200 2200 1000 2800 800]
-	SymbolLine[1000 2800 1000 3400 800]
-	SymbolLine[1000 3400 1200 3800 800]
-	SymbolLine[1200 3800 1600 4000 800]
-	SymbolLine[1600 4000 2200 4000 800]
-	SymbolLine[2200 4000 2600 3800 800]
-	SymbolLine[2600 3800 2800 3400 800]
-	SymbolLine[1800 1800 1400 2200 800]
-	SymbolLine[1400 2200 1200 2800 800]
-	SymbolLine[1200 2800 1200 3400 800]
-	SymbolLine[1200 3400 1400 3800 800]
-	SymbolLine[1400 3800 1600 4000 800]
-	SymbolLine[3000 1800 2800 3400 800]
-	SymbolLine[2800 3400 2800 3800 800]
-	SymbolLine[2800 3800 3200 4000 800]
-	SymbolLine[3200 4000 3600 4000 800]
-	SymbolLine[3600 4000 4000 3600 800]
-	SymbolLine[4000 3600 4200 3000 800]
-	SymbolLine[4200 3000 4200 2600 800]
-	SymbolLine[4200 2600 4000 2000 800]
-	SymbolLine[4000 2000 3800 1600 800]
-	SymbolLine[3800 1600 3400 1200 800]
-	SymbolLine[3400 1200 3000 1000 800]
-	SymbolLine[3000 1000 2400 800 800]
-	SymbolLine[2400 800 1800 800 800]
-	SymbolLine[1800 800 1200 1000 800]
-	SymbolLine[1200 1000 800 1200 800]
-	SymbolLine[800 1200 400 1600 800]
-	SymbolLine[400 1600 200 2000 800]
-	SymbolLine[200 2000 0 2600 800]
-	SymbolLine[0 2600 0 3200 800]
-	SymbolLine[0 3200 200 3800 800]
-	SymbolLine[200 3800 400 4200 800]
-	SymbolLine[400 4200 800 4600 800]
-	SymbolLine[800 4600 1200 4800 800]
-	SymbolLine[1200 4800 1800 5000 800]
-	SymbolLine[1800 5000 2400 5000 800]
-	SymbolLine[2400 5000 3000 4800 800]
-	SymbolLine[3000 4800 3400 4600 800]
-	SymbolLine[3400 4600 3600 4400 800]
-	SymbolLine[3200 1800 3000 3400 800]
-	SymbolLine[3000 3400 3000 3800 800]
-	SymbolLine[3000 3800 3200 4000 800]
-)
-Symbol['A' 1200]
-(
-	SymbolLine[1600 800 0 5000 800]
-	SymbolLine[1600 800 3200 5000 800]
-	SymbolLine[600 3600 2600 3600 800]
-)
-Symbol['B' 1200]
-(
-	SymbolLine[0 800 0 5000 800]
-	SymbolLine[0 800 1800 800 800]
-	SymbolLine[1800 800 2400 1000 800]
-	SymbolLine[2400 1000 2600 1200 800]
-	SymbolLine[2600 1200 2800 1600 800]
-	SymbolLine[2800 1600 2800 2000 800]
-	SymbolLine[2800 2000 2600 2400 800]
-	SymbolLine[2600 2400 2400 2600 800]
-	SymbolLine[2400 2600 1800 2800 800]
-	SymbolLine[0 2800 1800 2800 800]
-	SymbolLine[1800 2800 2400 3000 800]
-	SymbolLine[2400 3000 2600 3200 800]
-	SymbolLine[2600 3200 2800 3600 800]
-	SymbolLine[2800 3600 2800 4200 800]
-	SymbolLine[2800 4200 2600 4600 800]
-	SymbolLine[2600 4600 2400 4800 800]
-	SymbolLine[2400 4800 1800 5000 800]
-	SymbolLine[1800 5000 0 5000 800]
-)
-Symbol['C' 1200]
-(
-	SymbolLine[3000 1800 2800 1400 800]
-	SymbolLine[2800 1400 2400 1000 800]
-	SymbolLine[2400 1000 2000 800 800]
-	SymbolLine[2000 800 1200 800 800]
-	SymbolLine[1200 800 800 1000 800]
-	SymbolLine[800 1000 400 1400 800]
-	SymbolLine[400 1400 200 1800 800]
-	SymbolLine[200 1800 0 2400 800]
-	SymbolLine[0 2400 0 3400 800]
-	SymbolLine[0 3400 200 4000 800]
-	SymbolLine[200 4000 400 4400 800]
-	SymbolLine[400 4400 800 4800 800]
-	SymbolLine[800 4800 1200 5000 800]
-	SymbolLine[1200 5000 2000 5000 800]
-	SymbolLine[2000 5000 2400 4800 800]
-	SymbolLine[2400 4800 2800 4400 800]
-	SymbolLine[2800 4400 3000 4000 800]
-)
-Symbol['D' 1200]
-(
-	SymbolLine[0 800 0 5000 800]
-	SymbolLine[0 800 1400 800 800]
-	SymbolLine[1400 800 2000 1000 800]
-	SymbolLine[2000 1000 2400 1400 800]
-	SymbolLine[2400 1400 2600 1800 800]
-	SymbolLine[2600 1800 2800 2400 800]
-	SymbolLine[2800 2400 2800 3400 800]
-	SymbolLine[2800 3400 2600 4000 800]
-	SymbolLine[2600 4000 2400 4400 800]
-	SymbolLine[2400 4400 2000 4800 800]
-	SymbolLine[2000 4800 1400 5000 800]
-	SymbolLine[1400 5000 0 5000 800]
-)
-Symbol['E' 1200]
-(
-	SymbolLine[0 800 0 5000 800]
-	SymbolLine[0 800 2600 800 800]
-	SymbolLine[0 2800 1600 2800 800]
-	SymbolLine[0 5000 2600 5000 800]
-)
-Symbol['F' 1200]
-(
-	SymbolLine[0 800 0 5000 800]
-	SymbolLine[0 800 2600 800 800]
-	SymbolLine[0 2800 1600 2800 800]
-)
-Symbol['G' 1200]
-(
-	SymbolLine[3000 1800 2800 1400 800]
-	SymbolLine[2800 1400 2400 1000 800]
-	SymbolLine[2400 1000 2000 800 800]
-	SymbolLine[2000 800 1200 800 800]
-	SymbolLine[1200 800 800 1000 800]
-	SymbolLine[800 1000 400 1400 800]
-	SymbolLine[400 1400 200 1800 800]
-	SymbolLine[200 1800 0 2400 800]
-	SymbolLine[0 2400 0 3400 800]
-	SymbolLine[0 3400 200 4000 800]
-	SymbolLine[200 4000 400 4400 800]
-	SymbolLine[400 4400 800 4800 800]
-	SymbolLine[800 4800 1200 5000 800]
-	SymbolLine[1200 5000 2000 5000 800]
-	SymbolLine[2000 5000 2400 4800 800]
-	SymbolLine[2400 4800 2800 4400 800]
-	SymbolLine[2800 4400 3000 4000 800]
-	SymbolLine[3000 4000 3000 3400 800]
-	SymbolLine[2000 3400 3000 3400 800]
-)
-Symbol['H' 1200]
-(
-	SymbolLine[0 800 0 5000 800]
-	SymbolLine[2800 800 2800 5000 800]
-	SymbolLine[0 2800 2800 2800 800]
-)
-Symbol['I' 1200]
-(
-	SymbolLine[0 800 0 5000 800]
-)
-Symbol['J' 1200]
-(
-	SymbolLine[2000 800 2000 4000 800]
-	SymbolLine[2000 4000 1800 4600 800]
-	SymbolLine[1800 4600 1600 4800 800]
-	SymbolLine[1600 4800 1200 5000 800]
-	SymbolLine[1200 5000 800 5000 800]
-	SymbolLine[800 5000 400 4800 800]
-	SymbolLine[400 4800 200 4600 800]
-	SymbolLine[200 4600 0 4000 800]
-	SymbolLine[0 4000 0 3600 800]
-)
-Symbol['K' 1200]
-(
-	SymbolLine[0 800 0 5000 800]
-	SymbolLine[2800 800 0 3600 800]
-	SymbolLine[1000 2600 2800 5000 800]
-)
-Symbol['L' 1200]
-(
-	SymbolLine[0 800 0 5000 800]
-	SymbolLine[0 5000 2400 5000 800]
-)
-Symbol['M' 1200]
-(
-	SymbolLine[0 800 0 5000 800]
-	SymbolLine[0 800 1600 5000 800]
-	SymbolLine[3200 800 1600 5000 800]
-	SymbolLine[3200 800 3200 5000 800]
-)
-Symbol['N' 1200]
-(
-	SymbolLine[0 800 0 5000 800]
-	SymbolLine[0 800 2800 5000 800]
-	SymbolLine[2800 800 2800 5000 800]
-)
-Symbol['O' 1200]
-(
-	SymbolLine[1200 800 800 1000 800]
-	SymbolLine[800 1000 400 1400 800]
-	SymbolLine[400 1400 200 1800 800]
-	SymbolLine[200 1800 0 2400 800]
-	SymbolLine[0 2400 0 3400 800]
-	SymbolLine[0 3400 200 4000 800]
-	SymbolLine[200 4000 400 4400 800]
-	SymbolLine[400 4400 800 4800 800]
-	SymbolLine[800 4800 1200 5000 800]
-	SymbolLine[1200 5000 2000 5000 800]
-	SymbolLine[2000 5000 2400 4800 800]
-	SymbolLine[2400 4800 2800 4400 800]
-	SymbolLine[2800 4400 3000 4000 800]
-	SymbolLine[3000 4000 3200 3400 800]
-	SymbolLine[3200 3400 3200 2400 800]
-	SymbolLine[3200 2400 3000 1800 800]
-	SymbolLine[3000 1800 2800 1400 800]
-	SymbolLine[2800 1400 2400 1000 800]
-	SymbolLine[2400 1000 2000 800 800]
-	SymbolLine[2000 800 1200 800 800]
-)
-Symbol['P' 1200]
-(
-	SymbolLine[0 800 0 5000 800]
-	SymbolLine[0 800 1800 800 800]
-	SymbolLine[1800 800 2400 1000 800]
-	SymbolLine[2400 1000 2600 1200 800]
-	SymbolLine[2600 1200 2800 1600 800]
-	SymbolLine[2800 1600 2800 2200 800]
-	SymbolLine[2800 2200 2600 2600 800]
-	SymbolLine[2600 2600 2400 2800 800]
-	SymbolLine[2400 2800 1800 3000 800]
-	SymbolLine[1800 3000 0 3000 800]
-)
-Symbol['Q' 1200]
-(
-	SymbolLine[1200 800 800 1000 800]
-	SymbolLine[800 1000 400 1400 800]
-	SymbolLine[400 1400 200 1800 800]
-	SymbolLine[200 1800 0 2400 800]
-	SymbolLine[0 2400 0 3400 800]
-	SymbolLine[0 3400 200 4000 800]
-	SymbolLine[200 4000 400 4400 800]
-	SymbolLine[400 4400 800 4800 800]
-	SymbolLine[800 4800 1200 5000 800]
-	SymbolLine[1200 5000 2000 5000 800]
-	SymbolLine[2000 5000 2400 4800 800]
-	SymbolLine[2400 4800 2800 4400 800]
-	SymbolLine[2800 4400 3000 4000 800]
-	SymbolLine[3000 4000 3200 3400 800]
-	SymbolLine[3200 3400 3200 2400 800]
-	SymbolLine[3200 2400 3000 1800 800]
-	SymbolLine[3000 1800 2800 1400 800]
-	SymbolLine[2800 1400 2400 1000 800]
-	SymbolLine[2400 1000 2000 800 800]
-	SymbolLine[2000 800 1200 800 800]
-	SymbolLine[1800 4200 3000 5400 800]
-)
-Symbol['R' 1200]
-(
-	SymbolLine[0 800 0 5000 800]
-	SymbolLine[0 800 1800 800 800]
-	SymbolLine[1800 800 2400 1000 800]
-	SymbolLine[2400 1000 2600 1200 800]
-	SymbolLine[2600 1200 2800 1600 800]
-	SymbolLine[2800 1600 2800 2000 800]
-	SymbolLine[2800 2000 2600 2400 800]
-	SymbolLine[2600 2400 2400 2600 800]
-	SymbolLine[2400 2600 1800 2800 800]
-	SymbolLine[1800 2800 0 2800 800]
-	SymbolLine[1400 2800 2800 5000 800]
-)
-Symbol['S' 1200]
-(
-	SymbolLine[2800 1400 2400 1000 800]
-	SymbolLine[2400 1000 1800 800 800]
-	SymbolLine[1800 800 1000 800 800]
-	SymbolLine[1000 800 400 1000 800]
-	SymbolLine[400 1000 0 1400 800]
-	SymbolLine[0 1400 0 1800 800]
-	SymbolLine[0 1800 200 2200 800]
-	SymbolLine[200 2200 400 2400 800]
-	SymbolLine[400 2400 800 2600 800]
-	SymbolLine[800 2600 2000 3000 800]
-	SymbolLine[2000 3000 2400 3200 800]
-	SymbolLine[2400 3200 2600 3400 800]
-	SymbolLine[2600 3400 2800 3800 800]
-	SymbolLine[2800 3800 2800 4400 800]
-	SymbolLine[2800 4400 2400 4800 800]
-	SymbolLine[2400 4800 1800 5000 800]
-	SymbolLine[1800 5000 1000 5000 800]
-	SymbolLine[1000 5000 400 4800 800]
-	SymbolLine[400 4800 0 4400 800]
-)
-Symbol['T' 1200]
-(
-	SymbolLine[1400 800 1400 5000 800]
-	SymbolLine[0 800 2800 800 800]
-)
-Symbol['U' 1200]
-(
-	SymbolLine[0 800 0 3800 800]
-	SymbolLine[0 3800 200 4400 800]
-	SymbolLine[200 4400 600 4800 800]
-	SymbolLine[600 4800 1200 5000 800]
-	SymbolLine[1200 5000 1600 5000 800]
-	SymbolLine[1600 5000 2200 4800 800]
-	SymbolLine[2200 4800 2600 4400 800]
-	SymbolLine[2600 4400 2800 3800 800]
-	SymbolLine[2800 3800 2800 800 800]
-)
-Symbol['V' 1200]
-(
-	SymbolLine[0 800 1600 5000 800]
-	SymbolLine[3200 800 1600 5000 800]
-)
-Symbol['W' 1200]
-(
-	SymbolLine[0 800 1000 5000 800]
-	SymbolLine[2000 800 1000 5000 800]
-	SymbolLine[2000 800 3000 5000 800]
-	SymbolLine[4000 800 3000 5000 800]
-)
-Symbol['X' 1200]
-(
-	SymbolLine[0 800 2800 5000 800]
-	SymbolLine[2800 800 0 5000 800]
-)
-Symbol['Y' 1200]
-(
-	SymbolLine[0 800 1600 2800 800]
-	SymbolLine[1600 2800 1600 5000 800]
-	SymbolLine[3200 800 1600 2800 800]
-)
-Symbol['Z' 1200]
-(
-	SymbolLine[2800 800 0 5000 800]
-	SymbolLine[0 800 2800 800 800]
-	SymbolLine[0 5000 2800 5000 800]
-)
-Symbol['[' 1200]
-(
-	SymbolLine[0 0 0 6400 800]
-	SymbolLine[200 0 200 6400 800]
-	SymbolLine[0 0 1400 0 800]
-	SymbolLine[0 6400 1400 6400 800]
-)
-Symbol['\' 1200]
-(
-	SymbolLine[0 800 2800 5600 800]
-)
-Symbol[']' 1200]
-(
-	SymbolLine[1200 0 1200 6400 800]
-	SymbolLine[1400 0 1400 6400 800]
-	SymbolLine[0 0 1400 0 800]
-	SymbolLine[0 6400 1400 6400 800]
-)
-Symbol['^' 1200]
-(
-	SymbolLine[600 2000 1000 1400 800]
-	SymbolLine[1000 1400 1400 2000 800]
-	SymbolLine[0 2600 1000 1600 800]
-	SymbolLine[1000 1600 2000 2600 800]
-	SymbolLine[1000 1600 1000 5000 800]
-)
-Symbol['_' 1200]
-(
-	SymbolLine[0 5400 3200 5400 800]
-)
-Symbol['`' 1200]
-(
-	SymbolLine[1100 2200 700 2400 800]
-	SymbolLine[700 2400 300 2800 800]
-	SymbolLine[300 2800 100 3400 800]
-	SymbolLine[100 3400 100 3800 800]
-	SymbolLine[100 3800 300 4400 800]
-	SymbolLine[300 4400 700 4800 800]
-	SymbolLine[2000 4800 2400 4400 800]
-	SymbolLine[2400 4400 2600 3800 800]
-	SymbolLine[2600 3800 2600 3400 800]
-	SymbolLine[2600 3400 2400 2800 800]
-	SymbolLine[2400 2800 2000 2400 800]
-	SymbolLine[2000 2400 1600 2200 800]
-	SymbolLine[1600 2200 1000 2200 800]
-	SymbolLine[0 4800 800 4800 800]
-	SymbolLine[2000 4800 2800 4800 800]
-)
-Symbol['a' 1200]
-(
-	SymbolLine[2400 2200 2400 5000 800]
-	SymbolLine[2400 2800 2000 2400 800]
-	SymbolLine[2000 2400 1600 2200 800]
-	SymbolLine[1600 2200 1000 2200 800]
-	SymbolLine[1000 2200 600 2400 800]
-	SymbolLine[600 2400 200 2800 800]
-	SymbolLine[200 2800 0 3400 800]
-	SymbolLine[0 3400 0 3800 800]
-	SymbolLine[0 3800 200 4400 800]
-	SymbolLine[200 4400 600 4800 800]
-	SymbolLine[600 4800 1000 5000 800]
-	SymbolLine[1000 5000 1600 5000 800]
-	SymbolLine[1600 5000 2000 4800 800]
-	SymbolLine[2000 4800 2400 4400 800]
-)
-Symbol['b' 1200]
-(
-	SymbolLine[0 800 0 5000 800]
-	SymbolLine[0 2800 400 2400 800]
-	SymbolLine[400 2400 800 2200 800]
-	SymbolLine[800 2200 1400 2200 800]
-	SymbolLine[1400 2200 1800 2400 800]
-	SymbolLine[1800 2400 2200 2800 800]
-	SymbolLine[2200 2800 2400 3400 800]
-	SymbolLine[2400 3400 2400 3800 800]
-	SymbolLine[2400 3800 2200 4400 800]
-	SymbolLine[2200 4400 1800 4800 800]
-	SymbolLine[1800 4800 1400 5000 800]
-	SymbolLine[1400 5000 800 5000 800]
-	SymbolLine[800 5000 400 4800 800]
-	SymbolLine[400 4800 0 4400 800]
-)
-Symbol['c' 1200]
-(
-	SymbolLine[2400 2800 2000 2400 800]
-	SymbolLine[2000 2400 1600 2200 800]
-	SymbolLine[1600 2200 1000 2200 800]
-	SymbolLine[1000 2200 600 2400 800]
-	SymbolLine[600 2400 200 2800 800]
-	SymbolLine[200 2800 0 3400 800]
-	SymbolLine[0 3400 0 3800 800]
-	SymbolLine[0 3800 200 4400 800]
-	SymbolLine[200 4400 600 4800 800]
-	SymbolLine[600 4800 1000 5000 800]
-	SymbolLine[1000 5000 1600 5000 800]
-	SymbolLine[1600 5000 2000 4800 800]
-	SymbolLine[2000 4800 2400 4400 800]
-)
-Symbol['d' 1200]
-(
-	SymbolLine[2400 800 2400 5000 800]
-	SymbolLine[2400 2800 2000 2400 800]
-	SymbolLine[2000 2400 1600 2200 800]
-	SymbolLine[1600 2200 1000 2200 800]
-	SymbolLine[1000 2200 600 2400 800]
-	SymbolLine[600 2400 200 2800 800]
-	SymbolLine[200 2800 0 3400 800]
-	SymbolLine[0 3400 0 3800 800]
-	SymbolLine[0 3800 200 4400 800]
-	SymbolLine[200 4400 600 4800 800]
-	SymbolLine[600 4800 1000 5000 800]
-	SymbolLine[1000 5000 1600 5000 800]
-	SymbolLine[1600 5000 2000 4800 800]
-	SymbolLine[2000 4800 2400 4400 800]
-)
-Symbol['e' 1200]
-(
-	SymbolLine[0 3400 2400 3400 800]
-	SymbolLine[2400 3400 2400 3000 800]
-	SymbolLine[2400 3000 2200 2600 800]
-	SymbolLine[2200 2600 2000 2400 800]
-	SymbolLine[2000 2400 1600 2200 800]
-	SymbolLine[1600 2200 1000 2200 800]
-	SymbolLine[1000 2200 600 2400 800]
-	SymbolLine[600 2400 200 2800 800]
-	SymbolLine[200 2800 0 3400 800]
-	SymbolLine[0 3400 0 3800 800]
-	SymbolLine[0 3800 200 4400 800]
-	SymbolLine[200 4400 600 4800 800]
-	SymbolLine[600 4800 1000 5000 800]
-	SymbolLine[1000 5000 1600 5000 800]
-	SymbolLine[1600 5000 2000 4800 800]
-	SymbolLine[2000 4800 2400 4400 800]
-)
-Symbol['f' 1200]
-(
-	SymbolLine[1600 800 1200 800 800]
-	SymbolLine[1200 800 800 1000 800]
-	SymbolLine[800 1000 600 1600 800]
-	SymbolLine[600 1600 600 5000 800]
-	SymbolLine[0 2200 1400 2200 800]
-)
-Symbol['g' 1200]
-(
-	SymbolLine[2400 2200 2400 5400 800]
-	SymbolLine[2400 5400 2200 6000 800]
-	SymbolLine[2200 6000 2000 6200 800]
-	SymbolLine[2000 6200 1600 6400 800]
-	SymbolLine[1600 6400 1000 6400 800]
-	SymbolLine[1000 6400 600 6200 800]
-	SymbolLine[2400 2800 2000 2400 800]
-	SymbolLine[2000 2400 1600 2200 800]
-	SymbolLine[1600 2200 1000 2200 800]
-	SymbolLine[1000 2200 600 2400 800]
-	SymbolLine[600 2400 200 2800 800]
-	SymbolLine[200 2800 0 3400 800]
-	SymbolLine[0 3400 0 3800 800]
-	SymbolLine[0 3800 200 4400 800]
-	SymbolLine[200 4400 600 4800 800]
-	SymbolLine[600 4800 1000 5000 800]
-	SymbolLine[1000 5000 1600 5000 800]
-	SymbolLine[1600 5000 2000 4800 800]
-	SymbolLine[2000 4800 2400 4400 800]
-)
-Symbol['h' 1200]
-(
-	SymbolLine[0 800 0 5000 800]
-	SymbolLine[0 3000 600 2400 800]
-	SymbolLine[600 2400 1000 2200 800]
-	SymbolLine[1000 2200 1600 2200 800]
-	SymbolLine[1600 2200 2000 2400 800]
-	SymbolLine[2000 2400 2200 3000 800]
-	SymbolLine[2200 3000 2200 5000 800]
-)
-Symbol['i' 1200]
-(
-	SymbolLine[0 800 200 1000 800]
-	SymbolLine[200 1000 400 800 800]
-	SymbolLine[400 800 200 600 800]
-	SymbolLine[200 600 0 800 800]
-	SymbolLine[200 2200 200 5000 800]
-)
-Symbol['j' 1200]
-(
-	SymbolLine[800 800 1000 1000 800]
-	SymbolLine[1000 1000 1200 800 800]
-	SymbolLine[1200 800 1000 600 800]
-	SymbolLine[1000 600 800 800 800]
-	SymbolLine[1000 2200 1000 5600 800]
-	SymbolLine[1000 5600 800 6200 800]
-	SymbolLine[800 6200 400 6400 800]
-	SymbolLine[400 6400 0 6400 800]
-)
-Symbol['k' 1200]
-(
-	SymbolLine[0 800 0 5000 800]
-	SymbolLine[2000 2200 0 4200 800]
-	SymbolLine[800 3400 2200 5000 800]
-)
-Symbol['l' 1200]
-(
-	SymbolLine[0 800 0 5000 800]
-)
-Symbol['m' 1200]
-(
-	SymbolLine[0 2200 0 5000 800]
-	SymbolLine[0 3000 600 2400 800]
-	SymbolLine[600 2400 1000 2200 800]
-	SymbolLine[1000 2200 1600 2200 800]
-	SymbolLine[1600 2200 2000 2400 800]
-	SymbolLine[2000 2400 2200 3000 800]
-	SymbolLine[2200 3000 2200 5000 800]
-	SymbolLine[2200 3000 2800 2400 800]
-	SymbolLine[2800 2400 3200 2200 800]
-	SymbolLine[3200 2200 3800 2200 800]
-	SymbolLine[3800 2200 4200 2400 800]
-	SymbolLine[4200 2400 4400 3000 800]
-	SymbolLine[4400 3000 4400 5000 800]
-)
-Symbol['n' 1200]
-(
-	SymbolLine[0 2200 0 5000 800]
-	SymbolLine[0 3000 600 2400 800]
-	SymbolLine[600 2400 1000 2200 800]
-	SymbolLine[1000 2200 1600 2200 800]
-	SymbolLine[1600 2200 2000 2400 800]
-	SymbolLine[2000 2400 2200 3000 800]
-	SymbolLine[2200 3000 2200 5000 800]
-)
-Symbol['o' 1200]
-(
-	SymbolLine[1000 2200 600 2400 800]
-	SymbolLine[600 2400 200 2800 800]
-	SymbolLine[200 2800 0 3400 800]
-	SymbolLine[0 3400 0 3800 800]
-	SymbolLine[0 3800 200 4400 800]
-	SymbolLine[200 4400 600 4800 800]
-	SymbolLine[600 4800 1000 5000 800]
-	SymbolLine[1000 5000 1600 5000 800]
-	SymbolLine[1600 5000 2000 4800 800]
-	SymbolLine[2000 4800 2400 4400 800]
-	SymbolLine[2400 4400 2600 3800 800]
-	SymbolLine[2600 3800 2600 3400 800]
-	SymbolLine[2600 3400 2400 2800 800]
-	SymbolLine[2400 2800 2000 2400 800]
-	SymbolLine[2000 2400 1600 2200 800]
-	SymbolLine[1600 2200 1000 2200 800]
-)
-Symbol['p' 1200]
-(
-	SymbolLine[0 2200 0 6400 800]
-	SymbolLine[0 2800 400 2400 800]
-	SymbolLine[400 2400 800 2200 800]
-	SymbolLine[800 2200 1400 2200 800]
-	SymbolLine[1400 2200 1800 2400 800]
-	SymbolLine[1800 2400 2200 2800 800]
-	SymbolLine[2200 2800 2400 3400 800]
-	SymbolLine[2400 3400 2400 3800 800]
-	SymbolLine[2400 3800 2200 4400 800]
-	SymbolLine[2200 4400 1800 4800 800]
-	SymbolLine[1800 4800 1400 5000 800]
-	SymbolLine[1400 5000 800 5000 800]
-	SymbolLine[800 5000 400 4800 800]
-	SymbolLine[400 4800 0 4400 800]
-)
-Symbol['q' 1200]
-(
-	SymbolLine[2400 2200 2400 6400 800]
-	SymbolLine[2400 2800 2000 2400 800]
-	SymbolLine[2000 2400 1600 2200 800]
-	SymbolLine[1600 2200 1000 2200 800]
-	SymbolLine[1000 2200 600 2400 800]
-	SymbolLine[600 2400 200 2800 800]
-	SymbolLine[200 2800 0 3400 800]
-	SymbolLine[0 3400 0 3800 800]
-	SymbolLine[0 3800 200 4400 800]
-	SymbolLine[200 4400 600 4800 800]
-	SymbolLine[600 4800 1000 5000 800]
-	SymbolLine[1000 5000 1600 5000 800]
-	SymbolLine[1600 5000 2000 4800 800]
-	SymbolLine[2000 4800 2400 4400 800]
-)
-Symbol['r' 1200]
-(
-	SymbolLine[0 2200 0 5000 800]
-	SymbolLine[0 3400 200 2800 800]
-	SymbolLine[200 2800 600 2400 800]
-	SymbolLine[600 2400 1000 2200 800]
-	SymbolLine[1000 2200 1600 2200 800]
-)
-Symbol['s' 1200]
-(
-	SymbolLine[2200 2800 2000 2400 800]
-	SymbolLine[2000 2400 1400 2200 800]
-	SymbolLine[1400 2200 800 2200 800]
-	SymbolLine[800 2200 200 2400 800]
-	SymbolLine[200 2400 0 2800 800]
-	SymbolLine[0 2800 200 3200 800]
-	SymbolLine[200 3200 600 3400 800]
-	SymbolLine[600 3400 1600 3600 800]
-	SymbolLine[1600 3600 2000 3800 800]
-	SymbolLine[2000 3800 2200 4200 800]
-	SymbolLine[2200 4200 2200 4400 800]
-	SymbolLine[2200 4400 2000 4800 800]
-	SymbolLine[2000 4800 1400 5000 800]
-	SymbolLine[1400 5000 800 5000 800]
-	SymbolLine[800 5000 200 4800 800]
-	SymbolLine[200 4800 0 4400 800]
-)
-Symbol['t' 1200]
-(
-	SymbolLine[600 800 600 4200 800]
-	SymbolLine[600 4200 800 4800 800]
-	SymbolLine[800 4800 1200 5000 800]
-	SymbolLine[1200 5000 1600 5000 800]
-	SymbolLine[0 2200 1400 2200 800]
-)
-Symbol['u' 1200]
-(
-	SymbolLine[0 2200 0 4200 800]
-	SymbolLine[0 4200 200 4800 800]
-	SymbolLine[200 4800 600 5000 800]
-	SymbolLine[600 5000 1200 5000 800]
-	SymbolLine[1200 5000 1600 4800 800]
-	SymbolLine[1600 4800 2200 4200 800]
-	SymbolLine[2200 2200 2200 5000 800]
-)
-Symbol['v' 1200]
-(
-	SymbolLine[0 2200 1200 5000 800]
-	SymbolLine[2400 2200 1200 5000 800]
-)
-Symbol['w' 1200]
-(
-	SymbolLine[0 2200 800 5000 800]
-	SymbolLine[1600 2200 800 5000 800]
-	SymbolLine[1600 2200 2400 5000 800]
-	SymbolLine[3200 2200 2400 5000 800]
-)
-Symbol['x' 1200]
-(
-	SymbolLine[0 2200 2200 5000 800]
-	SymbolLine[2200 2200 0 5000 800]
-)
-Symbol['y' 1200]
-(
-	SymbolLine[200 2200 1400 5000 800]
-	SymbolLine[2600 2200 1400 5000 800]
-	SymbolLine[1400 5000 1000 5800 800]
-	SymbolLine[1000 5800 600 6200 800]
-	SymbolLine[600 6200 200 6400 800]
-	SymbolLine[200 6400 0 6400 800]
-)
-Symbol['z' 1200]
-(
-	SymbolLine[2200 2200 0 5000 800]
-	SymbolLine[0 2200 2200 2200 800]
-	SymbolLine[0 5000 2200 5000 800]
-)
-Symbol['{' 1200]
-(
-	SymbolLine[1000 0 600 200 800]
-	SymbolLine[600 200 400 400 800]
-	SymbolLine[400 400 200 800 800]
-	SymbolLine[200 800 200 1200 800]
-	SymbolLine[200 1200 400 1600 800]
-	SymbolLine[400 1600 600 1800 800]
-	SymbolLine[600 1800 800 2200 800]
-	SymbolLine[800 2200 800 2600 800]
-	SymbolLine[800 2600 400 3000 800]
-	SymbolLine[600 200 400 600 800]
-	SymbolLine[400 600 400 1000 800]
-	SymbolLine[400 1000 600 1400 800]
-	SymbolLine[600 1400 800 1600 800]
-	SymbolLine[800 1600 1000 2000 800]
-	SymbolLine[1000 2000 1000 2400 800]
-	SymbolLine[1000 2400 800 2800 800]
-	SymbolLine[800 2800 0 3200 800]
-	SymbolLine[0 3200 800 3600 800]
-	SymbolLine[800 3600 1000 4000 800]
-	SymbolLine[1000 4000 1000 4400 800]
-	SymbolLine[1000 4400 800 4800 800]
-	SymbolLine[800 4800 600 5000 800]
-	SymbolLine[600 5000 400 5400 800]
-	SymbolLine[400 5400 400 5800 800]
-	SymbolLine[400 5800 600 6200 800]
-	SymbolLine[400 3400 800 3800 800]
-	SymbolLine[800 3800 800 4200 800]
-	SymbolLine[800 4200 600 4600 800]
-	SymbolLine[600 4600 400 4800 800]
-	SymbolLine[400 4800 200 5200 800]
-	SymbolLine[200 5200 200 5600 800]
-	SymbolLine[200 5600 400 6000 800]
-	SymbolLine[400 6000 600 6200 800]
-	SymbolLine[600 6200 1000 6400 800]
-)
-Symbol['|' 1200]
-(
-	SymbolLine[0 0 0 6400 800]
-)
-Symbol['}' 1200]
-(
-	SymbolLine[0 0 400 200 800]
-	SymbolLine[400 200 600 400 800]
-	SymbolLine[600 400 800 800 800]
-	SymbolLine[800 800 800 1200 800]
-	SymbolLine[800 1200 600 1600 800]
-	SymbolLine[600 1600 400 1800 800]
-	SymbolLine[400 1800 200 2200 800]
-	SymbolLine[200 2200 200 2600 800]
-	SymbolLine[200 2600 600 3000 800]
-	SymbolLine[400 200 600 600 800]
-	SymbolLine[600 600 600 1000 800]
-	SymbolLine[600 1000 400 1400 800]
-	SymbolLine[400 1400 200 1600 800]
-	SymbolLine[200 1600 0 2000 800]
-	SymbolLine[0 2000 0 2400 800]
-	SymbolLine[0 2400 200 2800 800]
-	SymbolLine[200 2800 1000 3200 800]
-	SymbolLine[1000 3200 200 3600 800]
-	SymbolLine[200 3600 0 4000 800]
-	SymbolLine[0 4000 0 4400 800]
-	SymbolLine[0 4400 200 4800 800]
-	SymbolLine[200 4800 400 5000 800]
-	SymbolLine[400 5000 600 5400 800]
-	SymbolLine[600 5400 600 5800 800]
-	SymbolLine[600 5800 400 6200 800]
-	SymbolLine[600 3400 200 3800 800]
-	SymbolLine[200 3800 200 4200 800]
-	SymbolLine[200 4200 400 4600 800]
-	SymbolLine[400 4600 600 4800 800]
-	SymbolLine[600 4800 800 5200 800]
-	SymbolLine[800 5200 800 5600 800]
-	SymbolLine[800 5600 600 6000 800]
-	SymbolLine[600 6000 400 6200 800]
-	SymbolLine[400 6200 0 6400 800]
-)
-Symbol['~' 1200]
-(
-	SymbolLine[0 3800 0 3400 800]
-	SymbolLine[0 3400 200 2800 800]
-	SymbolLine[200 2800 600 2600 800]
-	SymbolLine[600 2600 1000 2600 800]
-	SymbolLine[1000 2600 1400 2800 800]
-	SymbolLine[1400 2800 2200 3400 800]
-	SymbolLine[2200 3400 2600 3600 800]
-	SymbolLine[2600 3600 3000 3600 800]
-	SymbolLine[3000 3600 3400 3400 800]
-	SymbolLine[3400 3400 3600 3000 800]
-	SymbolLine[0 3400 200 3000 800]
-	SymbolLine[200 3000 600 2800 800]
-	SymbolLine[600 2800 1000 2800 800]
-	SymbolLine[1000 2800 1400 3000 800]
-	SymbolLine[1400 3000 2200 3600 800]
-	SymbolLine[2200 3600 2600 3800 800]
-	SymbolLine[2600 3800 3000 3800 800]
-	SymbolLine[3000 3800 3400 3600 800]
-	SymbolLine[3400 3600 3600 3000 800]
-	SymbolLine[3600 3000 3600 2600 800]
+Symbol[' ' 12.00mil]
+(
+)
+Symbol['!' 12.00mil]
+(
+	SymbolLine[2.00mil 8.00mil 2.00mil 36.00mil 8.00mil]
+	SymbolLine[2.00mil 46.00mil 0.0000 48.00mil 8.00mil]
+	SymbolLine[0.0000 48.00mil 2.00mil 50.00mil 8.00mil]
+	SymbolLine[2.00mil 50.00mil 4.00mil 48.00mil 8.00mil]
+	SymbolLine[4.00mil 48.00mil 2.00mil 46.00mil 8.00mil]
+)
+Symbol['"' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 0.0000 22.00mil 8.00mil]
+	SymbolLine[16.00mil 8.00mil 16.00mil 22.00mil 8.00mil]
+)
+Symbol['#' 12.00mil]
+(
+	SymbolLine[16.00mil 0.0000 2.00mil 64.00mil 8.00mil]
+	SymbolLine[28.00mil 0.0000 14.00mil 64.00mil 8.00mil]
+	SymbolLine[2.00mil 26.00mil 30.00mil 26.00mil 8.00mil]
+	SymbolLine[0.0000 38.00mil 28.00mil 38.00mil 8.00mil]
+)
+Symbol['$' 12.00mil]
+(
+	SymbolLine[10.00mil 0.0000 10.00mil 58.00mil 8.00mil]
+	SymbolLine[18.00mil 0.0000 18.00mil 58.00mil 8.00mil]
+	SymbolLine[28.00mil 14.00mil 24.00mil 10.00mil 8.00mil]
+	SymbolLine[24.00mil 10.00mil 18.00mil 8.00mil 8.00mil]
+	SymbolLine[18.00mil 8.00mil 10.00mil 8.00mil 8.00mil]
+	SymbolLine[10.00mil 8.00mil 4.00mil 10.00mil 8.00mil]
+	SymbolLine[4.00mil 10.00mil 0.0000 14.00mil 8.00mil]
+	SymbolLine[0.0000 14.00mil 0.0000 18.00mil 8.00mil]
+	SymbolLine[0.0000 18.00mil 2.00mil 22.00mil 8.00mil]
+	SymbolLine[2.00mil 22.00mil 4.00mil 24.00mil 8.00mil]
+	SymbolLine[4.00mil 24.00mil 8.00mil 26.00mil 8.00mil]
+	SymbolLine[8.00mil 26.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 24.00mil 32.00mil 8.00mil]
+	SymbolLine[24.00mil 32.00mil 26.00mil 34.00mil 8.00mil]
+	SymbolLine[26.00mil 34.00mil 28.00mil 38.00mil 8.00mil]
+	SymbolLine[28.00mil 38.00mil 28.00mil 44.00mil 8.00mil]
+	SymbolLine[28.00mil 44.00mil 24.00mil 48.00mil 8.00mil]
+	SymbolLine[24.00mil 48.00mil 18.00mil 50.00mil 8.00mil]
+	SymbolLine[18.00mil 50.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 4.00mil 48.00mil 8.00mil]
+	SymbolLine[4.00mil 48.00mil 0.0000 44.00mil 8.00mil]
+)
+Symbol['%' 12.00mil]
+(
+	SymbolLine[36.00mil 8.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[10.00mil 8.00mil 14.00mil 12.00mil 8.00mil]
+	SymbolLine[14.00mil 12.00mil 14.00mil 16.00mil 8.00mil]
+	SymbolLine[14.00mil 16.00mil 12.00mil 20.00mil 8.00mil]
+	SymbolLine[12.00mil 20.00mil 8.00mil 22.00mil 8.00mil]
+	SymbolLine[8.00mil 22.00mil 4.00mil 22.00mil 8.00mil]
+	SymbolLine[4.00mil 22.00mil 0.0000 18.00mil 8.00mil]
+	SymbolLine[0.0000 18.00mil 0.0000 14.00mil 8.00mil]
+	SymbolLine[0.0000 14.00mil 2.00mil 10.00mil 8.00mil]
+	SymbolLine[2.00mil 10.00mil 6.00mil 8.00mil 8.00mil]
+	SymbolLine[6.00mil 8.00mil 10.00mil 8.00mil 8.00mil]
+	SymbolLine[10.00mil 8.00mil 14.00mil 10.00mil 8.00mil]
+	SymbolLine[14.00mil 10.00mil 20.00mil 12.00mil 8.00mil]
+	SymbolLine[20.00mil 12.00mil 26.00mil 12.00mil 8.00mil]
+	SymbolLine[26.00mil 12.00mil 32.00mil 10.00mil 8.00mil]
+	SymbolLine[32.00mil 10.00mil 36.00mil 8.00mil 8.00mil]
+	SymbolLine[28.00mil 36.00mil 24.00mil 38.00mil 8.00mil]
+	SymbolLine[24.00mil 38.00mil 22.00mil 42.00mil 8.00mil]
+	SymbolLine[22.00mil 42.00mil 22.00mil 46.00mil 8.00mil]
+	SymbolLine[22.00mil 46.00mil 26.00mil 50.00mil 8.00mil]
+	SymbolLine[26.00mil 50.00mil 30.00mil 50.00mil 8.00mil]
+	SymbolLine[30.00mil 50.00mil 34.00mil 48.00mil 8.00mil]
+	SymbolLine[34.00mil 48.00mil 36.00mil 44.00mil 8.00mil]
+	SymbolLine[36.00mil 44.00mil 36.00mil 40.00mil 8.00mil]
+	SymbolLine[36.00mil 40.00mil 32.00mil 36.00mil 8.00mil]
+	SymbolLine[32.00mil 36.00mil 28.00mil 36.00mil 8.00mil]
+)
+Symbol['&' 12.00mil]
+(
+	SymbolLine[40.00mil 26.00mil 40.00mil 24.00mil 8.00mil]
+	SymbolLine[40.00mil 24.00mil 38.00mil 22.00mil 8.00mil]
+	SymbolLine[38.00mil 22.00mil 36.00mil 22.00mil 8.00mil]
+	SymbolLine[36.00mil 22.00mil 34.00mil 24.00mil 8.00mil]
+	SymbolLine[34.00mil 24.00mil 32.00mil 28.00mil 8.00mil]
+	SymbolLine[32.00mil 28.00mil 28.00mil 38.00mil 8.00mil]
+	SymbolLine[28.00mil 38.00mil 24.00mil 44.00mil 8.00mil]
+	SymbolLine[24.00mil 44.00mil 20.00mil 48.00mil 8.00mil]
+	SymbolLine[20.00mil 48.00mil 16.00mil 50.00mil 8.00mil]
+	SymbolLine[16.00mil 50.00mil 8.00mil 50.00mil 8.00mil]
+	SymbolLine[8.00mil 50.00mil 4.00mil 48.00mil 8.00mil]
+	SymbolLine[4.00mil 48.00mil 2.00mil 46.00mil 8.00mil]
+	SymbolLine[2.00mil 46.00mil 0.0000 42.00mil 8.00mil]
+	SymbolLine[0.0000 42.00mil 0.0000 38.00mil 8.00mil]
+	SymbolLine[0.0000 38.00mil 2.00mil 34.00mil 8.00mil]
+	SymbolLine[2.00mil 34.00mil 4.00mil 32.00mil 8.00mil]
+	SymbolLine[4.00mil 32.00mil 18.00mil 24.00mil 8.00mil]
+	SymbolLine[18.00mil 24.00mil 20.00mil 22.00mil 8.00mil]
+	SymbolLine[20.00mil 22.00mil 22.00mil 18.00mil 8.00mil]
+	SymbolLine[22.00mil 18.00mil 22.00mil 14.00mil 8.00mil]
+	SymbolLine[22.00mil 14.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[20.00mil 10.00mil 16.00mil 8.00mil 8.00mil]
+	SymbolLine[16.00mil 8.00mil 12.00mil 10.00mil 8.00mil]
+	SymbolLine[12.00mil 10.00mil 10.00mil 14.00mil 8.00mil]
+	SymbolLine[10.00mil 14.00mil 10.00mil 18.00mil 8.00mil]
+	SymbolLine[10.00mil 18.00mil 12.00mil 24.00mil 8.00mil]
+	SymbolLine[12.00mil 24.00mil 16.00mil 30.00mil 8.00mil]
+	SymbolLine[16.00mil 30.00mil 26.00mil 44.00mil 8.00mil]
+	SymbolLine[26.00mil 44.00mil 30.00mil 48.00mil 8.00mil]
+	SymbolLine[30.00mil 48.00mil 34.00mil 50.00mil 8.00mil]
+	SymbolLine[34.00mil 50.00mil 38.00mil 50.00mil 8.00mil]
+	SymbolLine[38.00mil 50.00mil 40.00mil 48.00mil 8.00mil]
+	SymbolLine[40.00mil 48.00mil 40.00mil 46.00mil 8.00mil]
+)
+Symbol[''' 12.00mil]
+(
+	SymbolLine[2.00mil 12.00mil 0.0000 10.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 2.00mil 8.00mil 8.00mil]
+	SymbolLine[2.00mil 8.00mil 4.00mil 10.00mil 8.00mil]
+	SymbolLine[4.00mil 10.00mil 4.00mil 14.00mil 8.00mil]
+	SymbolLine[4.00mil 14.00mil 2.00mil 18.00mil 8.00mil]
+	SymbolLine[2.00mil 18.00mil 0.0000 20.00mil 8.00mil]
+)
+Symbol['(' 12.00mil]
+(
+	SymbolLine[14.00mil 0.0000 10.00mil 4.00mil 8.00mil]
+	SymbolLine[10.00mil 4.00mil 6.00mil 10.00mil 8.00mil]
+	SymbolLine[6.00mil 10.00mil 2.00mil 18.00mil 8.00mil]
+	SymbolLine[2.00mil 18.00mil 0.0000 28.00mil 8.00mil]
+	SymbolLine[0.0000 28.00mil 0.0000 36.00mil 8.00mil]
+	SymbolLine[0.0000 36.00mil 2.00mil 46.00mil 8.00mil]
+	SymbolLine[2.00mil 46.00mil 6.00mil 54.00mil 8.00mil]
+	SymbolLine[6.00mil 54.00mil 10.00mil 60.00mil 8.00mil]
+	SymbolLine[10.00mil 60.00mil 14.00mil 64.00mil 8.00mil]
+)
+Symbol[')' 12.00mil]
+(
+	SymbolLine[0.0000 0.0000 4.00mil 4.00mil 8.00mil]
+	SymbolLine[4.00mil 4.00mil 8.00mil 10.00mil 8.00mil]
+	SymbolLine[8.00mil 10.00mil 12.00mil 18.00mil 8.00mil]
+	SymbolLine[12.00mil 18.00mil 14.00mil 28.00mil 8.00mil]
+	SymbolLine[14.00mil 28.00mil 14.00mil 36.00mil 8.00mil]
+	SymbolLine[14.00mil 36.00mil 12.00mil 46.00mil 8.00mil]
+	SymbolLine[12.00mil 46.00mil 8.00mil 54.00mil 8.00mil]
+	SymbolLine[8.00mil 54.00mil 4.00mil 60.00mil 8.00mil]
+	SymbolLine[4.00mil 60.00mil 0.0000 64.00mil 8.00mil]
+)
+Symbol['*' 12.00mil]
+(
+	SymbolLine[10.00mil 8.00mil 10.00mil 32.00mil 8.00mil]
+	SymbolLine[0.0000 14.00mil 20.00mil 26.00mil 8.00mil]
+	SymbolLine[20.00mil 14.00mil 0.0000 26.00mil 8.00mil]
+)
+Symbol['+' 12.00mil]
+(
+	SymbolLine[18.00mil 14.00mil 18.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 32.00mil 36.00mil 32.00mil 8.00mil]
+)
+Symbol[',' 12.00mil]
+(
+	SymbolLine[4.00mil 48.00mil 2.00mil 50.00mil 8.00mil]
+	SymbolLine[2.00mil 50.00mil 0.0000 48.00mil 8.00mil]
+	SymbolLine[0.0000 48.00mil 2.00mil 46.00mil 8.00mil]
+	SymbolLine[2.00mil 46.00mil 4.00mil 48.00mil 8.00mil]
+	SymbolLine[4.00mil 48.00mil 4.00mil 52.00mil 8.00mil]
+	SymbolLine[4.00mil 52.00mil 2.00mil 56.00mil 8.00mil]
+	SymbolLine[2.00mil 56.00mil 0.0000 58.00mil 8.00mil]
+)
+Symbol['-' 12.00mil]
+(
+	SymbolLine[0.0000 32.00mil 36.00mil 32.00mil 8.00mil]
+)
+Symbol['.' 12.00mil]
+(
+	SymbolLine[2.00mil 46.00mil 0.0000 48.00mil 8.00mil]
+	SymbolLine[0.0000 48.00mil 2.00mil 50.00mil 8.00mil]
+	SymbolLine[2.00mil 50.00mil 4.00mil 48.00mil 8.00mil]
+	SymbolLine[4.00mil 48.00mil 2.00mil 46.00mil 8.00mil]
+)
+Symbol['/' 12.00mil]
+(
+	SymbolLine[36.00mil 0.0000 0.0000 64.00mil 8.00mil]
+)
+Symbol['0' 12.00mil]
+(
+	SymbolLine[12.00mil 8.00mil 6.00mil 10.00mil 8.00mil]
+	SymbolLine[6.00mil 10.00mil 2.00mil 16.00mil 8.00mil]
+	SymbolLine[2.00mil 16.00mil 0.0000 26.00mil 8.00mil]
+	SymbolLine[0.0000 26.00mil 0.0000 32.00mil 8.00mil]
+	SymbolLine[0.0000 32.00mil 2.00mil 42.00mil 8.00mil]
+	SymbolLine[2.00mil 42.00mil 6.00mil 48.00mil 8.00mil]
+	SymbolLine[6.00mil 48.00mil 12.00mil 50.00mil 8.00mil]
+	SymbolLine[12.00mil 50.00mil 16.00mil 50.00mil 8.00mil]
+	SymbolLine[16.00mil 50.00mil 22.00mil 48.00mil 8.00mil]
+	SymbolLine[22.00mil 48.00mil 26.00mil 42.00mil 8.00mil]
+	SymbolLine[26.00mil 42.00mil 28.00mil 32.00mil 8.00mil]
+	SymbolLine[28.00mil 32.00mil 28.00mil 26.00mil 8.00mil]
+	SymbolLine[28.00mil 26.00mil 26.00mil 16.00mil 8.00mil]
+	SymbolLine[26.00mil 16.00mil 22.00mil 10.00mil 8.00mil]
+	SymbolLine[22.00mil 10.00mil 16.00mil 8.00mil 8.00mil]
+	SymbolLine[16.00mil 8.00mil 12.00mil 8.00mil 8.00mil]
+)
+Symbol['1' 12.00mil]
+(
+	SymbolLine[0.0000 16.00mil 4.00mil 14.00mil 8.00mil]
+	SymbolLine[4.00mil 14.00mil 10.00mil 8.00mil 8.00mil]
+	SymbolLine[10.00mil 8.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['2' 12.00mil]
+(
+	SymbolLine[2.00mil 18.00mil 2.00mil 16.00mil 8.00mil]
+	SymbolLine[2.00mil 16.00mil 4.00mil 12.00mil 8.00mil]
+	SymbolLine[4.00mil 12.00mil 6.00mil 10.00mil 8.00mil]
+	SymbolLine[6.00mil 10.00mil 10.00mil 8.00mil 8.00mil]
+	SymbolLine[10.00mil 8.00mil 18.00mil 8.00mil 8.00mil]
+	SymbolLine[18.00mil 8.00mil 22.00mil 10.00mil 8.00mil]
+	SymbolLine[22.00mil 10.00mil 24.00mil 12.00mil 8.00mil]
+	SymbolLine[24.00mil 12.00mil 26.00mil 16.00mil 8.00mil]
+	SymbolLine[26.00mil 16.00mil 26.00mil 20.00mil 8.00mil]
+	SymbolLine[26.00mil 20.00mil 24.00mil 24.00mil 8.00mil]
+	SymbolLine[24.00mil 24.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 28.00mil 50.00mil 8.00mil]
+)
+Symbol['3' 12.00mil]
+(
+	SymbolLine[4.00mil 8.00mil 26.00mil 8.00mil 8.00mil]
+	SymbolLine[26.00mil 8.00mil 14.00mil 24.00mil 8.00mil]
+	SymbolLine[14.00mil 24.00mil 20.00mil 24.00mil 8.00mil]
+	SymbolLine[20.00mil 24.00mil 24.00mil 26.00mil 8.00mil]
+	SymbolLine[24.00mil 26.00mil 26.00mil 28.00mil 8.00mil]
+	SymbolLine[26.00mil 28.00mil 28.00mil 34.00mil 8.00mil]
+	SymbolLine[28.00mil 34.00mil 28.00mil 38.00mil 8.00mil]
+	SymbolLine[28.00mil 38.00mil 26.00mil 44.00mil 8.00mil]
+	SymbolLine[26.00mil 44.00mil 22.00mil 48.00mil 8.00mil]
+	SymbolLine[22.00mil 48.00mil 16.00mil 50.00mil 8.00mil]
+	SymbolLine[16.00mil 50.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 4.00mil 48.00mil 8.00mil]
+	SymbolLine[4.00mil 48.00mil 2.00mil 46.00mil 8.00mil]
+	SymbolLine[2.00mil 46.00mil 0.0000 42.00mil 8.00mil]
+)
+Symbol['4' 12.00mil]
+(
+	SymbolLine[20.00mil 8.00mil 0.0000 36.00mil 8.00mil]
+	SymbolLine[0.0000 36.00mil 30.00mil 36.00mil 8.00mil]
+	SymbolLine[20.00mil 8.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['5' 12.00mil]
+(
+	SymbolLine[24.00mil 8.00mil 4.00mil 8.00mil 8.00mil]
+	SymbolLine[4.00mil 8.00mil 2.00mil 26.00mil 8.00mil]
+	SymbolLine[2.00mil 26.00mil 4.00mil 24.00mil 8.00mil]
+	SymbolLine[4.00mil 24.00mil 10.00mil 22.00mil 8.00mil]
+	SymbolLine[10.00mil 22.00mil 16.00mil 22.00mil 8.00mil]
+	SymbolLine[16.00mil 22.00mil 22.00mil 24.00mil 8.00mil]
+	SymbolLine[22.00mil 24.00mil 26.00mil 28.00mil 8.00mil]
+	SymbolLine[26.00mil 28.00mil 28.00mil 34.00mil 8.00mil]
+	SymbolLine[28.00mil 34.00mil 28.00mil 38.00mil 8.00mil]
+	SymbolLine[28.00mil 38.00mil 26.00mil 44.00mil 8.00mil]
+	SymbolLine[26.00mil 44.00mil 22.00mil 48.00mil 8.00mil]
+	SymbolLine[22.00mil 48.00mil 16.00mil 50.00mil 8.00mil]
+	SymbolLine[16.00mil 50.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 4.00mil 48.00mil 8.00mil]
+	SymbolLine[4.00mil 48.00mil 2.00mil 46.00mil 8.00mil]
+	SymbolLine[2.00mil 46.00mil 0.0000 42.00mil 8.00mil]
+)
+Symbol['6' 12.00mil]
+(
+	SymbolLine[24.00mil 14.00mil 22.00mil 10.00mil 8.00mil]
+	SymbolLine[22.00mil 10.00mil 16.00mil 8.00mil 8.00mil]
+	SymbolLine[16.00mil 8.00mil 12.00mil 8.00mil 8.00mil]
+	SymbolLine[12.00mil 8.00mil 6.00mil 10.00mil 8.00mil]
+	SymbolLine[6.00mil 10.00mil 2.00mil 16.00mil 8.00mil]
+	SymbolLine[2.00mil 16.00mil 0.0000 26.00mil 8.00mil]
+	SymbolLine[0.0000 26.00mil 0.0000 36.00mil 8.00mil]
+	SymbolLine[0.0000 36.00mil 2.00mil 44.00mil 8.00mil]
+	SymbolLine[2.00mil 44.00mil 6.00mil 48.00mil 8.00mil]
+	SymbolLine[6.00mil 48.00mil 12.00mil 50.00mil 8.00mil]
+	SymbolLine[12.00mil 50.00mil 14.00mil 50.00mil 8.00mil]
+	SymbolLine[14.00mil 50.00mil 20.00mil 48.00mil 8.00mil]
+	SymbolLine[20.00mil 48.00mil 24.00mil 44.00mil 8.00mil]
+	SymbolLine[24.00mil 44.00mil 26.00mil 38.00mil 8.00mil]
+	SymbolLine[26.00mil 38.00mil 26.00mil 36.00mil 8.00mil]
+	SymbolLine[26.00mil 36.00mil 24.00mil 30.00mil 8.00mil]
+	SymbolLine[24.00mil 30.00mil 20.00mil 26.00mil 8.00mil]
+	SymbolLine[20.00mil 26.00mil 14.00mil 24.00mil 8.00mil]
+	SymbolLine[14.00mil 24.00mil 12.00mil 24.00mil 8.00mil]
+	SymbolLine[12.00mil 24.00mil 6.00mil 26.00mil 8.00mil]
+	SymbolLine[6.00mil 26.00mil 2.00mil 30.00mil 8.00mil]
+	SymbolLine[2.00mil 30.00mil 0.0000 36.00mil 8.00mil]
+)
+Symbol['7' 12.00mil]
+(
+	SymbolLine[28.00mil 8.00mil 8.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 8.00mil 28.00mil 8.00mil 8.00mil]
+)
+Symbol['8' 12.00mil]
+(
+	SymbolLine[10.00mil 8.00mil 4.00mil 10.00mil 8.00mil]
+	SymbolLine[4.00mil 10.00mil 2.00mil 14.00mil 8.00mil]
+	SymbolLine[2.00mil 14.00mil 2.00mil 18.00mil 8.00mil]
+	SymbolLine[2.00mil 18.00mil 4.00mil 22.00mil 8.00mil]
+	SymbolLine[4.00mil 22.00mil 8.00mil 24.00mil 8.00mil]
+	SymbolLine[8.00mil 24.00mil 16.00mil 26.00mil 8.00mil]
+	SymbolLine[16.00mil 26.00mil 22.00mil 28.00mil 8.00mil]
+	SymbolLine[22.00mil 28.00mil 26.00mil 32.00mil 8.00mil]
+	SymbolLine[26.00mil 32.00mil 28.00mil 36.00mil 8.00mil]
+	SymbolLine[28.00mil 36.00mil 28.00mil 42.00mil 8.00mil]
+	SymbolLine[28.00mil 42.00mil 26.00mil 46.00mil 8.00mil]
+	SymbolLine[26.00mil 46.00mil 24.00mil 48.00mil 8.00mil]
+	SymbolLine[24.00mil 48.00mil 18.00mil 50.00mil 8.00mil]
+	SymbolLine[18.00mil 50.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 4.00mil 48.00mil 8.00mil]
+	SymbolLine[4.00mil 48.00mil 2.00mil 46.00mil 8.00mil]
+	SymbolLine[2.00mil 46.00mil 0.0000 42.00mil 8.00mil]
+	SymbolLine[0.0000 42.00mil 0.0000 36.00mil 8.00mil]
+	SymbolLine[0.0000 36.00mil 2.00mil 32.00mil 8.00mil]
+	SymbolLine[2.00mil 32.00mil 6.00mil 28.00mil 8.00mil]
+	SymbolLine[6.00mil 28.00mil 12.00mil 26.00mil 8.00mil]
+	SymbolLine[12.00mil 26.00mil 20.00mil 24.00mil 8.00mil]
+	SymbolLine[20.00mil 24.00mil 24.00mil 22.00mil 8.00mil]
+	SymbolLine[24.00mil 22.00mil 26.00mil 18.00mil 8.00mil]
+	SymbolLine[26.00mil 18.00mil 26.00mil 14.00mil 8.00mil]
+	SymbolLine[26.00mil 14.00mil 24.00mil 10.00mil 8.00mil]
+	SymbolLine[24.00mil 10.00mil 18.00mil 8.00mil 8.00mil]
+	SymbolLine[18.00mil 8.00mil 10.00mil 8.00mil 8.00mil]
+)
+Symbol['9' 12.00mil]
+(
+	SymbolLine[26.00mil 22.00mil 24.00mil 28.00mil 8.00mil]
+	SymbolLine[24.00mil 28.00mil 20.00mil 32.00mil 8.00mil]
+	SymbolLine[20.00mil 32.00mil 14.00mil 34.00mil 8.00mil]
+	SymbolLine[14.00mil 34.00mil 12.00mil 34.00mil 8.00mil]
+	SymbolLine[12.00mil 34.00mil 6.00mil 32.00mil 8.00mil]
+	SymbolLine[6.00mil 32.00mil 2.00mil 28.00mil 8.00mil]
+	SymbolLine[2.00mil 28.00mil 0.0000 22.00mil 8.00mil]
+	SymbolLine[0.0000 22.00mil 0.0000 20.00mil 8.00mil]
+	SymbolLine[0.0000 20.00mil 2.00mil 14.00mil 8.00mil]
+	SymbolLine[2.00mil 14.00mil 6.00mil 10.00mil 8.00mil]
+	SymbolLine[6.00mil 10.00mil 12.00mil 8.00mil 8.00mil]
+	SymbolLine[12.00mil 8.00mil 14.00mil 8.00mil 8.00mil]
+	SymbolLine[14.00mil 8.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[20.00mil 10.00mil 24.00mil 14.00mil 8.00mil]
+	SymbolLine[24.00mil 14.00mil 26.00mil 22.00mil 8.00mil]
+	SymbolLine[26.00mil 22.00mil 26.00mil 32.00mil 8.00mil]
+	SymbolLine[26.00mil 32.00mil 24.00mil 42.00mil 8.00mil]
+	SymbolLine[24.00mil 42.00mil 20.00mil 48.00mil 8.00mil]
+	SymbolLine[20.00mil 48.00mil 14.00mil 50.00mil 8.00mil]
+	SymbolLine[14.00mil 50.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 4.00mil 48.00mil 8.00mil]
+	SymbolLine[4.00mil 48.00mil 2.00mil 44.00mil 8.00mil]
+)
+Symbol[':' 12.00mil]
+(
+	SymbolLine[2.00mil 22.00mil 0.0000 24.00mil 8.00mil]
+	SymbolLine[0.0000 24.00mil 2.00mil 26.00mil 8.00mil]
+	SymbolLine[2.00mil 26.00mil 4.00mil 24.00mil 8.00mil]
+	SymbolLine[4.00mil 24.00mil 2.00mil 22.00mil 8.00mil]
+	SymbolLine[2.00mil 46.00mil 0.0000 48.00mil 8.00mil]
+	SymbolLine[0.0000 48.00mil 2.00mil 50.00mil 8.00mil]
+	SymbolLine[2.00mil 50.00mil 4.00mil 48.00mil 8.00mil]
+	SymbolLine[4.00mil 48.00mil 2.00mil 46.00mil 8.00mil]
+)
+Symbol[';' 12.00mil]
+(
+	SymbolLine[2.00mil 22.00mil 0.0000 24.00mil 8.00mil]
+	SymbolLine[0.0000 24.00mil 2.00mil 26.00mil 8.00mil]
+	SymbolLine[2.00mil 26.00mil 4.00mil 24.00mil 8.00mil]
+	SymbolLine[4.00mil 24.00mil 2.00mil 22.00mil 8.00mil]
+	SymbolLine[4.00mil 48.00mil 2.00mil 50.00mil 8.00mil]
+	SymbolLine[2.00mil 50.00mil 0.0000 48.00mil 8.00mil]
+	SymbolLine[0.0000 48.00mil 2.00mil 46.00mil 8.00mil]
+	SymbolLine[2.00mil 46.00mil 4.00mil 48.00mil 8.00mil]
+	SymbolLine[4.00mil 48.00mil 4.00mil 52.00mil 8.00mil]
+	SymbolLine[4.00mil 52.00mil 2.00mil 56.00mil 8.00mil]
+	SymbolLine[2.00mil 56.00mil 0.0000 58.00mil 8.00mil]
+)
+Symbol['<' 12.00mil]
+(
+	SymbolLine[32.00mil 14.00mil 0.0000 32.00mil 8.00mil]
+	SymbolLine[0.0000 32.00mil 32.00mil 50.00mil 8.00mil]
+)
+Symbol['=' 12.00mil]
+(
+	SymbolLine[0.0000 26.00mil 36.00mil 26.00mil 8.00mil]
+	SymbolLine[0.0000 38.00mil 36.00mil 38.00mil 8.00mil]
+)
+Symbol['>' 12.00mil]
+(
+	SymbolLine[0.0000 14.00mil 32.00mil 32.00mil 8.00mil]
+	SymbolLine[32.00mil 32.00mil 0.0000 50.00mil 8.00mil]
+)
+Symbol['?' 12.00mil]
+(
+	SymbolLine[0.0000 18.00mil 0.0000 16.00mil 8.00mil]
+	SymbolLine[0.0000 16.00mil 2.00mil 12.00mil 8.00mil]
+	SymbolLine[2.00mil 12.00mil 4.00mil 10.00mil 8.00mil]
+	SymbolLine[4.00mil 10.00mil 8.00mil 8.00mil 8.00mil]
+	SymbolLine[8.00mil 8.00mil 16.00mil 8.00mil 8.00mil]
+	SymbolLine[16.00mil 8.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[20.00mil 10.00mil 22.00mil 12.00mil 8.00mil]
+	SymbolLine[22.00mil 12.00mil 24.00mil 16.00mil 8.00mil]
+	SymbolLine[24.00mil 16.00mil 24.00mil 20.00mil 8.00mil]
+	SymbolLine[24.00mil 20.00mil 22.00mil 24.00mil 8.00mil]
+	SymbolLine[22.00mil 24.00mil 20.00mil 26.00mil 8.00mil]
+	SymbolLine[20.00mil 26.00mil 12.00mil 30.00mil 8.00mil]
+	SymbolLine[12.00mil 30.00mil 12.00mil 36.00mil 8.00mil]
+	SymbolLine[12.00mil 46.00mil 10.00mil 48.00mil 8.00mil]
+	SymbolLine[10.00mil 48.00mil 12.00mil 50.00mil 8.00mil]
+	SymbolLine[12.00mil 50.00mil 14.00mil 48.00mil 8.00mil]
+	SymbolLine[14.00mil 48.00mil 12.00mil 46.00mil 8.00mil]
+)
+Symbol['@' 12.00mil]
+(
+	SymbolLine[30.00mil 24.00mil 28.00mil 20.00mil 8.00mil]
+	SymbolLine[28.00mil 20.00mil 24.00mil 18.00mil 8.00mil]
+	SymbolLine[24.00mil 18.00mil 18.00mil 18.00mil 8.00mil]
+	SymbolLine[18.00mil 18.00mil 14.00mil 20.00mil 8.00mil]
+	SymbolLine[14.00mil 20.00mil 12.00mil 22.00mil 8.00mil]
+	SymbolLine[12.00mil 22.00mil 10.00mil 28.00mil 8.00mil]
+	SymbolLine[10.00mil 28.00mil 10.00mil 34.00mil 8.00mil]
+	SymbolLine[10.00mil 34.00mil 12.00mil 38.00mil 8.00mil]
+	SymbolLine[12.00mil 38.00mil 16.00mil 40.00mil 8.00mil]
+	SymbolLine[16.00mil 40.00mil 22.00mil 40.00mil 8.00mil]
+	SymbolLine[22.00mil 40.00mil 26.00mil 38.00mil 8.00mil]
+	SymbolLine[26.00mil 38.00mil 28.00mil 34.00mil 8.00mil]
+	SymbolLine[18.00mil 18.00mil 14.00mil 22.00mil 8.00mil]
+	SymbolLine[14.00mil 22.00mil 12.00mil 28.00mil 8.00mil]
+	SymbolLine[12.00mil 28.00mil 12.00mil 34.00mil 8.00mil]
+	SymbolLine[12.00mil 34.00mil 14.00mil 38.00mil 8.00mil]
+	SymbolLine[14.00mil 38.00mil 16.00mil 40.00mil 8.00mil]
+	SymbolLine[30.00mil 18.00mil 28.00mil 34.00mil 8.00mil]
+	SymbolLine[28.00mil 34.00mil 28.00mil 38.00mil 8.00mil]
+	SymbolLine[28.00mil 38.00mil 32.00mil 40.00mil 8.00mil]
+	SymbolLine[32.00mil 40.00mil 36.00mil 40.00mil 8.00mil]
+	SymbolLine[36.00mil 40.00mil 40.00mil 36.00mil 8.00mil]
+	SymbolLine[40.00mil 36.00mil 42.00mil 30.00mil 8.00mil]
+	SymbolLine[42.00mil 30.00mil 42.00mil 26.00mil 8.00mil]
+	SymbolLine[42.00mil 26.00mil 40.00mil 20.00mil 8.00mil]
+	SymbolLine[40.00mil 20.00mil 38.00mil 16.00mil 8.00mil]
+	SymbolLine[38.00mil 16.00mil 34.00mil 12.00mil 8.00mil]
+	SymbolLine[34.00mil 12.00mil 30.00mil 10.00mil 8.00mil]
+	SymbolLine[30.00mil 10.00mil 24.00mil 8.00mil 8.00mil]
+	SymbolLine[24.00mil 8.00mil 18.00mil 8.00mil 8.00mil]
+	SymbolLine[18.00mil 8.00mil 12.00mil 10.00mil 8.00mil]
+	SymbolLine[12.00mil 10.00mil 8.00mil 12.00mil 8.00mil]
+	SymbolLine[8.00mil 12.00mil 4.00mil 16.00mil 8.00mil]
+	SymbolLine[4.00mil 16.00mil 2.00mil 20.00mil 8.00mil]
+	SymbolLine[2.00mil 20.00mil 0.0000 26.00mil 8.00mil]
+	SymbolLine[0.0000 26.00mil 0.0000 32.00mil 8.00mil]
+	SymbolLine[0.0000 32.00mil 2.00mil 38.00mil 8.00mil]
+	SymbolLine[2.00mil 38.00mil 4.00mil 42.00mil 8.00mil]
+	SymbolLine[4.00mil 42.00mil 8.00mil 46.00mil 8.00mil]
+	SymbolLine[8.00mil 46.00mil 12.00mil 48.00mil 8.00mil]
+	SymbolLine[12.00mil 48.00mil 18.00mil 50.00mil 8.00mil]
+	SymbolLine[18.00mil 50.00mil 24.00mil 50.00mil 8.00mil]
+	SymbolLine[24.00mil 50.00mil 30.00mil 48.00mil 8.00mil]
+	SymbolLine[30.00mil 48.00mil 34.00mil 46.00mil 8.00mil]
+	SymbolLine[34.00mil 46.00mil 36.00mil 44.00mil 8.00mil]
+	SymbolLine[32.00mil 18.00mil 30.00mil 34.00mil 8.00mil]
+	SymbolLine[30.00mil 34.00mil 30.00mil 38.00mil 8.00mil]
+	SymbolLine[30.00mil 38.00mil 32.00mil 40.00mil 8.00mil]
+)
+Symbol['A' 12.00mil]
+(
+	SymbolLine[16.00mil 8.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[16.00mil 8.00mil 32.00mil 50.00mil 8.00mil]
+	SymbolLine[6.00mil 36.00mil 26.00mil 36.00mil 8.00mil]
+)
+Symbol['B' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 8.00mil 18.00mil 8.00mil 8.00mil]
+	SymbolLine[18.00mil 8.00mil 24.00mil 10.00mil 8.00mil]
+	SymbolLine[24.00mil 10.00mil 26.00mil 12.00mil 8.00mil]
+	SymbolLine[26.00mil 12.00mil 28.00mil 16.00mil 8.00mil]
+	SymbolLine[28.00mil 16.00mil 28.00mil 20.00mil 8.00mil]
+	SymbolLine[28.00mil 20.00mil 26.00mil 24.00mil 8.00mil]
+	SymbolLine[26.00mil 24.00mil 24.00mil 26.00mil 8.00mil]
+	SymbolLine[24.00mil 26.00mil 18.00mil 28.00mil 8.00mil]
+	SymbolLine[0.0000 28.00mil 18.00mil 28.00mil 8.00mil]
+	SymbolLine[18.00mil 28.00mil 24.00mil 30.00mil 8.00mil]
+	SymbolLine[24.00mil 30.00mil 26.00mil 32.00mil 8.00mil]
+	SymbolLine[26.00mil 32.00mil 28.00mil 36.00mil 8.00mil]
+	SymbolLine[28.00mil 36.00mil 28.00mil 42.00mil 8.00mil]
+	SymbolLine[28.00mil 42.00mil 26.00mil 46.00mil 8.00mil]
+	SymbolLine[26.00mil 46.00mil 24.00mil 48.00mil 8.00mil]
+	SymbolLine[24.00mil 48.00mil 18.00mil 50.00mil 8.00mil]
+	SymbolLine[18.00mil 50.00mil 0.0000 50.00mil 8.00mil]
+)
+Symbol['C' 12.00mil]
+(
+	SymbolLine[30.00mil 18.00mil 28.00mil 14.00mil 8.00mil]
+	SymbolLine[28.00mil 14.00mil 24.00mil 10.00mil 8.00mil]
+	SymbolLine[24.00mil 10.00mil 20.00mil 8.00mil 8.00mil]
+	SymbolLine[20.00mil 8.00mil 12.00mil 8.00mil 8.00mil]
+	SymbolLine[12.00mil 8.00mil 8.00mil 10.00mil 8.00mil]
+	SymbolLine[8.00mil 10.00mil 4.00mil 14.00mil 8.00mil]
+	SymbolLine[4.00mil 14.00mil 2.00mil 18.00mil 8.00mil]
+	SymbolLine[2.00mil 18.00mil 0.0000 24.00mil 8.00mil]
+	SymbolLine[0.0000 24.00mil 0.0000 34.00mil 8.00mil]
+	SymbolLine[0.0000 34.00mil 2.00mil 40.00mil 8.00mil]
+	SymbolLine[2.00mil 40.00mil 4.00mil 44.00mil 8.00mil]
+	SymbolLine[4.00mil 44.00mil 8.00mil 48.00mil 8.00mil]
+	SymbolLine[8.00mil 48.00mil 12.00mil 50.00mil 8.00mil]
+	SymbolLine[12.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 50.00mil 24.00mil 48.00mil 8.00mil]
+	SymbolLine[24.00mil 48.00mil 28.00mil 44.00mil 8.00mil]
+	SymbolLine[28.00mil 44.00mil 30.00mil 40.00mil 8.00mil]
+)
+Symbol['D' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 8.00mil 14.00mil 8.00mil 8.00mil]
+	SymbolLine[14.00mil 8.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[20.00mil 10.00mil 24.00mil 14.00mil 8.00mil]
+	SymbolLine[24.00mil 14.00mil 26.00mil 18.00mil 8.00mil]
+	SymbolLine[26.00mil 18.00mil 28.00mil 24.00mil 8.00mil]
+	SymbolLine[28.00mil 24.00mil 28.00mil 34.00mil 8.00mil]
+	SymbolLine[28.00mil 34.00mil 26.00mil 40.00mil 8.00mil]
+	SymbolLine[26.00mil 40.00mil 24.00mil 44.00mil 8.00mil]
+	SymbolLine[24.00mil 44.00mil 20.00mil 48.00mil 8.00mil]
+	SymbolLine[20.00mil 48.00mil 14.00mil 50.00mil 8.00mil]
+	SymbolLine[14.00mil 50.00mil 0.0000 50.00mil 8.00mil]
+)
+Symbol['E' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 8.00mil 26.00mil 8.00mil 8.00mil]
+	SymbolLine[0.0000 28.00mil 16.00mil 28.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 26.00mil 50.00mil 8.00mil]
+)
+Symbol['F' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 8.00mil 26.00mil 8.00mil 8.00mil]
+	SymbolLine[0.0000 28.00mil 16.00mil 28.00mil 8.00mil]
+)
+Symbol['G' 12.00mil]
+(
+	SymbolLine[30.00mil 18.00mil 28.00mil 14.00mil 8.00mil]
+	SymbolLine[28.00mil 14.00mil 24.00mil 10.00mil 8.00mil]
+	SymbolLine[24.00mil 10.00mil 20.00mil 8.00mil 8.00mil]
+	SymbolLine[20.00mil 8.00mil 12.00mil 8.00mil 8.00mil]
+	SymbolLine[12.00mil 8.00mil 8.00mil 10.00mil 8.00mil]
+	SymbolLine[8.00mil 10.00mil 4.00mil 14.00mil 8.00mil]
+	SymbolLine[4.00mil 14.00mil 2.00mil 18.00mil 8.00mil]
+	SymbolLine[2.00mil 18.00mil 0.0000 24.00mil 8.00mil]
+	SymbolLine[0.0000 24.00mil 0.0000 34.00mil 8.00mil]
+	SymbolLine[0.0000 34.00mil 2.00mil 40.00mil 8.00mil]
+	SymbolLine[2.00mil 40.00mil 4.00mil 44.00mil 8.00mil]
+	SymbolLine[4.00mil 44.00mil 8.00mil 48.00mil 8.00mil]
+	SymbolLine[8.00mil 48.00mil 12.00mil 50.00mil 8.00mil]
+	SymbolLine[12.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 50.00mil 24.00mil 48.00mil 8.00mil]
+	SymbolLine[24.00mil 48.00mil 28.00mil 44.00mil 8.00mil]
+	SymbolLine[28.00mil 44.00mil 30.00mil 40.00mil 8.00mil]
+	SymbolLine[30.00mil 40.00mil 30.00mil 34.00mil 8.00mil]
+	SymbolLine[20.00mil 34.00mil 30.00mil 34.00mil 8.00mil]
+)
+Symbol['H' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[28.00mil 8.00mil 28.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 28.00mil 28.00mil 28.00mil 8.00mil]
+)
+Symbol['I' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 0.0000 50.00mil 8.00mil]
+)
+Symbol['J' 12.00mil]
+(
+	SymbolLine[20.00mil 8.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[20.00mil 40.00mil 18.00mil 46.00mil 8.00mil]
+	SymbolLine[18.00mil 46.00mil 16.00mil 48.00mil 8.00mil]
+	SymbolLine[16.00mil 48.00mil 12.00mil 50.00mil 8.00mil]
+	SymbolLine[12.00mil 50.00mil 8.00mil 50.00mil 8.00mil]
+	SymbolLine[8.00mil 50.00mil 4.00mil 48.00mil 8.00mil]
+	SymbolLine[4.00mil 48.00mil 2.00mil 46.00mil 8.00mil]
+	SymbolLine[2.00mil 46.00mil 0.0000 40.00mil 8.00mil]
+	SymbolLine[0.0000 40.00mil 0.0000 36.00mil 8.00mil]
+)
+Symbol['K' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[28.00mil 8.00mil 0.0000 36.00mil 8.00mil]
+	SymbolLine[10.00mil 26.00mil 28.00mil 50.00mil 8.00mil]
+)
+Symbol['L' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 24.00mil 50.00mil 8.00mil]
+)
+Symbol['M' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 8.00mil 16.00mil 50.00mil 8.00mil]
+	SymbolLine[32.00mil 8.00mil 16.00mil 50.00mil 8.00mil]
+	SymbolLine[32.00mil 8.00mil 32.00mil 50.00mil 8.00mil]
+)
+Symbol['N' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 8.00mil 28.00mil 50.00mil 8.00mil]
+	SymbolLine[28.00mil 8.00mil 28.00mil 50.00mil 8.00mil]
+)
+Symbol['O' 12.00mil]
+(
+	SymbolLine[12.00mil 8.00mil 8.00mil 10.00mil 8.00mil]
+	SymbolLine[8.00mil 10.00mil 4.00mil 14.00mil 8.00mil]
+	SymbolLine[4.00mil 14.00mil 2.00mil 18.00mil 8.00mil]
+	SymbolLine[2.00mil 18.00mil 0.0000 24.00mil 8.00mil]
+	SymbolLine[0.0000 24.00mil 0.0000 34.00mil 8.00mil]
+	SymbolLine[0.0000 34.00mil 2.00mil 40.00mil 8.00mil]
+	SymbolLine[2.00mil 40.00mil 4.00mil 44.00mil 8.00mil]
+	SymbolLine[4.00mil 44.00mil 8.00mil 48.00mil 8.00mil]
+	SymbolLine[8.00mil 48.00mil 12.00mil 50.00mil 8.00mil]
+	SymbolLine[12.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 50.00mil 24.00mil 48.00mil 8.00mil]
+	SymbolLine[24.00mil 48.00mil 28.00mil 44.00mil 8.00mil]
+	SymbolLine[28.00mil 44.00mil 30.00mil 40.00mil 8.00mil]
+	SymbolLine[30.00mil 40.00mil 32.00mil 34.00mil 8.00mil]
+	SymbolLine[32.00mil 34.00mil 32.00mil 24.00mil 8.00mil]
+	SymbolLine[32.00mil 24.00mil 30.00mil 18.00mil 8.00mil]
+	SymbolLine[30.00mil 18.00mil 28.00mil 14.00mil 8.00mil]
+	SymbolLine[28.00mil 14.00mil 24.00mil 10.00mil 8.00mil]
+	SymbolLine[24.00mil 10.00mil 20.00mil 8.00mil 8.00mil]
+	SymbolLine[20.00mil 8.00mil 12.00mil 8.00mil 8.00mil]
+)
+Symbol['P' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 8.00mil 18.00mil 8.00mil 8.00mil]
+	SymbolLine[18.00mil 8.00mil 24.00mil 10.00mil 8.00mil]
+	SymbolLine[24.00mil 10.00mil 26.00mil 12.00mil 8.00mil]
+	SymbolLine[26.00mil 12.00mil 28.00mil 16.00mil 8.00mil]
+	SymbolLine[28.00mil 16.00mil 28.00mil 22.00mil 8.00mil]
+	SymbolLine[28.00mil 22.00mil 26.00mil 26.00mil 8.00mil]
+	SymbolLine[26.00mil 26.00mil 24.00mil 28.00mil 8.00mil]
+	SymbolLine[24.00mil 28.00mil 18.00mil 30.00mil 8.00mil]
+	SymbolLine[18.00mil 30.00mil 0.0000 30.00mil 8.00mil]
+)
+Symbol['Q' 12.00mil]
+(
+	SymbolLine[12.00mil 8.00mil 8.00mil 10.00mil 8.00mil]
+	SymbolLine[8.00mil 10.00mil 4.00mil 14.00mil 8.00mil]
+	SymbolLine[4.00mil 14.00mil 2.00mil 18.00mil 8.00mil]
+	SymbolLine[2.00mil 18.00mil 0.0000 24.00mil 8.00mil]
+	SymbolLine[0.0000 24.00mil 0.0000 34.00mil 8.00mil]
+	SymbolLine[0.0000 34.00mil 2.00mil 40.00mil 8.00mil]
+	SymbolLine[2.00mil 40.00mil 4.00mil 44.00mil 8.00mil]
+	SymbolLine[4.00mil 44.00mil 8.00mil 48.00mil 8.00mil]
+	SymbolLine[8.00mil 48.00mil 12.00mil 50.00mil 8.00mil]
+	SymbolLine[12.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 50.00mil 24.00mil 48.00mil 8.00mil]
+	SymbolLine[24.00mil 48.00mil 28.00mil 44.00mil 8.00mil]
+	SymbolLine[28.00mil 44.00mil 30.00mil 40.00mil 8.00mil]
+	SymbolLine[30.00mil 40.00mil 32.00mil 34.00mil 8.00mil]
+	SymbolLine[32.00mil 34.00mil 32.00mil 24.00mil 8.00mil]
+	SymbolLine[32.00mil 24.00mil 30.00mil 18.00mil 8.00mil]
+	SymbolLine[30.00mil 18.00mil 28.00mil 14.00mil 8.00mil]
+	SymbolLine[28.00mil 14.00mil 24.00mil 10.00mil 8.00mil]
+	SymbolLine[24.00mil 10.00mil 20.00mil 8.00mil 8.00mil]
+	SymbolLine[20.00mil 8.00mil 12.00mil 8.00mil 8.00mil]
+	SymbolLine[18.00mil 42.00mil 30.00mil 54.00mil 8.00mil]
+)
+Symbol['R' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 8.00mil 18.00mil 8.00mil 8.00mil]
+	SymbolLine[18.00mil 8.00mil 24.00mil 10.00mil 8.00mil]
+	SymbolLine[24.00mil 10.00mil 26.00mil 12.00mil 8.00mil]
+	SymbolLine[26.00mil 12.00mil 28.00mil 16.00mil 8.00mil]
+	SymbolLine[28.00mil 16.00mil 28.00mil 20.00mil 8.00mil]
+	SymbolLine[28.00mil 20.00mil 26.00mil 24.00mil 8.00mil]
+	SymbolLine[26.00mil 24.00mil 24.00mil 26.00mil 8.00mil]
+	SymbolLine[24.00mil 26.00mil 18.00mil 28.00mil 8.00mil]
+	SymbolLine[18.00mil 28.00mil 0.0000 28.00mil 8.00mil]
+	SymbolLine[14.00mil 28.00mil 28.00mil 50.00mil 8.00mil]
+)
+Symbol['S' 12.00mil]
+(
+	SymbolLine[28.00mil 14.00mil 24.00mil 10.00mil 8.00mil]
+	SymbolLine[24.00mil 10.00mil 18.00mil 8.00mil 8.00mil]
+	SymbolLine[18.00mil 8.00mil 10.00mil 8.00mil 8.00mil]
+	SymbolLine[10.00mil 8.00mil 4.00mil 10.00mil 8.00mil]
+	SymbolLine[4.00mil 10.00mil 0.0000 14.00mil 8.00mil]
+	SymbolLine[0.0000 14.00mil 0.0000 18.00mil 8.00mil]
+	SymbolLine[0.0000 18.00mil 2.00mil 22.00mil 8.00mil]
+	SymbolLine[2.00mil 22.00mil 4.00mil 24.00mil 8.00mil]
+	SymbolLine[4.00mil 24.00mil 8.00mil 26.00mil 8.00mil]
+	SymbolLine[8.00mil 26.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 24.00mil 32.00mil 8.00mil]
+	SymbolLine[24.00mil 32.00mil 26.00mil 34.00mil 8.00mil]
+	SymbolLine[26.00mil 34.00mil 28.00mil 38.00mil 8.00mil]
+	SymbolLine[28.00mil 38.00mil 28.00mil 44.00mil 8.00mil]
+	SymbolLine[28.00mil 44.00mil 24.00mil 48.00mil 8.00mil]
+	SymbolLine[24.00mil 48.00mil 18.00mil 50.00mil 8.00mil]
+	SymbolLine[18.00mil 50.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 4.00mil 48.00mil 8.00mil]
+	SymbolLine[4.00mil 48.00mil 0.0000 44.00mil 8.00mil]
+)
+Symbol['T' 12.00mil]
+(
+	SymbolLine[14.00mil 8.00mil 14.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 8.00mil 28.00mil 8.00mil 8.00mil]
+)
+Symbol['U' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 0.0000 38.00mil 8.00mil]
+	SymbolLine[0.0000 38.00mil 2.00mil 44.00mil 8.00mil]
+	SymbolLine[2.00mil 44.00mil 6.00mil 48.00mil 8.00mil]
+	SymbolLine[6.00mil 48.00mil 12.00mil 50.00mil 8.00mil]
+	SymbolLine[12.00mil 50.00mil 16.00mil 50.00mil 8.00mil]
+	SymbolLine[16.00mil 50.00mil 22.00mil 48.00mil 8.00mil]
+	SymbolLine[22.00mil 48.00mil 26.00mil 44.00mil 8.00mil]
+	SymbolLine[26.00mil 44.00mil 28.00mil 38.00mil 8.00mil]
+	SymbolLine[28.00mil 38.00mil 28.00mil 8.00mil 8.00mil]
+)
+Symbol['V' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 16.00mil 50.00mil 8.00mil]
+	SymbolLine[32.00mil 8.00mil 16.00mil 50.00mil 8.00mil]
+)
+Symbol['W' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 8.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 8.00mil 30.00mil 50.00mil 8.00mil]
+	SymbolLine[40.00mil 8.00mil 30.00mil 50.00mil 8.00mil]
+)
+Symbol['X' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 28.00mil 50.00mil 8.00mil]
+	SymbolLine[28.00mil 8.00mil 0.0000 50.00mil 8.00mil]
+)
+Symbol['Y' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 16.00mil 28.00mil 8.00mil]
+	SymbolLine[16.00mil 28.00mil 16.00mil 50.00mil 8.00mil]
+	SymbolLine[32.00mil 8.00mil 16.00mil 28.00mil 8.00mil]
+)
+Symbol['Z' 12.00mil]
+(
+	SymbolLine[28.00mil 8.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 8.00mil 28.00mil 8.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 28.00mil 50.00mil 8.00mil]
+)
+Symbol['[' 12.00mil]
+(
+	SymbolLine[0.0000 0.0000 0.0000 64.00mil 8.00mil]
+	SymbolLine[2.00mil 0.0000 2.00mil 64.00mil 8.00mil]
+	SymbolLine[0.0000 0.0000 14.00mil 0.0000 8.00mil]
+	SymbolLine[0.0000 64.00mil 14.00mil 64.00mil 8.00mil]
+)
+Symbol['\' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 28.00mil 56.00mil 8.00mil]
+)
+Symbol[']' 12.00mil]
+(
+	SymbolLine[12.00mil 0.0000 12.00mil 64.00mil 8.00mil]
+	SymbolLine[14.00mil 0.0000 14.00mil 64.00mil 8.00mil]
+	SymbolLine[0.0000 0.0000 14.00mil 0.0000 8.00mil]
+	SymbolLine[0.0000 64.00mil 14.00mil 64.00mil 8.00mil]
+)
+Symbol['^' 12.00mil]
+(
+	SymbolLine[6.00mil 20.00mil 10.00mil 14.00mil 8.00mil]
+	SymbolLine[10.00mil 14.00mil 14.00mil 20.00mil 8.00mil]
+	SymbolLine[0.0000 26.00mil 10.00mil 16.00mil 8.00mil]
+	SymbolLine[10.00mil 16.00mil 20.00mil 26.00mil 8.00mil]
+	SymbolLine[10.00mil 16.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['_' 12.00mil]
+(
+	SymbolLine[0.0000 54.00mil 32.00mil 54.00mil 8.00mil]
+)
+Symbol['`' 12.00mil]
+(
+	SymbolLine[11.00mil 22.00mil 7.00mil 24.00mil 8.00mil]
+	SymbolLine[7.00mil 24.00mil 3.00mil 28.00mil 8.00mil]
+	SymbolLine[3.00mil 28.00mil 1.00mil 34.00mil 8.00mil]
+	SymbolLine[1.00mil 34.00mil 1.00mil 38.00mil 8.00mil]
+	SymbolLine[1.00mil 38.00mil 3.00mil 44.00mil 8.00mil]
+	SymbolLine[3.00mil 44.00mil 7.00mil 48.00mil 8.00mil]
+	SymbolLine[20.00mil 48.00mil 24.00mil 44.00mil 8.00mil]
+	SymbolLine[24.00mil 44.00mil 26.00mil 38.00mil 8.00mil]
+	SymbolLine[26.00mil 38.00mil 26.00mil 34.00mil 8.00mil]
+	SymbolLine[26.00mil 34.00mil 24.00mil 28.00mil 8.00mil]
+	SymbolLine[24.00mil 28.00mil 20.00mil 24.00mil 8.00mil]
+	SymbolLine[20.00mil 24.00mil 16.00mil 22.00mil 8.00mil]
+	SymbolLine[16.00mil 22.00mil 10.00mil 22.00mil 8.00mil]
+	SymbolLine[0.0000 48.00mil 8.00mil 48.00mil 8.00mil]
+	SymbolLine[20.00mil 48.00mil 28.00mil 48.00mil 8.00mil]
+)
+Symbol['a' 12.00mil]
+(
+	SymbolLine[24.00mil 22.00mil 24.00mil 50.00mil 8.00mil]
+	SymbolLine[24.00mil 28.00mil 20.00mil 24.00mil 8.00mil]
+	SymbolLine[20.00mil 24.00mil 16.00mil 22.00mil 8.00mil]
+	SymbolLine[16.00mil 22.00mil 10.00mil 22.00mil 8.00mil]
+	SymbolLine[10.00mil 22.00mil 6.00mil 24.00mil 8.00mil]
+	SymbolLine[6.00mil 24.00mil 2.00mil 28.00mil 8.00mil]
+	SymbolLine[2.00mil 28.00mil 0.0000 34.00mil 8.00mil]
+	SymbolLine[0.0000 34.00mil 0.0000 38.00mil 8.00mil]
+	SymbolLine[0.0000 38.00mil 2.00mil 44.00mil 8.00mil]
+	SymbolLine[2.00mil 44.00mil 6.00mil 48.00mil 8.00mil]
+	SymbolLine[6.00mil 48.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 16.00mil 50.00mil 8.00mil]
+	SymbolLine[16.00mil 50.00mil 20.00mil 48.00mil 8.00mil]
+	SymbolLine[20.00mil 48.00mil 24.00mil 44.00mil 8.00mil]
+)
+Symbol['b' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 28.00mil 4.00mil 24.00mil 8.00mil]
+	SymbolLine[4.00mil 24.00mil 8.00mil 22.00mil 8.00mil]
+	SymbolLine[8.00mil 22.00mil 14.00mil 22.00mil 8.00mil]
+	SymbolLine[14.00mil 22.00mil 18.00mil 24.00mil 8.00mil]
+	SymbolLine[18.00mil 24.00mil 22.00mil 28.00mil 8.00mil]
+	SymbolLine[22.00mil 28.00mil 24.00mil 34.00mil 8.00mil]
+	SymbolLine[24.00mil 34.00mil 24.00mil 38.00mil 8.00mil]
+	SymbolLine[24.00mil 38.00mil 22.00mil 44.00mil 8.00mil]
+	SymbolLine[22.00mil 44.00mil 18.00mil 48.00mil 8.00mil]
+	SymbolLine[18.00mil 48.00mil 14.00mil 50.00mil 8.00mil]
+	SymbolLine[14.00mil 50.00mil 8.00mil 50.00mil 8.00mil]
+	SymbolLine[8.00mil 50.00mil 4.00mil 48.00mil 8.00mil]
+	SymbolLine[4.00mil 48.00mil 0.0000 44.00mil 8.00mil]
+)
+Symbol['c' 12.00mil]
+(
+	SymbolLine[24.00mil 28.00mil 20.00mil 24.00mil 8.00mil]
+	SymbolLine[20.00mil 24.00mil 16.00mil 22.00mil 8.00mil]
+	SymbolLine[16.00mil 22.00mil 10.00mil 22.00mil 8.00mil]
+	SymbolLine[10.00mil 22.00mil 6.00mil 24.00mil 8.00mil]
+	SymbolLine[6.00mil 24.00mil 2.00mil 28.00mil 8.00mil]
+	SymbolLine[2.00mil 28.00mil 0.0000 34.00mil 8.00mil]
+	SymbolLine[0.0000 34.00mil 0.0000 38.00mil 8.00mil]
+	SymbolLine[0.0000 38.00mil 2.00mil 44.00mil 8.00mil]
+	SymbolLine[2.00mil 44.00mil 6.00mil 48.00mil 8.00mil]
+	SymbolLine[6.00mil 48.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 16.00mil 50.00mil 8.00mil]
+	SymbolLine[16.00mil 50.00mil 20.00mil 48.00mil 8.00mil]
+	SymbolLine[20.00mil 48.00mil 24.00mil 44.00mil 8.00mil]
+)
+Symbol['d' 12.00mil]
+(
+	SymbolLine[24.00mil 8.00mil 24.00mil 50.00mil 8.00mil]
+	SymbolLine[24.00mil 28.00mil 20.00mil 24.00mil 8.00mil]
+	SymbolLine[20.00mil 24.00mil 16.00mil 22.00mil 8.00mil]
+	SymbolLine[16.00mil 22.00mil 10.00mil 22.00mil 8.00mil]
+	SymbolLine[10.00mil 22.00mil 6.00mil 24.00mil 8.00mil]
+	SymbolLine[6.00mil 24.00mil 2.00mil 28.00mil 8.00mil]
+	SymbolLine[2.00mil 28.00mil 0.0000 34.00mil 8.00mil]
+	SymbolLine[0.0000 34.00mil 0.0000 38.00mil 8.00mil]
+	SymbolLine[0.0000 38.00mil 2.00mil 44.00mil 8.00mil]
+	SymbolLine[2.00mil 44.00mil 6.00mil 48.00mil 8.00mil]
+	SymbolLine[6.00mil 48.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 16.00mil 50.00mil 8.00mil]
+	SymbolLine[16.00mil 50.00mil 20.00mil 48.00mil 8.00mil]
+	SymbolLine[20.00mil 48.00mil 24.00mil 44.00mil 8.00mil]
+)
+Symbol['e' 12.00mil]
+(
+	SymbolLine[0.0000 34.00mil 24.00mil 34.00mil 8.00mil]
+	SymbolLine[24.00mil 34.00mil 24.00mil 30.00mil 8.00mil]
+	SymbolLine[24.00mil 30.00mil 22.00mil 26.00mil 8.00mil]
+	SymbolLine[22.00mil 26.00mil 20.00mil 24.00mil 8.00mil]
+	SymbolLine[20.00mil 24.00mil 16.00mil 22.00mil 8.00mil]
+	SymbolLine[16.00mil 22.00mil 10.00mil 22.00mil 8.00mil]
+	SymbolLine[10.00mil 22.00mil 6.00mil 24.00mil 8.00mil]
+	SymbolLine[6.00mil 24.00mil 2.00mil 28.00mil 8.00mil]
+	SymbolLine[2.00mil 28.00mil 0.0000 34.00mil 8.00mil]
+	SymbolLine[0.0000 34.00mil 0.0000 38.00mil 8.00mil]
+	SymbolLine[0.0000 38.00mil 2.00mil 44.00mil 8.00mil]
+	SymbolLine[2.00mil 44.00mil 6.00mil 48.00mil 8.00mil]
+	SymbolLine[6.00mil 48.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 16.00mil 50.00mil 8.00mil]
+	SymbolLine[16.00mil 50.00mil 20.00mil 48.00mil 8.00mil]
+	SymbolLine[20.00mil 48.00mil 24.00mil 44.00mil 8.00mil]
+)
+Symbol['f' 12.00mil]
+(
+	SymbolLine[16.00mil 8.00mil 12.00mil 8.00mil 8.00mil]
+	SymbolLine[12.00mil 8.00mil 8.00mil 10.00mil 8.00mil]
+	SymbolLine[8.00mil 10.00mil 6.00mil 16.00mil 8.00mil]
+	SymbolLine[6.00mil 16.00mil 6.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 22.00mil 14.00mil 22.00mil 8.00mil]
+)
+Symbol['g' 12.00mil]
+(
+	SymbolLine[24.00mil 22.00mil 24.00mil 54.00mil 8.00mil]
+	SymbolLine[24.00mil 54.00mil 22.00mil 60.00mil 8.00mil]
+	SymbolLine[22.00mil 60.00mil 20.00mil 62.00mil 8.00mil]
+	SymbolLine[20.00mil 62.00mil 16.00mil 64.00mil 8.00mil]
+	SymbolLine[16.00mil 64.00mil 10.00mil 64.00mil 8.00mil]
+	SymbolLine[10.00mil 64.00mil 6.00mil 62.00mil 8.00mil]
+	SymbolLine[24.00mil 28.00mil 20.00mil 24.00mil 8.00mil]
+	SymbolLine[20.00mil 24.00mil 16.00mil 22.00mil 8.00mil]
+	SymbolLine[16.00mil 22.00mil 10.00mil 22.00mil 8.00mil]
+	SymbolLine[10.00mil 22.00mil 6.00mil 24.00mil 8.00mil]
+	SymbolLine[6.00mil 24.00mil 2.00mil 28.00mil 8.00mil]
+	SymbolLine[2.00mil 28.00mil 0.0000 34.00mil 8.00mil]
+	SymbolLine[0.0000 34.00mil 0.0000 38.00mil 8.00mil]
+	SymbolLine[0.0000 38.00mil 2.00mil 44.00mil 8.00mil]
+	SymbolLine[2.00mil 44.00mil 6.00mil 48.00mil 8.00mil]
+	SymbolLine[6.00mil 48.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 16.00mil 50.00mil 8.00mil]
+	SymbolLine[16.00mil 50.00mil 20.00mil 48.00mil 8.00mil]
+	SymbolLine[20.00mil 48.00mil 24.00mil 44.00mil 8.00mil]
+)
+Symbol['h' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 6.00mil 24.00mil 8.00mil]
+	SymbolLine[6.00mil 24.00mil 10.00mil 22.00mil 8.00mil]
+	SymbolLine[10.00mil 22.00mil 16.00mil 22.00mil 8.00mil]
+	SymbolLine[16.00mil 22.00mil 20.00mil 24.00mil 8.00mil]
+	SymbolLine[20.00mil 24.00mil 22.00mil 30.00mil 8.00mil]
+	SymbolLine[22.00mil 30.00mil 22.00mil 50.00mil 8.00mil]
+)
+Symbol['i' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 2.00mil 10.00mil 8.00mil]
+	SymbolLine[2.00mil 10.00mil 4.00mil 8.00mil 8.00mil]
+	SymbolLine[4.00mil 8.00mil 2.00mil 6.00mil 8.00mil]
+	SymbolLine[2.00mil 6.00mil 0.0000 8.00mil 8.00mil]
+	SymbolLine[2.00mil 22.00mil 2.00mil 50.00mil 8.00mil]
+)
+Symbol['j' 12.00mil]
+(
+	SymbolLine[8.00mil 8.00mil 10.00mil 10.00mil 8.00mil]
+	SymbolLine[10.00mil 10.00mil 12.00mil 8.00mil 8.00mil]
+	SymbolLine[12.00mil 8.00mil 10.00mil 6.00mil 8.00mil]
+	SymbolLine[10.00mil 6.00mil 8.00mil 8.00mil 8.00mil]
+	SymbolLine[10.00mil 22.00mil 10.00mil 56.00mil 8.00mil]
+	SymbolLine[10.00mil 56.00mil 8.00mil 62.00mil 8.00mil]
+	SymbolLine[8.00mil 62.00mil 4.00mil 64.00mil 8.00mil]
+	SymbolLine[4.00mil 64.00mil 0.0000 64.00mil 8.00mil]
+)
+Symbol['k' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[20.00mil 22.00mil 0.0000 42.00mil 8.00mil]
+	SymbolLine[8.00mil 34.00mil 22.00mil 50.00mil 8.00mil]
+)
+Symbol['l' 12.00mil]
+(
+	SymbolLine[0.0000 8.00mil 0.0000 50.00mil 8.00mil]
+)
+Symbol['m' 12.00mil]
+(
+	SymbolLine[0.0000 22.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 6.00mil 24.00mil 8.00mil]
+	SymbolLine[6.00mil 24.00mil 10.00mil 22.00mil 8.00mil]
+	SymbolLine[10.00mil 22.00mil 16.00mil 22.00mil 8.00mil]
+	SymbolLine[16.00mil 22.00mil 20.00mil 24.00mil 8.00mil]
+	SymbolLine[20.00mil 24.00mil 22.00mil 30.00mil 8.00mil]
+	SymbolLine[22.00mil 30.00mil 22.00mil 50.00mil 8.00mil]
+	SymbolLine[22.00mil 30.00mil 28.00mil 24.00mil 8.00mil]
+	SymbolLine[28.00mil 24.00mil 32.00mil 22.00mil 8.00mil]
+	SymbolLine[32.00mil 22.00mil 38.00mil 22.00mil 8.00mil]
+	SymbolLine[38.00mil 22.00mil 42.00mil 24.00mil 8.00mil]
+	SymbolLine[42.00mil 24.00mil 44.00mil 30.00mil 8.00mil]
+	SymbolLine[44.00mil 30.00mil 44.00mil 50.00mil 8.00mil]
+)
+Symbol['n' 12.00mil]
+(
+	SymbolLine[0.0000 22.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 6.00mil 24.00mil 8.00mil]
+	SymbolLine[6.00mil 24.00mil 10.00mil 22.00mil 8.00mil]
+	SymbolLine[10.00mil 22.00mil 16.00mil 22.00mil 8.00mil]
+	SymbolLine[16.00mil 22.00mil 20.00mil 24.00mil 8.00mil]
+	SymbolLine[20.00mil 24.00mil 22.00mil 30.00mil 8.00mil]
+	SymbolLine[22.00mil 30.00mil 22.00mil 50.00mil 8.00mil]
+)
+Symbol['o' 12.00mil]
+(
+	SymbolLine[10.00mil 22.00mil 6.00mil 24.00mil 8.00mil]
+	SymbolLine[6.00mil 24.00mil 2.00mil 28.00mil 8.00mil]
+	SymbolLine[2.00mil 28.00mil 0.0000 34.00mil 8.00mil]
+	SymbolLine[0.0000 34.00mil 0.0000 38.00mil 8.00mil]
+	SymbolLine[0.0000 38.00mil 2.00mil 44.00mil 8.00mil]
+	SymbolLine[2.00mil 44.00mil 6.00mil 48.00mil 8.00mil]
+	SymbolLine[6.00mil 48.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 16.00mil 50.00mil 8.00mil]
+	SymbolLine[16.00mil 50.00mil 20.00mil 48.00mil 8.00mil]
+	SymbolLine[20.00mil 48.00mil 24.00mil 44.00mil 8.00mil]
+	SymbolLine[24.00mil 44.00mil 26.00mil 38.00mil 8.00mil]
+	SymbolLine[26.00mil 38.00mil 26.00mil 34.00mil 8.00mil]
+	SymbolLine[26.00mil 34.00mil 24.00mil 28.00mil 8.00mil]
+	SymbolLine[24.00mil 28.00mil 20.00mil 24.00mil 8.00mil]
+	SymbolLine[20.00mil 24.00mil 16.00mil 22.00mil 8.00mil]
+	SymbolLine[16.00mil 22.00mil 10.00mil 22.00mil 8.00mil]
+)
+Symbol['p' 12.00mil]
+(
+	SymbolLine[0.0000 22.00mil 0.0000 64.00mil 8.00mil]
+	SymbolLine[0.0000 28.00mil 4.00mil 24.00mil 8.00mil]
+	SymbolLine[4.00mil 24.00mil 8.00mil 22.00mil 8.00mil]
+	SymbolLine[8.00mil 22.00mil 14.00mil 22.00mil 8.00mil]
+	SymbolLine[14.00mil 22.00mil 18.00mil 24.00mil 8.00mil]
+	SymbolLine[18.00mil 24.00mil 22.00mil 28.00mil 8.00mil]
+	SymbolLine[22.00mil 28.00mil 24.00mil 34.00mil 8.00mil]
+	SymbolLine[24.00mil 34.00mil 24.00mil 38.00mil 8.00mil]
+	SymbolLine[24.00mil 38.00mil 22.00mil 44.00mil 8.00mil]
+	SymbolLine[22.00mil 44.00mil 18.00mil 48.00mil 8.00mil]
+	SymbolLine[18.00mil 48.00mil 14.00mil 50.00mil 8.00mil]
+	SymbolLine[14.00mil 50.00mil 8.00mil 50.00mil 8.00mil]
+	SymbolLine[8.00mil 50.00mil 4.00mil 48.00mil 8.00mil]
+	SymbolLine[4.00mil 48.00mil 0.0000 44.00mil 8.00mil]
+)
+Symbol['q' 12.00mil]
+(
+	SymbolLine[24.00mil 22.00mil 24.00mil 64.00mil 8.00mil]
+	SymbolLine[24.00mil 28.00mil 20.00mil 24.00mil 8.00mil]
+	SymbolLine[20.00mil 24.00mil 16.00mil 22.00mil 8.00mil]
+	SymbolLine[16.00mil 22.00mil 10.00mil 22.00mil 8.00mil]
+	SymbolLine[10.00mil 22.00mil 6.00mil 24.00mil 8.00mil]
+	SymbolLine[6.00mil 24.00mil 2.00mil 28.00mil 8.00mil]
+	SymbolLine[2.00mil 28.00mil 0.0000 34.00mil 8.00mil]
+	SymbolLine[0.0000 34.00mil 0.0000 38.00mil 8.00mil]
+	SymbolLine[0.0000 38.00mil 2.00mil 44.00mil 8.00mil]
+	SymbolLine[2.00mil 44.00mil 6.00mil 48.00mil 8.00mil]
+	SymbolLine[6.00mil 48.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 16.00mil 50.00mil 8.00mil]
+	SymbolLine[16.00mil 50.00mil 20.00mil 48.00mil 8.00mil]
+	SymbolLine[20.00mil 48.00mil 24.00mil 44.00mil 8.00mil]
+)
+Symbol['r' 12.00mil]
+(
+	SymbolLine[0.0000 22.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 34.00mil 2.00mil 28.00mil 8.00mil]
+	SymbolLine[2.00mil 28.00mil 6.00mil 24.00mil 8.00mil]
+	SymbolLine[6.00mil 24.00mil 10.00mil 22.00mil 8.00mil]
+	SymbolLine[10.00mil 22.00mil 16.00mil 22.00mil 8.00mil]
+)
+Symbol['s' 12.00mil]
+(
+	SymbolLine[22.00mil 28.00mil 20.00mil 24.00mil 8.00mil]
+	SymbolLine[20.00mil 24.00mil 14.00mil 22.00mil 8.00mil]
+	SymbolLine[14.00mil 22.00mil 8.00mil 22.00mil 8.00mil]
+	SymbolLine[8.00mil 22.00mil 2.00mil 24.00mil 8.00mil]
+	SymbolLine[2.00mil 24.00mil 0.0000 28.00mil 8.00mil]
+	SymbolLine[0.0000 28.00mil 2.00mil 32.00mil 8.00mil]
+	SymbolLine[2.00mil 32.00mil 6.00mil 34.00mil 8.00mil]
+	SymbolLine[6.00mil 34.00mil 16.00mil 36.00mil 8.00mil]
+	SymbolLine[16.00mil 36.00mil 20.00mil 38.00mil 8.00mil]
+	SymbolLine[20.00mil 38.00mil 22.00mil 42.00mil 8.00mil]
+	SymbolLine[22.00mil 42.00mil 22.00mil 44.00mil 8.00mil]
+	SymbolLine[22.00mil 44.00mil 20.00mil 48.00mil 8.00mil]
+	SymbolLine[20.00mil 48.00mil 14.00mil 50.00mil 8.00mil]
+	SymbolLine[14.00mil 50.00mil 8.00mil 50.00mil 8.00mil]
+	SymbolLine[8.00mil 50.00mil 2.00mil 48.00mil 8.00mil]
+	SymbolLine[2.00mil 48.00mil 0.0000 44.00mil 8.00mil]
+)
+Symbol['t' 12.00mil]
+(
+	SymbolLine[6.00mil 8.00mil 6.00mil 42.00mil 8.00mil]
+	SymbolLine[6.00mil 42.00mil 8.00mil 48.00mil 8.00mil]
+	SymbolLine[8.00mil 48.00mil 12.00mil 50.00mil 8.00mil]
+	SymbolLine[12.00mil 50.00mil 16.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 22.00mil 14.00mil 22.00mil 8.00mil]
+)
+Symbol['u' 12.00mil]
+(
+	SymbolLine[0.0000 22.00mil 0.0000 42.00mil 8.00mil]
+	SymbolLine[0.0000 42.00mil 2.00mil 48.00mil 8.00mil]
+	SymbolLine[2.00mil 48.00mil 6.00mil 50.00mil 8.00mil]
+	SymbolLine[6.00mil 50.00mil 12.00mil 50.00mil 8.00mil]
+	SymbolLine[12.00mil 50.00mil 16.00mil 48.00mil 8.00mil]
+	SymbolLine[16.00mil 48.00mil 22.00mil 42.00mil 8.00mil]
+	SymbolLine[22.00mil 22.00mil 22.00mil 50.00mil 8.00mil]
+)
+Symbol['v' 12.00mil]
+(
+	SymbolLine[0.0000 22.00mil 12.00mil 50.00mil 8.00mil]
+	SymbolLine[24.00mil 22.00mil 12.00mil 50.00mil 8.00mil]
+)
+Symbol['w' 12.00mil]
+(
+	SymbolLine[0.0000 22.00mil 8.00mil 50.00mil 8.00mil]
+	SymbolLine[16.00mil 22.00mil 8.00mil 50.00mil 8.00mil]
+	SymbolLine[16.00mil 22.00mil 24.00mil 50.00mil 8.00mil]
+	SymbolLine[32.00mil 22.00mil 24.00mil 50.00mil 8.00mil]
+)
+Symbol['x' 12.00mil]
+(
+	SymbolLine[0.0000 22.00mil 22.00mil 50.00mil 8.00mil]
+	SymbolLine[22.00mil 22.00mil 0.0000 50.00mil 8.00mil]
+)
+Symbol['y' 12.00mil]
+(
+	SymbolLine[2.00mil 22.00mil 14.00mil 50.00mil 8.00mil]
+	SymbolLine[26.00mil 22.00mil 14.00mil 50.00mil 8.00mil]
+	SymbolLine[14.00mil 50.00mil 10.00mil 58.00mil 8.00mil]
+	SymbolLine[10.00mil 58.00mil 6.00mil 62.00mil 8.00mil]
+	SymbolLine[6.00mil 62.00mil 2.00mil 64.00mil 8.00mil]
+	SymbolLine[2.00mil 64.00mil 0.0000 64.00mil 8.00mil]
+)
+Symbol['z' 12.00mil]
+(
+	SymbolLine[22.00mil 22.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 22.00mil 22.00mil 22.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 22.00mil 50.00mil 8.00mil]
+)
+Symbol['{' 12.00mil]
+(
+	SymbolLine[10.00mil 0.0000 6.00mil 2.00mil 8.00mil]
+	SymbolLine[6.00mil 2.00mil 4.00mil 4.00mil 8.00mil]
+	SymbolLine[4.00mil 4.00mil 2.00mil 8.00mil 8.00mil]
+	SymbolLine[2.00mil 8.00mil 2.00mil 12.00mil 8.00mil]
+	SymbolLine[2.00mil 12.00mil 4.00mil 16.00mil 8.00mil]
+	SymbolLine[4.00mil 16.00mil 6.00mil 18.00mil 8.00mil]
+	SymbolLine[6.00mil 18.00mil 8.00mil 22.00mil 8.00mil]
+	SymbolLine[8.00mil 22.00mil 8.00mil 26.00mil 8.00mil]
+	SymbolLine[8.00mil 26.00mil 4.00mil 30.00mil 8.00mil]
+	SymbolLine[6.00mil 2.00mil 4.00mil 6.00mil 8.00mil]
+	SymbolLine[4.00mil 6.00mil 4.00mil 10.00mil 8.00mil]
+	SymbolLine[4.00mil 10.00mil 6.00mil 14.00mil 8.00mil]
+	SymbolLine[6.00mil 14.00mil 8.00mil 16.00mil 8.00mil]
+	SymbolLine[8.00mil 16.00mil 10.00mil 20.00mil 8.00mil]
+	SymbolLine[10.00mil 20.00mil 10.00mil 24.00mil 8.00mil]
+	SymbolLine[10.00mil 24.00mil 8.00mil 28.00mil 8.00mil]
+	SymbolLine[8.00mil 28.00mil 0.0000 32.00mil 8.00mil]
+	SymbolLine[0.0000 32.00mil 8.00mil 36.00mil 8.00mil]
+	SymbolLine[8.00mil 36.00mil 10.00mil 40.00mil 8.00mil]
+	SymbolLine[10.00mil 40.00mil 10.00mil 44.00mil 8.00mil]
+	SymbolLine[10.00mil 44.00mil 8.00mil 48.00mil 8.00mil]
+	SymbolLine[8.00mil 48.00mil 6.00mil 50.00mil 8.00mil]
+	SymbolLine[6.00mil 50.00mil 4.00mil 54.00mil 8.00mil]
+	SymbolLine[4.00mil 54.00mil 4.00mil 58.00mil 8.00mil]
+	SymbolLine[4.00mil 58.00mil 6.00mil 62.00mil 8.00mil]
+	SymbolLine[4.00mil 34.00mil 8.00mil 38.00mil 8.00mil]
+	SymbolLine[8.00mil 38.00mil 8.00mil 42.00mil 8.00mil]
+	SymbolLine[8.00mil 42.00mil 6.00mil 46.00mil 8.00mil]
+	SymbolLine[6.00mil 46.00mil 4.00mil 48.00mil 8.00mil]
+	SymbolLine[4.00mil 48.00mil 2.00mil 52.00mil 8.00mil]
+	SymbolLine[2.00mil 52.00mil 2.00mil 56.00mil 8.00mil]
+	SymbolLine[2.00mil 56.00mil 4.00mil 60.00mil 8.00mil]
+	SymbolLine[4.00mil 60.00mil 6.00mil 62.00mil 8.00mil]
+	SymbolLine[6.00mil 62.00mil 10.00mil 64.00mil 8.00mil]
+)
+Symbol['|' 12.00mil]
+(
+	SymbolLine[0.0000 0.0000 0.0000 64.00mil 8.00mil]
+)
+Symbol['}' 12.00mil]
+(
+	SymbolLine[0.0000 0.0000 4.00mil 2.00mil 8.00mil]
+	SymbolLine[4.00mil 2.00mil 6.00mil 4.00mil 8.00mil]
+	SymbolLine[6.00mil 4.00mil 8.00mil 8.00mil 8.00mil]
+	SymbolLine[8.00mil 8.00mil 8.00mil 12.00mil 8.00mil]
+	SymbolLine[8.00mil 12.00mil 6.00mil 16.00mil 8.00mil]
+	SymbolLine[6.00mil 16.00mil 4.00mil 18.00mil 8.00mil]
+	SymbolLine[4.00mil 18.00mil 2.00mil 22.00mil 8.00mil]
+	SymbolLine[2.00mil 22.00mil 2.00mil 26.00mil 8.00mil]
+	SymbolLine[2.00mil 26.00mil 6.00mil 30.00mil 8.00mil]
+	SymbolLine[4.00mil 2.00mil 6.00mil 6.00mil 8.00mil]
+	SymbolLine[6.00mil 6.00mil 6.00mil 10.00mil 8.00mil]
+	SymbolLine[6.00mil 10.00mil 4.00mil 14.00mil 8.00mil]
+	SymbolLine[4.00mil 14.00mil 2.00mil 16.00mil 8.00mil]
+	SymbolLine[2.00mil 16.00mil 0.0000 20.00mil 8.00mil]
+	SymbolLine[0.0000 20.00mil 0.0000 24.00mil 8.00mil]
+	SymbolLine[0.0000 24.00mil 2.00mil 28.00mil 8.00mil]
+	SymbolLine[2.00mil 28.00mil 10.00mil 32.00mil 8.00mil]
+	SymbolLine[10.00mil 32.00mil 2.00mil 36.00mil 8.00mil]
+	SymbolLine[2.00mil 36.00mil 0.0000 40.00mil 8.00mil]
+	SymbolLine[0.0000 40.00mil 0.0000 44.00mil 8.00mil]
+	SymbolLine[0.0000 44.00mil 2.00mil 48.00mil 8.00mil]
+	SymbolLine[2.00mil 48.00mil 4.00mil 50.00mil 8.00mil]
+	SymbolLine[4.00mil 50.00mil 6.00mil 54.00mil 8.00mil]
+	SymbolLine[6.00mil 54.00mil 6.00mil 58.00mil 8.00mil]
+	SymbolLine[6.00mil 58.00mil 4.00mil 62.00mil 8.00mil]
+	SymbolLine[6.00mil 34.00mil 2.00mil 38.00mil 8.00mil]
+	SymbolLine[2.00mil 38.00mil 2.00mil 42.00mil 8.00mil]
+	SymbolLine[2.00mil 42.00mil 4.00mil 46.00mil 8.00mil]
+	SymbolLine[4.00mil 46.00mil 6.00mil 48.00mil 8.00mil]
+	SymbolLine[6.00mil 48.00mil 8.00mil 52.00mil 8.00mil]
+	SymbolLine[8.00mil 52.00mil 8.00mil 56.00mil 8.00mil]
+	SymbolLine[8.00mil 56.00mil 6.00mil 60.00mil 8.00mil]
+	SymbolLine[6.00mil 60.00mil 4.00mil 62.00mil 8.00mil]
+	SymbolLine[4.00mil 62.00mil 0.0000 64.00mil 8.00mil]
+)
+Symbol['~' 12.00mil]
+(
+	SymbolLine[0.0000 38.00mil 0.0000 34.00mil 8.00mil]
+	SymbolLine[0.0000 34.00mil 2.00mil 28.00mil 8.00mil]
+	SymbolLine[2.00mil 28.00mil 6.00mil 26.00mil 8.00mil]
+	SymbolLine[6.00mil 26.00mil 10.00mil 26.00mil 8.00mil]
+	SymbolLine[10.00mil 26.00mil 14.00mil 28.00mil 8.00mil]
+	SymbolLine[14.00mil 28.00mil 22.00mil 34.00mil 8.00mil]
+	SymbolLine[22.00mil 34.00mil 26.00mil 36.00mil 8.00mil]
+	SymbolLine[26.00mil 36.00mil 30.00mil 36.00mil 8.00mil]
+	SymbolLine[30.00mil 36.00mil 34.00mil 34.00mil 8.00mil]
+	SymbolLine[34.00mil 34.00mil 36.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 34.00mil 2.00mil 30.00mil 8.00mil]
+	SymbolLine[2.00mil 30.00mil 6.00mil 28.00mil 8.00mil]
+	SymbolLine[6.00mil 28.00mil 10.00mil 28.00mil 8.00mil]
+	SymbolLine[10.00mil 28.00mil 14.00mil 30.00mil 8.00mil]
+	SymbolLine[14.00mil 30.00mil 22.00mil 36.00mil 8.00mil]
+	SymbolLine[22.00mil 36.00mil 26.00mil 38.00mil 8.00mil]
+	SymbolLine[26.00mil 38.00mil 30.00mil 38.00mil 8.00mil]
+	SymbolLine[30.00mil 38.00mil 34.00mil 36.00mil 8.00mil]
+	SymbolLine[34.00mil 36.00mil 36.00mil 30.00mil 8.00mil]
+	SymbolLine[36.00mil 30.00mil 36.00mil 26.00mil 8.00mil]
 )
 Attribute("PCB::grid::unit" "mil")
-Via[198500 270800 2800 2000 0 1400 "" ""]
-Via[236000 258300 2800 2000 0 1400 "" ""]
-Via[311000 133300 2800 11000 13200 13000 "" "hole"]
-Via[146000 133300 2800 11000 13200 13000 "" "hole"]
-Via[178500 148300 2800 2000 0 1400 "" ""]
+Via[1985.00mil 2708.00mil 28.00mil 20.00mil 0.0000 14.00mil "" ""]
+Via[2360.00mil 2583.00mil 28.00mil 20.00mil 0.0000 14.00mil "" ""]
+Via[3110.00mil 1333.00mil 28.00mil 110.00mil 132.00mil 130.00mil "" "hole"]
+Via[1460.00mil 1333.00mil 28.00mil 110.00mil 132.00mil 130.00mil "" "hole"]
+Via[1785.00mil 1483.00mil 28.00mil 20.00mil 0.0000 14.00mil "" ""]
 
-Element["hidename" "NRJ6HF" "Output1" "unknown" 285000 290000 268 -39406 0 100 ""]
+Element["hidename" "NRJ6HF" "Output1" "unknown" 2850.00mil 2900.00mil 2.68mil -394.06mil 0 100 ""]
 (
-	Pin[28500 -16700 10000 3000 10400 6000 "S" "1" "thermal(0X,1X)"]
-	Pin[28500 -41700 10000 3000 10400 6000 "R" "2" ""]
-	Pin[28500 -66700 10000 3000 10400 6000 "T" "3" ""]
-	Pin[-16500 -16700 10000 3000 10400 6000 "SN" "4" ""]
-	Pin[-16500 -41700 10000 3000 10400 6000 "RN" "5" ""]
-	Pin[-16500 -66700 10000 3000 10400 6000 "TN" "6" ""]
-	Pin[28500 -29300 8100 2000 8100 8000 "" "7" "hole"]
-	Pin[-16500 -29300 8100 2000 8100 8000 "" "8" "hole"]
-	ElementLine [37000 -94500 -25000 -94500 2500]
-	ElementLine [-25000 -1200 -25000 -94500 2500]
-	ElementLine [37000 -1200 37000 -94500 2500]
+	Pin[285.00mil -167.00mil 100.00mil 30.00mil 104.00mil 60.00mil "S" "1" "thermal(0X,1X)"]
+	Pin[285.00mil -417.00mil 100.00mil 30.00mil 104.00mil 60.00mil "R" "2" ""]
+	Pin[285.00mil -667.00mil 100.00mil 30.00mil 104.00mil 60.00mil "T" "3" ""]
+	Pin[-165.00mil -167.00mil 100.00mil 30.00mil 104.00mil 60.00mil "SN" "4" ""]
+	Pin[-165.00mil -417.00mil 100.00mil 30.00mil 104.00mil 60.00mil "RN" "5" ""]
+	Pin[-165.00mil -667.00mil 100.00mil 30.00mil 104.00mil 60.00mil "TN" "6" ""]
+	Pin[285.00mil -293.00mil 81.00mil 20.00mil 81.00mil 80.00mil "" "7" "hole"]
+	Pin[-165.00mil -293.00mil 81.00mil 20.00mil 81.00mil 80.00mil "" "8" "hole"]
+	ElementLine [370.00mil -945.00mil -250.00mil -945.00mil 25.00mil]
+	ElementLine [-250.00mil -12.00mil -250.00mil -945.00mil 25.00mil]
+	ElementLine [370.00mil -12.00mil 370.00mil -945.00mil 25.00mil]
 
 	)
 
-Element["hidename,onsolder" "JUMPER2" "Speaker1" "unknown" 316000 185800 13000 5500 3 100 "auto"]
+Element["hidename,onsolder" "JUMPER2" "Speaker1" "unknown" 3160.00mil 1858.00mil 130.00mil 55.00mil 3 100 "auto"]
 (
-	Pin[0 -10000 8000 2400 8600 4000 "" "2" ""]
-	Pin[0 0 8000 2400 8600 4000 "" "1" ""]
-	Pad[-2500 -10000 2500 -10000 8000 2000 8500 "" "2" "onsolder"]
-	Pad[-2500 0 2500 0 8000 2000 8500 "" "1" "onsolder"]
-	ElementLine [-5000 -5000 5000 -5000 1000]
-	ElementLine [-5000 5000 5000 5000 1000]
-	ElementLine [-5000 -15000 5000 -15000 1000]
+	Pin[0.0000 -100.00mil 80.00mil 24.00mil 86.00mil 40.00mil "" "2" ""]
+	Pin[0.0000 0.0000 80.00mil 24.00mil 86.00mil 40.00mil "" "1" ""]
+	Pad[-25.00mil -100.00mil 25.00mil -100.00mil 80.00mil 20.00mil 85.00mil "" "2" "onsolder"]
+	Pad[-25.00mil 0.0000 25.00mil 0.0000 80.00mil 20.00mil 85.00mil "" "1" "onsolder"]
+	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil -150.00mil 50.00mil -150.00mil 10.00mil]
 
 	)
 
-Element["hidename,onsolder" "JUMPER2" "Pickup1" "unknown" 141000 175800 11000 5000 3 100 "auto"]
+Element["hidename,onsolder" "JUMPER2" "Pickup1" "unknown" 1410.00mil 1758.00mil 110.00mil 50.00mil 3 100 "auto"]
 (
-	Pin[0 10000 8000 2400 8600 4000 "" "2" ""]
-	Pin[0 0 8000 2400 8600 4000 "" "1" "thermal(0X,1X)"]
-	Pad[-2500 10000 2500 10000 8000 2000 8500 "" "2" "onsolder"]
-	Pad[-2500 0 2500 0 8000 2000 8500 "" "1" "onsolder"]
-	ElementLine [-5000 5000 5000 5000 1000]
-	ElementLine [-5000 -5000 5000 -5000 1000]
-	ElementLine [-5000 15000 5000 15000 1000]
+	Pin[0.0000 100.00mil 80.00mil 24.00mil 86.00mil 40.00mil "" "2" ""]
+	Pin[0.0000 0.0000 80.00mil 24.00mil 86.00mil 40.00mil "" "1" "thermal(0X,1X)"]
+	Pad[-25.00mil 100.00mil 25.00mil 100.00mil 80.00mil 20.00mil 85.00mil "" "2" "onsolder"]
+	Pad[-25.00mil 0.0000 25.00mil 0.0000 80.00mil 20.00mil 85.00mil "" "1" "onsolder"]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil 150.00mil 50.00mil 150.00mil 10.00mil]
 
 	)
 
-Element["hidename,onsolder" "JUMPER3" "R6" "10k" 166000 128300 6000 3000 0 100 "auto"]
+Element["hidename,onsolder" "JUMPER3" "R6" "10k" 1660.00mil 1283.00mil 60.00mil 30.00mil 0 100 "auto"]
 (
-	Pin[20000 0 8000 2400 8600 4000 "" "1" "edge2,thermal(0X)"]
-	Pin[10000 0 8000 2400 8600 4000 "" "2" "edge2"]
-	Pin[0 0 8000 2400 8600 4000 "" "3" "edge2"]
-	Pad[0 -2500 0 2500 8000 2000 8500 "" "3" "onsolder"]
-	Pad[10000 -2500 10000 2500 8000 2000 8500 "" "2" "onsolder"]
-	Pad[20000 -2500 20000 2500 8000 2000 8500 "" "1" "onsolder"]
-	ElementLine [-5000 5000 -5000 -5000 1000]
-	ElementLine [25000 5000 25000 -5000 1000]
-	ElementLine [15000 5000 15000 -5000 1000]
-	ElementLine [5000 5000 5000 -5000 1000]
+	Pin[200.00mil 0.0000 80.00mil 24.00mil 86.00mil 40.00mil "" "1" "edge2,thermal(0X)"]
+	Pin[100.00mil 0.0000 80.00mil 24.00mil 86.00mil 40.00mil "" "2" "edge2"]
+	Pin[0.0000 0.0000 80.00mil 24.00mil 86.00mil 40.00mil "" "3" "edge2"]
+	Pad[0.0000 -25.00mil 0.0000 25.00mil 80.00mil 20.00mil 85.00mil "" "3" "onsolder"]
+	Pad[100.00mil -25.00mil 100.00mil 25.00mil 80.00mil 20.00mil 85.00mil "" "2" "onsolder"]
+	Pad[200.00mil -25.00mil 200.00mil 25.00mil 80.00mil 20.00mil 85.00mil "" "1" "onsolder"]
+	ElementLine [-50.00mil 50.00mil -50.00mil -50.00mil 10.00mil]
+	ElementLine [250.00mil 50.00mil 250.00mil -50.00mil 10.00mil]
+	ElementLine [150.00mil 50.00mil 150.00mil -50.00mil 10.00mil]
+	ElementLine [50.00mil 50.00mil 50.00mil -50.00mil 10.00mil]
 
 	)
 
-Element["hidename,onsolder" "JUMPER2" "Batt1" "unknown" 141000 163300 -11000 -10000 1 100 "auto"]
+Element["hidename,onsolder" "JUMPER2" "Batt1" "unknown" 1410.00mil 1633.00mil -110.00mil -100.00mil 1 100 "auto"]
 (
-	Pin[0 -10000 8000 2400 8600 4000 "" "2" ""]
-	Pin[0 0 8000 2400 8600 4000 "" "1" ""]
-	Pad[-2500 -10000 2500 -10000 8000 2000 8500 "" "2" "onsolder"]
-	Pad[-2500 0 2500 0 8000 2000 8500 "" "1" "onsolder"]
-	ElementLine [-5000 -5000 5000 -5000 1000]
-	ElementLine [-5000 5000 5000 5000 1000]
-	ElementLine [-5000 -15000 5000 -15000 1000]
+	Pin[0.0000 -100.00mil 80.00mil 24.00mil 86.00mil 40.00mil "" "2" ""]
+	Pin[0.0000 0.0000 80.00mil 24.00mil 86.00mil 40.00mil "" "1" ""]
+	Pad[-25.00mil -100.00mil 25.00mil -100.00mil 80.00mil 20.00mil 85.00mil "" "2" "onsolder"]
+	Pad[-25.00mil 0.0000 25.00mil 0.0000 80.00mil 20.00mil 85.00mil "" "1" "onsolder"]
+	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil -150.00mil 50.00mil -150.00mil 10.00mil]
 
 	)
 
-Element["hidename" "TDA2003" "U1" "unknown" 200114 153300 -2559 -28055 0 100 ""]
+Element["hidename" "TDA2003" "U1" "unknown" 50.8290mm 1533.00mil -25.59mil -280.55mil 0 100 ""]
 (
-	Pin[6693 -15748 8000 2400 8600 4000 "2222" "2" "edge2"]
-	Pin[20079 -15748 8000 2400 8600 4000 "4444" "4" "edge2"]
-	Pin[13386 0 8000 2400 8600 4000 "3333" "3" "edge2,thermal(0X,1X)"]
-	Pin[26772 0 8000 2400 8600 4000 "55555" "5" "edge2"]
-	Pin[0 0 8000 2400 8600 4000 "1111" "1" "edge2"]
-	ElementLine [-5512 -31496 32283 -31496 4000]
-	ElementLine [33071 -32283 33071 -15748 2500]
-	ElementLine [-6299 -32283 -6299 -15748 2500]
-	ElementLine [-6299 -32283 33071 -32283 2500]
+	Pin[66.93mil -157.48mil 80.00mil 24.00mil 86.00mil 40.00mil "2222" "2" "edge2"]
+	Pin[200.79mil -157.48mil 80.00mil 24.00mil 86.00mil 40.00mil "4444" "4" "edge2"]
+	Pin[133.86mil 0.0000 80.00mil 24.00mil 86.00mil 40.00mil "3333" "3" "edge2,thermal(0X,1X)"]
+	Pin[267.72mil 0.0000 80.00mil 24.00mil 86.00mil 40.00mil "55555" "5" "edge2"]
+	Pin[0.0000 0.0000 80.00mil 24.00mil 86.00mil 40.00mil "1111" "1" "edge2"]
+	ElementLine [-55.12mil -314.96mil 322.83mil -314.96mil 40.00mil]
+	ElementLine [330.71mil -322.83mil 330.71mil -157.48mil 25.00mil]
+	ElementLine [-62.99mil -322.83mil -62.99mil -157.48mil 25.00mil]
+	ElementLine [-62.99mil -322.83mil 330.71mil -322.83mil 25.00mil]
 
 	)
 
-Element["hidename" "JUMPER2" "C6" "2200uf" 276000 145800 10500 9500 0 100 ""]
+Element["hidename" "JUMPER2" "C6" "2200uf" 2760.00mil 1458.00mil 105.00mil 95.00mil 0 100 ""]
 (
-	Pin[-10000 0 8000 2400 8600 4000 "" "1" ""]
-	Pin[10000 0 8000 2400 8600 4000 "" "2" "square"]
-	ElementArc [1 1 24001 24001 270 90 1000]
-	ElementArc [0 0 24000 24000 0 90 1000]
-	ElementArc [-1 -1 24001 24001 90 90 1000]
-	ElementArc [1 -1 23999 23999 180 90 1000]
+	Pin[-100.00mil 0.0000 80.00mil 24.00mil 86.00mil 40.00mil "" "1" ""]
+	Pin[100.00mil 0.0000 80.00mil 24.00mil 86.00mil 40.00mil "" "2" "square"]
+	ElementArc [0.01mil 0.01mil 240.01mil 240.01mil 270 90 10.00mil]
+	ElementArc [0.0000 0.0000 240.00mil 240.00mil 0 90 10.00mil]
+	ElementArc [-0.01mil -0.01mil 240.01mil 240.01mil 90 90 10.00mil]
+	ElementArc [0.01mil -0.01mil 239.99mil 239.99mil 180 90 10.00mil]
 
 	)
 
-Element["hidename" "JUMPER2" "C8" "1000uf" 208500 178300 -5500 7000 3 100 ""]
+Element["hidename" "JUMPER2" "C8" "1000uf" 2080.00mil 1783.00mil -55.00mil 70.00mil 3 100 ""]
 (
-	Pin[10000 0 8000 2400 8600 4000 "" "1" ""]
-	Pin[-10000 0 8000 2400 8600 4000 "" "2" "square,thermal(0X,1X)"]
-	ElementArc [1 -1 18801 18801 0 90 1000]
-	ElementArc [0 0 18800 18800 90 90 1000]
-	ElementArc [-1 1 18801 18801 180 90 1000]
-	ElementArc [-1 -1 18799 18799 270 90 1000]
+	Pin[100.00mil 0.0000 80.00mil 24.00mil 86.00mil 40.00mil "" "1" ""]
+	Pin[-100.00mil 0.0000 80.00mil 24.00mil 86.00mil 40.00mil "" "2" "square,thermal(0X,1X)"]
+	ElementArc [0.01mil -0.01mil 188.01mil 188.01mil 0 90 10.00mil]
+	ElementArc [0.0000 0.0000 188.00mil 188.00mil 90 90 10.00mil]
+	ElementArc [-0.01mil 0.01mil 188.01mil 188.01mil 180 90 10.00mil]
+	ElementArc [-0.01mil -0.01mil 187.99mil 187.99mil 270 90 10.00mil]
 
 	)
 
-Element["hidename" "NRJ6HF" "Input1" "unknown" 160000 290000 2268 -40906 0 100 ""]
+Element["hidename" "NRJ6HF" "Input1" "unknown" 1600.00mil 2900.00mil 22.68mil -409.06mil 0 100 ""]
 (
-	Pin[28500 -16700 10000 3000 10400 6000 "S" "1" "thermal(0X,1X)"]
-	Pin[28500 -41700 10000 3000 10400 6000 "R" "2" ""]
-	Pin[28500 -66700 10000 2400 10400 6000 "T" "3" ""]
-	Pin[-16500 -16700 10000 3000 10400 6000 "SN" "4" ""]
-	Pin[-16500 -41700 10000 3000 10400 6000 "RN" "5" "thermal(0X,1X)"]
-	Pin[-16500 -66700 10000 3000 10400 6000 "TN" "6" "thermal(0X,1X,9X)"]
-	Pin[28500 -29300 8100 2000 8100 8000 "" "7" "hole"]
-	Pin[-16500 -29300 8100 2000 8100 8000 "" "8" "hole"]
-	ElementLine [37000 -94500 -25000 -94500 2500]
-	ElementLine [-25000 -1200 -25000 -94500 2500]
-	ElementLine [37000 -1200 37000 -94500 2500]
+	Pin[285.00mil -167.00mil 100.00mil 30.00mil 104.00mil 60.00mil "S" "1" "thermal(0X,1X)"]
+	Pin[285.00mil -417.00mil 100.00mil 30.00mil 104.00mil 60.00mil "R" "2" ""]
+	Pin[285.00mil -667.00mil 100.00mil 24.00mil 104.00mil 60.00mil "T" "3" ""]
+	Pin[-165.00mil -167.00mil 100.00mil 30.00mil 104.00mil 60.00mil "SN" "4" ""]
+	Pin[-165.00mil -417.00mil 100.00mil 30.00mil 104.00mil 60.00mil "RN" "5" ""]
+	Pin[-165.00mil -667.00mil 100.00mil 30.00mil 104.00mil 60.00mil "TN" "6" "thermal(9X)"]
+	Pin[285.00mil -293.00mil 81.00mil 20.00mil 81.00mil 80.00mil "" "7" "hole"]
+	Pin[-165.00mil -293.00mil 81.00mil 20.00mil 81.00mil 80.00mil "" "8" "hole"]
+	ElementLine [370.00mil -945.00mil -250.00mil -945.00mil 25.00mil]
+	ElementLine [-250.00mil -12.00mil -250.00mil -945.00mil 25.00mil]
+	ElementLine [370.00mil -12.00mil 370.00mil -945.00mil 25.00mil]
 
 	)
 
-Element["hidename,onsolder" "oshw" "ICO1" "unknown" 283504 167374 -98 -787 3 100 "auto"]
+Element["hidename,onsolder" "oshw" "ICO1" "unknown" 72.0100mm 42.5130mm -0.98mil -7.87mil 3 100 "auto"]
 (
-	Pad[5315 4921 7283 6299 600 1200 1800 "" "325" "onsolder,edge2,nopaste"]
-	Pad[7283 6299 9055 4528 600 1200 1800 "" "326" "onsolder,edge2,nopaste"]
-	Pad[7480 2362 9055 4528 600 1200 1800 "" "327" "onsolder,edge2,nopaste"]
-	Pad[7480 2362 8268 197 600 1200 1800 "" "328" "onsolder,edge2,nopaste"]
-	Pad[8268 197 11024 -394 600 1200 1800 "" "329" "onsolder,edge2,nopaste"]
-	Pad[11024 -2756 11024 -394 600 1200 1800 "" "330" "onsolder,nopaste"]
-	Pad[8268 -3150 11024 -2756 600 1200 1800 "" "331" "onsolder,nopaste"]
-	Pad[7480 -5512 8268 -3150 600 1200 1800 "" "332" "onsolder,nopaste"]
-	Pad[7480 -5512 9055 -7874 600 1200 1800 "" "333" "onsolder,nopaste"]
-	Pad[7283 -9449 9055 -7874 600 1200 1800 "" "334" "onsolder,nopaste"]
-	Pad[5118 -7874 7283 -9449 600 1200 1800 "" "335" "onsolder,nopaste"]
-	Pad[2756 -8858 5118 -7874 600 1200 1800 "" "336" "onsolder,nopaste"]
-	Pad[2362 -11417 2756 -8858 600 1200 1800 "" "337" "onsolder,nopaste"]
-	Pad[0 -11417 2362 -11417 600 1200 1800 "" "338" "onsolder,nopaste"]
-	Pad[-394 -8858 0 -11417 600 1200 1800 "" "339" "onsolder,nopaste"]
-	Pad[-2953 -7874 -394 -8858 600 1200 1800 "" "340" "onsolder,nopaste"]
-	Pad[-5118 -9449 -2953 -7874 600 1200 1800 "" "341" "onsolder,nopaste"]
-	Pad[-6693 -7874 -5118 -9449 600 1200 1800 "" "342" "onsolder,nopaste"]
-	Pad[-6693 -7874 -5118 -5709 600 1200 1800 "" "343" "onsolder,nopaste"]
-	Pad[-5709 -4724 -5118 -5709 600 1200 1800 "" "344" "onsolder,nopaste"]
-	Pad[-5709 -4724 -1575 -2953 600 1200 1800 "" "345" "onsolder,nopaste"]
-	Pad[-1575 -2953 -1181 -3740 600 1200 1800 "" "346" "onsolder,nopaste"]
-	Pad[-1181 -3740 -394 -4331 600 1200 1800 "" "347" "onsolder,nopaste"]
-	Pad[-394 -4331 394 -4528 600 1200 1800 "" "348" "onsolder,nopaste"]
-	Pad[394 -4528 984 -4724 600 1200 1800 "" "349" "onsolder,nopaste"]
-	Pad[984 -4724 1575 -4724 600 1200 1800 "" "350" "onsolder,nopaste"]
-	Pad[1575 -4724 2362 -4528 600 1200 1800 "" "351" "onsolder,nopaste"]
-	Pad[2362 -4528 3346 -3937 600 1200 1800 "" "352" "onsolder,nopaste"]
-	Pad[3346 -3937 3937 -3150 600 1200 1800 "" "353" "onsolder,nopaste"]
-	Pad[3937 -3150 4331 -2165 600 1200 1800 "" "354" "onsolder,nopaste"]
-	Pad[4331 -2165 4331 -1575 600 1200 1800 "" "355" "onsolder,nopaste"]
-	Pad[4134 -591 4331 -1575 600 1200 1800 "" "356" "onsolder,edge2,nopaste"]
-	Pad[3937 0 4134 -591 600 1200 1800 "" "357" "onsolder,edge2,nopaste"]
-	Pad[3543 591 3937 0 600 1200 1800 "" "358" "onsolder,edge2,nopaste"]
-	Pad[2756 1181 3543 591 600 1200 1800 "" "359" "onsolder,edge2,nopaste"]
-	Pad[1772 1575 2756 1181 600 1200 1800 "" "360" "onsolder,edge2,nopaste"]
-	Pad[787 1575 1772 1575 600 1200 1800 "" "361" "onsolder,nopaste"]
-	Pad[0 1378 787 1575 600 1200 1800 "" "362" "onsolder,edge2,nopaste"]
-	Pad[-787 984 0 1378 600 1200 1800 "" "363" "onsolder,edge2,nopaste"]
-	Pad[-1378 394 -787 984 600 1200 1800 "" "364" "onsolder,edge2,nopaste"]
-	Pad[-1772 -197 -1378 394 600 1200 1800 "" "365" "onsolder,edge2,nopaste"]
-	Pad[-5709 1575 -1772 -197 600 1200 1800 "" "366" "onsolder,edge2,nopaste"]
-	Pad[-5709 1575 -5118 2559 600 1200 1800 "" "367" "onsolder,edge2,nopaste"]
-	Pad[-6693 4724 -5118 2559 600 1200 1800 "" "368" "onsolder,edge2,nopaste"]
-	Pad[-6693 4724 -5118 6299 600 1200 1800 "" "369" "onsolder,edge2,nopaste"]
-	Pad[-5118 6299 -2756 4724 600 1200 1800 "" "370" "onsolder,edge2,nopaste"]
-	Pad[-2756 4724 -394 5709 600 1200 1800 "" "371" "onsolder,edge2,nopaste"]
-	Pad[-394 5709 0 8465 600 1200 1800 "" "372" "onsolder,edge2,nopaste"]
-	Pad[0 8465 2362 8465 600 1200 1800 "" "373" "onsolder,nopaste"]
-	Pad[2362 8465 2756 5709 600 1200 1800 "" "374" "onsolder,edge2,nopaste"]
-	Pad[2756 5709 5118 4724 600 1200 1800 "" "375" "onsolder,edge2,nopaste"]
-	Pad[5118 4724 5315 4921 600 1200 1800 "" "376" "onsolder,edge2,nopaste"]
-	Pad[10827 -2756 10827 -394 600 1200 1800 "" "377" "onsolder,nopaste"]
-	Pad[10433 -2756 10433 -394 600 1200 1800 "" "378" "onsolder,nopaste"]
-	Pad[10039 -2756 10039 -394 600 1200 1800 "" "379" "onsolder,nopaste"]
-	Pad[9646 -2756 9646 -197 600 1200 1800 "" "380" "onsolder,nopaste"]
-	Pad[9252 -2953 9252 -197 600 1200 1800 "" "381" "onsolder,nopaste"]
-	Pad[8858 -2756 8858 0 600 1200 1800 "" "382" "onsolder,edge2,nopaste"]
-	Pad[8465 -2953 8465 0 600 1200 1800 "" "383" "onsolder,nopaste"]
-	Pad[8071 -3150 8071 394 600 1200 1800 "" "384" "onsolder,edge2,nopaste"]
-	Pad[7677 -4331 7677 1378 600 1200 1800 "" "385" "onsolder,nopaste"]
-	Pad[7480 -5118 7480 1969 600 1200 1800 "" "386" "onsolder,nopaste"]
-	Pad[8465 4134 8465 4921 600 1200 1800 "" "387" "onsolder,edge2,nopaste"]
-	Pad[8071 3543 8071 5315 600 1200 1800 "" "388" "onsolder,edge2,nopaste"]
-	Pad[7677 3150 7677 5512 600 1200 1800 "" "389" "onsolder,edge2,nopaste"]
-	Pad[7283 -9252 7283 5906 600 1200 1800 "" "390" "onsolder,nopaste"]
-	Pad[7677 -8858 7677 -5906 600 1200 1800 "" "391" "onsolder,nopaste"]
-	Pad[8071 -8465 8071 -6693 600 1200 1800 "" "392" "onsolder,nopaste"]
-	Pad[8465 -8071 8465 -7283 600 1200 1800 "" "393" "onsolder,nopaste"]
-	Pad[6890 -9055 6890 5906 600 1200 1800 "" "394" "onsolder,nopaste"]
-	Pad[6496 -8661 6496 5512 600 1200 1800 "" "395" "onsolder,nopaste"]
-	Pad[6102 -8268 6102 5118 600 1200 1800 "" "396" "onsolder,nopaste"]
-	Pad[5709 -8071 5709 4921 600 1200 1800 "" "397" "onsolder,nopaste"]
-	Pad[5315 -7874 5315 4528 600 1200 1800 "" "398" "onsolder,nopaste"]
-	Pad[4921 -7874 4921 4724 600 1200 1800 "" "399" "onsolder,nopaste"]
-	Pad[4528 -8071 4528 4724 600 1200 1800 "" "400" "onsolder,nopaste"]
-	Pad[4134 0 4134 4921 600 1200 1800 "" "401" "onsolder,edge2,nopaste"]
-	Pad[3740 787 3740 5118 600 1200 1800 "" "402" "onsolder,edge2,nopaste"]
-	Pad[3346 984 3346 5118 600 1200 1800 "" "403" "onsolder,edge2,nopaste"]
-	Pad[2953 1378 2953 5315 600 1200 1800 "" "404" "onsolder,edge2,nopaste"]
-	Pad[2559 1575 2559 5512 600 1200 1800 "" "405" "onsolder,edge2,nopaste"]
-	Pad[2362 1575 2362 7874 600 1200 1800 "" "406" "onsolder,edge2,nopaste"]
-	Pad[2165 1772 2165 8268 600 1200 1800 "" "407" "onsolder,edge2,nopaste"]
-	Pad[1772 1772 1772 8268 600 1200 1800 "" "408" "onsolder,edge2,nopaste"]
-	Pad[1378 1969 1378 8268 600 1200 1800 "" "409" "onsolder,edge2,nopaste"]
-	Pad[984 1772 984 8268 600 1200 1800 "" "410" "onsolder,edge2,nopaste"]
-	Pad[591 1772 591 8268 600 1200 1800 "" "411" "onsolder,edge2,nopaste"]
-	Pad[197 1772 197 8268 600 1200 1800 "" "412" "onsolder,edge2,nopaste"]
-	Pad[-197 1575 -197 5709 600 1200 1800 "" "413" "onsolder,edge2,nopaste"]
-	Pad[-591 1378 -591 5315 600 1200 1800 "" "414" "onsolder,edge2,nopaste"]
-	Pad[-984 984 -984 5118 600 1200 1800 "" "415" "onsolder,edge2,nopaste"]
-	Pad[-1378 591 -1378 5118 600 1200 1800 "" "416" "onsolder,edge2,nopaste"]
-	Pad[-1772 197 -1772 4724 600 1200 1800 "" "417" "onsolder,edge2,nopaste"]
-	Pad[-2165 197 -2165 4724 600 1200 1800 "" "418" "onsolder,edge2,nopaste"]
-	Pad[-2559 394 -2559 4528 600 1200 1800 "" "419" "onsolder,edge2,nopaste"]
-	Pad[-2953 394 -2953 4528 600 1200 1800 "" "420" "onsolder,edge2,nopaste"]
-	Pad[-3346 787 -3346 4724 600 1200 1800 "" "421" "onsolder,edge2,nopaste"]
-	Pad[-3740 984 -3740 5118 600 1200 1800 "" "422" "onsolder,edge2,nopaste"]
-	Pad[-4134 1181 -4134 5315 600 1200 1800 "" "423" "onsolder,edge2,nopaste"]
-	Pad[-4528 1181 -4528 5709 600 1200 1800 "" "424" "onsolder,edge2,nopaste"]
-	Pad[-4921 1378 -4921 5906 600 1200 1800 "" "425" "onsolder,edge2,nopaste"]
-	Pad[-5315 3150 -5315 5709 600 1200 1800 "" "426" "onsolder,edge2,nopaste"]
-	Pad[-5709 3740 -5709 5315 600 1200 1800 "" "427" "onsolder,edge2,nopaste"]
-	Pad[-6102 4331 -6102 5118 600 1200 1800 "" "428" "onsolder,edge2,nopaste"]
-	Pad[-5315 1575 -5315 1772 600 1200 1800 "" "429" "onsolder,edge2,nopaste"]
-	Pad[4134 -8071 4134 -3346 600 1200 1800 "" "430" "onsolder,nopaste"]
-	Pad[3740 -8268 3740 -3937 600 1200 1800 "" "431" "onsolder,nopaste"]
-	Pad[3346 -8465 3346 -4331 600 1200 1800 "" "432" "onsolder,nopaste"]
-	Pad[2953 -8465 2953 -4528 600 1200 1800 "" "433" "onsolder,nopaste"]
-	Pad[2559 -8661 2559 -4724 600 1200 1800 "" "434" "onsolder,nopaste"]
-	Pad[2165 -11220 2165 -4921 600 1200 1800 "" "435" "onsolder,nopaste"]
-	Pad[1772 -11417 1772 -4921 600 1200 1800 "" "436" "onsolder,nopaste"]
-	Pad[1378 -11220 1378 -5118 600 1200 1800 "" "437" "onsolder,nopaste"]
-	Pad[984 -11220 984 -4921 600 1200 1800 "" "438" "onsolder,nopaste"]
-	Pad[591 -11220 591 -4724 600 1200 1800 "" "439" "onsolder,nopaste"]
-	Pad[197 -11220 197 -4528 600 1200 1800 "" "440" "onsolder,nopaste"]
-	Pad[-197 -9055 -197 -4528 600 1200 1800 "" "441" "onsolder,nopaste"]
-	Pad[-591 -8661 -591 -4528 600 1200 1800 "" "442" "onsolder,nopaste"]
-	Pad[-984 -8465 -984 -4134 600 1200 1800 "" "443" "onsolder,nopaste"]
-	Pad[-1378 -8268 -1378 -3740 600 1200 1800 "" "444" "onsolder,nopaste"]
-	Pad[-1575 -8268 -1575 -3150 600 1200 1800 "" "445" "onsolder,nopaste"]
-	Pad[-1969 -8071 -1969 -3150 600 1200 1800 "" "446" "onsolder,nopaste"]
-	Pad[-2362 -7874 -2362 -3543 600 1200 1800 "" "447" "onsolder,nopaste"]
-	Pad[-2756 -7874 -2756 -3740 600 1200 1800 "" "448" "onsolder,nopaste"]
-	Pad[-3150 -7874 -3150 -3740 600 1200 1800 "" "449" "onsolder,nopaste"]
-	Pad[-3543 -7874 -3543 -4134 600 1200 1800 "" "450" "onsolder,nopaste"]
-	Pad[-3937 -8268 -3937 -4134 600 1200 1800 "" "451" "onsolder,nopaste"]
-	Pad[-4134 -8465 -4134 -4331 600 1200 1800 "" "452" "onsolder,nopaste"]
-	Pad[-4528 -8858 -4528 -4331 600 1200 1800 "" "453" "onsolder,nopaste"]
-	Pad[-4724 -9055 -4724 -4528 600 1200 1800 "" "454" "onsolder,nopaste"]
-	Pad[-4921 -9055 -4921 -4528 600 1200 1800 "" "455" "onsolder,nopaste"]
-	Pad[-5118 -9252 -5118 -4724 600 1200 1800 "" "456" "onsolder,nopaste"]
-	Pad[-5315 -8858 -5315 -6496 600 1200 1800 "" "457" "onsolder,nopaste"]
-	Pad[-5512 -8661 -5512 -6890 600 1200 1800 "" "458" "onsolder,nopaste"]
-	Pad[-5906 -8465 -5906 -6890 600 1200 1800 "" "459" "onsolder,nopaste"]
-	Pad[-6102 -8268 -6102 -7677 600 1200 1800 "" "460" "onsolder,nopaste"]
+	Pad[53.15mil 49.21mil 72.83mil 62.99mil 6.00mil 12.00mil 18.00mil "" "325" "onsolder,edge2,nopaste"]
+	Pad[72.83mil 62.99mil 90.55mil 45.28mil 6.00mil 12.00mil 18.00mil "" "326" "onsolder,edge2,nopaste"]
+	Pad[74.80mil 23.62mil 90.55mil 45.28mil 6.00mil 12.00mil 18.00mil "" "327" "onsolder,edge2,nopaste"]
+	Pad[74.80mil 23.62mil 82.68mil 1.97mil 6.00mil 12.00mil 18.00mil "" "328" "onsolder,edge2,nopaste"]
+	Pad[82.68mil 1.97mil 2.8001mm -3.94mil 6.00mil 12.00mil 18.00mil "" "329" "onsolder,edge2,nopaste"]
+	Pad[2.8001mm -27.56mil 2.8001mm -3.94mil 6.00mil 12.00mil 18.00mil "" "330" "onsolder,nopaste"]
+	Pad[82.68mil -31.50mil 2.8001mm -27.56mil 6.00mil 12.00mil 18.00mil "" "331" "onsolder,nopaste"]
+	Pad[74.80mil -55.12mil 82.68mil -31.50mil 6.00mil 12.00mil 18.00mil "" "332" "onsolder,nopaste"]
+	Pad[74.80mil -55.12mil 90.55mil -2.0000mm 6.00mil 12.00mil 18.00mil "" "333" "onsolder,nopaste"]
+	Pad[72.83mil -94.49mil 90.55mil -2.0000mm 6.00mil 12.00mil 18.00mil "" "334" "onsolder,nopaste"]
+	Pad[51.18mil -2.0000mm 72.83mil -94.49mil 6.00mil 12.00mil 18.00mil "" "335" "onsolder,nopaste"]
+	Pad[27.56mil -88.58mil 51.18mil -2.0000mm 6.00mil 12.00mil 18.00mil "" "336" "onsolder,nopaste"]
+	Pad[23.62mil -114.17mil 27.56mil -88.58mil 6.00mil 12.00mil 18.00mil "" "337" "onsolder,nopaste"]
+	Pad[0.0000 -114.17mil 23.62mil -114.17mil 6.00mil 12.00mil 18.00mil "" "338" "onsolder,nopaste"]
+	Pad[-3.94mil -88.58mil 0.0000 -114.17mil 6.00mil 12.00mil 18.00mil "" "339" "onsolder,nopaste"]
+	Pad[-29.53mil -2.0000mm -3.94mil -88.58mil 6.00mil 12.00mil 18.00mil "" "340" "onsolder,nopaste"]
+	Pad[-51.18mil -94.49mil -29.53mil -2.0000mm 6.00mil 12.00mil 18.00mil "" "341" "onsolder,nopaste"]
+	Pad[-66.93mil -2.0000mm -51.18mil -94.49mil 6.00mil 12.00mil 18.00mil "" "342" "onsolder,nopaste"]
+	Pad[-66.93mil -2.0000mm -51.18mil -57.09mil 6.00mil 12.00mil 18.00mil "" "343" "onsolder,nopaste"]
+	Pad[-57.09mil -47.24mil -51.18mil -57.09mil 6.00mil 12.00mil 18.00mil "" "344" "onsolder,nopaste"]
+	Pad[-57.09mil -47.24mil -15.75mil -29.53mil 6.00mil 12.00mil 18.00mil "" "345" "onsolder,nopaste"]
+	Pad[-15.75mil -29.53mil -11.81mil -37.40mil 6.00mil 12.00mil 18.00mil "" "346" "onsolder,nopaste"]
+	Pad[-11.81mil -37.40mil -3.94mil -43.31mil 6.00mil 12.00mil 18.00mil "" "347" "onsolder,nopaste"]
+	Pad[-3.94mil -43.31mil 3.94mil -45.28mil 6.00mil 12.00mil 18.00mil "" "348" "onsolder,nopaste"]
+	Pad[3.94mil -45.28mil 9.84mil -47.24mil 6.00mil 12.00mil 18.00mil "" "349" "onsolder,nopaste"]
+	Pad[9.84mil -47.24mil 15.75mil -47.24mil 6.00mil 12.00mil 18.00mil "" "350" "onsolder,nopaste"]
+	Pad[15.75mil -47.24mil 23.62mil -45.28mil 6.00mil 12.00mil 18.00mil "" "351" "onsolder,nopaste"]
+	Pad[23.62mil -45.28mil 33.46mil -39.37mil 6.00mil 12.00mil 18.00mil "" "352" "onsolder,nopaste"]
+	Pad[33.46mil -39.37mil 39.37mil -31.50mil 6.00mil 12.00mil 18.00mil "" "353" "onsolder,nopaste"]
+	Pad[39.37mil -31.50mil 43.31mil -21.65mil 6.00mil 12.00mil 18.00mil "" "354" "onsolder,nopaste"]
+	Pad[43.31mil -21.65mil 43.31mil -15.75mil 6.00mil 12.00mil 18.00mil "" "355" "onsolder,nopaste"]
+	Pad[41.34mil -5.91mil 43.31mil -15.75mil 6.00mil 12.00mil 18.00mil "" "356" "onsolder,edge2,nopaste"]
+	Pad[39.37mil 0.0000 41.34mil -5.91mil 6.00mil 12.00mil 18.00mil "" "357" "onsolder,edge2,nopaste"]
+	Pad[35.43mil 5.91mil 39.37mil 0.0000 6.00mil 12.00mil 18.00mil "" "358" "onsolder,edge2,nopaste"]
+	Pad[27.56mil 11.81mil 35.43mil 5.91mil 6.00mil 12.00mil 18.00mil "" "359" "onsolder,edge2,nopaste"]
+	Pad[17.72mil 15.75mil 27.56mil 11.81mil 6.00mil 12.00mil 18.00mil "" "360" "onsolder,edge2,nopaste"]
+	Pad[7.87mil 15.75mil 17.72mil 15.75mil 6.00mil 12.00mil 18.00mil "" "361" "onsolder,nopaste"]
+	Pad[0.0000 13.78mil 7.87mil 15.75mil 6.00mil 12.00mil 18.00mil "" "362" "onsolder,edge2,nopaste"]
+	Pad[-7.87mil 9.84mil 0.0000 13.78mil 6.00mil 12.00mil 18.00mil "" "363" "onsolder,edge2,nopaste"]
+	Pad[-13.78mil 3.94mil -7.87mil 9.84mil 6.00mil 12.00mil 18.00mil "" "364" "onsolder,edge2,nopaste"]
+	Pad[-17.72mil -1.97mil -13.78mil 3.94mil 6.00mil 12.00mil 18.00mil "" "365" "onsolder,edge2,nopaste"]
+	Pad[-57.09mil 15.75mil -17.72mil -1.97mil 6.00mil 12.00mil 18.00mil "" "366" "onsolder,edge2,nopaste"]
+	Pad[-57.09mil 15.75mil -51.18mil 25.59mil 6.00mil 12.00mil 18.00mil "" "367" "onsolder,edge2,nopaste"]
+	Pad[-66.93mil 47.24mil -51.18mil 25.59mil 6.00mil 12.00mil 18.00mil "" "368" "onsolder,edge2,nopaste"]
+	Pad[-66.93mil 47.24mil -51.18mil 62.99mil 6.00mil 12.00mil 18.00mil "" "369" "onsolder,edge2,nopaste"]
+	Pad[-51.18mil 62.99mil -27.56mil 47.24mil 6.00mil 12.00mil 18.00mil "" "370" "onsolder,edge2,nopaste"]
+	Pad[-27.56mil 47.24mil -3.94mil 57.09mil 6.00mil 12.00mil 18.00mil "" "371" "onsolder,edge2,nopaste"]
+	Pad[-3.94mil 57.09mil 0.0000 84.65mil 6.00mil 12.00mil 18.00mil "" "372" "onsolder,edge2,nopaste"]
+	Pad[0.0000 84.65mil 23.62mil 84.65mil 6.00mil 12.00mil 18.00mil "" "373" "onsolder,nopaste"]
+	Pad[23.62mil 84.65mil 27.56mil 57.09mil 6.00mil 12.00mil 18.00mil "" "374" "onsolder,edge2,nopaste"]
+	Pad[27.56mil 57.09mil 51.18mil 47.24mil 6.00mil 12.00mil 18.00mil "" "375" "onsolder,edge2,nopaste"]
+	Pad[51.18mil 47.24mil 53.15mil 49.21mil 6.00mil 12.00mil 18.00mil "" "376" "onsolder,edge2,nopaste"]
+	Pad[108.27mil -27.56mil 108.27mil -3.94mil 6.00mil 12.00mil 18.00mil "" "377" "onsolder,nopaste"]
+	Pad[104.33mil -27.56mil 104.33mil -3.94mil 6.00mil 12.00mil 18.00mil "" "378" "onsolder,nopaste"]
+	Pad[100.39mil -27.56mil 100.39mil -3.94mil 6.00mil 12.00mil 18.00mil "" "379" "onsolder,nopaste"]
+	Pad[96.46mil -27.56mil 96.46mil -1.97mil 6.00mil 12.00mil 18.00mil "" "380" "onsolder,nopaste"]
+	Pad[92.52mil -29.53mil 92.52mil -1.97mil 6.00mil 12.00mil 18.00mil "" "381" "onsolder,nopaste"]
+	Pad[88.58mil -27.56mil 88.58mil 0.0000 6.00mil 12.00mil 18.00mil "" "382" "onsolder,edge2,nopaste"]
+	Pad[84.65mil -29.53mil 84.65mil 0.0000 6.00mil 12.00mil 18.00mil "" "383" "onsolder,nopaste"]
+	Pad[80.71mil -31.50mil 80.71mil 3.94mil 6.00mil 12.00mil 18.00mil "" "384" "onsolder,edge2,nopaste"]
+	Pad[76.77mil -43.31mil 76.77mil 13.78mil 6.00mil 12.00mil 18.00mil "" "385" "onsolder,nopaste"]
+	Pad[74.80mil -51.18mil 74.80mil 19.69mil 6.00mil 12.00mil 18.00mil "" "386" "onsolder,nopaste"]
+	Pad[84.65mil 41.34mil 84.65mil 49.21mil 6.00mil 12.00mil 18.00mil "" "387" "onsolder,edge2,nopaste"]
+	Pad[80.71mil 35.43mil 80.71mil 53.15mil 6.00mil 12.00mil 18.00mil "" "388" "onsolder,edge2,nopaste"]
+	Pad[76.77mil 31.50mil 76.77mil 55.12mil 6.00mil 12.00mil 18.00mil "" "389" "onsolder,edge2,nopaste"]
+	Pad[72.83mil -92.52mil 72.83mil 59.06mil 6.00mil 12.00mil 18.00mil "" "390" "onsolder,nopaste"]
+	Pad[76.77mil -88.58mil 76.77mil -59.06mil 6.00mil 12.00mil 18.00mil "" "391" "onsolder,nopaste"]
+	Pad[80.71mil -84.65mil 80.71mil -66.93mil 6.00mil 12.00mil 18.00mil "" "392" "onsolder,nopaste"]
+	Pad[84.65mil -80.71mil 84.65mil -72.83mil 6.00mil 12.00mil 18.00mil "" "393" "onsolder,nopaste"]
+	Pad[68.90mil -90.55mil 68.90mil 59.06mil 6.00mil 12.00mil 18.00mil "" "394" "onsolder,nopaste"]
+	Pad[64.96mil -86.61mil 64.96mil 55.12mil 6.00mil 12.00mil 18.00mil "" "395" "onsolder,nopaste"]
+	Pad[61.02mil -82.68mil 61.02mil 51.18mil 6.00mil 12.00mil 18.00mil "" "396" "onsolder,nopaste"]
+	Pad[57.09mil -80.71mil 57.09mil 49.21mil 6.00mil 12.00mil 18.00mil "" "397" "onsolder,nopaste"]
+	Pad[53.15mil -2.0000mm 53.15mil 45.28mil 6.00mil 12.00mil 18.00mil "" "398" "onsolder,nopaste"]
+	Pad[49.21mil -2.0000mm 49.21mil 47.24mil 6.00mil 12.00mil 18.00mil "" "399" "onsolder,nopaste"]
+	Pad[45.28mil -80.71mil 45.28mil 47.24mil 6.00mil 12.00mil 18.00mil "" "400" "onsolder,nopaste"]
+	Pad[41.34mil 0.0000 41.34mil 49.21mil 6.00mil 12.00mil 18.00mil "" "401" "onsolder,edge2,nopaste"]
+	Pad[37.40mil 7.87mil 37.40mil 51.18mil 6.00mil 12.00mil 18.00mil "" "402" "onsolder,edge2,nopaste"]
+	Pad[33.46mil 9.84mil 33.46mil 51.18mil 6.00mil 12.00mil 18.00mil "" "403" "onsolder,edge2,nopaste"]
+	Pad[29.53mil 13.78mil 29.53mil 53.15mil 6.00mil 12.00mil 18.00mil "" "404" "onsolder,edge2,nopaste"]
+	Pad[25.59mil 15.75mil 25.59mil 55.12mil 6.00mil 12.00mil 18.00mil "" "405" "onsolder,edge2,nopaste"]
+	Pad[23.62mil 15.75mil 23.62mil 2.0000mm 6.00mil 12.00mil 18.00mil "" "406" "onsolder,edge2,nopaste"]
+	Pad[21.65mil 17.72mil 21.65mil 82.68mil 6.00mil 12.00mil 18.00mil "" "407" "onsolder,edge2,nopaste"]
+	Pad[17.72mil 17.72mil 17.72mil 82.68mil 6.00mil 12.00mil 18.00mil "" "408" "onsolder,edge2,nopaste"]
+	Pad[13.78mil 19.69mil 13.78mil 82.68mil 6.00mil 12.00mil 18.00mil "" "409" "onsolder,edge2,nopaste"]
+	Pad[9.84mil 17.72mil 9.84mil 82.68mil 6.00mil 12.00mil 18.00mil "" "410" "onsolder,edge2,nopaste"]
+	Pad[5.91mil 17.72mil 5.91mil 82.68mil 6.00mil 12.00mil 18.00mil "" "411" "onsolder,edge2,nopaste"]
+	Pad[1.97mil 17.72mil 1.97mil 82.68mil 6.00mil 12.00mil 18.00mil "" "412" "onsolder,edge2,nopaste"]
+	Pad[-1.97mil 15.75mil -1.97mil 57.09mil 6.00mil 12.00mil 18.00mil "" "413" "onsolder,edge2,nopaste"]
+	Pad[-5.91mil 13.78mil -5.91mil 53.15mil 6.00mil 12.00mil 18.00mil "" "414" "onsolder,edge2,nopaste"]
+	Pad[-9.84mil 9.84mil -9.84mil 51.18mil 6.00mil 12.00mil 18.00mil "" "415" "onsolder,edge2,nopaste"]
+	Pad[-13.78mil 5.91mil -13.78mil 51.18mil 6.00mil 12.00mil 18.00mil "" "416" "onsolder,edge2,nopaste"]
+	Pad[-17.72mil 1.97mil -17.72mil 47.24mil 6.00mil 12.00mil 18.00mil "" "417" "onsolder,edge2,nopaste"]
+	Pad[-21.65mil 1.97mil -21.65mil 47.24mil 6.00mil 12.00mil 18.00mil "" "418" "onsolder,edge2,nopaste"]
+	Pad[-25.59mil 3.94mil -25.59mil 45.28mil 6.00mil 12.00mil 18.00mil "" "419" "onsolder,edge2,nopaste"]
+	Pad[-29.53mil 3.94mil -29.53mil 45.28mil 6.00mil 12.00mil 18.00mil "" "420" "onsolder,edge2,nopaste"]
+	Pad[-33.46mil 7.87mil -33.46mil 47.24mil 6.00mil 12.00mil 18.00mil "" "421" "onsolder,edge2,nopaste"]
+	Pad[-37.40mil 9.84mil -37.40mil 51.18mil 6.00mil 12.00mil 18.00mil "" "422" "onsolder,edge2,nopaste"]
+	Pad[-41.34mil 11.81mil -41.34mil 53.15mil 6.00mil 12.00mil 18.00mil "" "423" "onsolder,edge2,nopaste"]
+	Pad[-45.28mil 11.81mil -45.28mil 57.09mil 6.00mil 12.00mil 18.00mil "" "424" "onsolder,edge2,nopaste"]
+	Pad[-49.21mil 13.78mil -49.21mil 59.06mil 6.00mil 12.00mil 18.00mil "" "425" "onsolder,edge2,nopaste"]
+	Pad[-53.15mil 31.50mil -53.15mil 57.09mil 6.00mil 12.00mil 18.00mil "" "426" "onsolder,edge2,nopaste"]
+	Pad[-57.09mil 37.40mil -57.09mil 53.15mil 6.00mil 12.00mil 18.00mil "" "427" "onsolder,edge2,nopaste"]
+	Pad[-61.02mil 43.31mil -61.02mil 51.18mil 6.00mil 12.00mil 18.00mil "" "428" "onsolder,edge2,nopaste"]
+	Pad[-53.15mil 15.75mil -53.15mil 17.72mil 6.00mil 12.00mil 18.00mil "" "429" "onsolder,edge2,nopaste"]
+	Pad[41.34mil -80.71mil 41.34mil -33.46mil 6.00mil 12.00mil 18.00mil "" "430" "onsolder,nopaste"]
+	Pad[37.40mil -82.68mil 37.40mil -39.37mil 6.00mil 12.00mil 18.00mil "" "431" "onsolder,nopaste"]
+	Pad[33.46mil -84.65mil 33.46mil -43.31mil 6.00mil 12.00mil 18.00mil "" "432" "onsolder,nopaste"]
+	Pad[29.53mil -84.65mil 29.53mil -45.28mil 6.00mil 12.00mil 18.00mil "" "433" "onsolder,nopaste"]
+	Pad[25.59mil -86.61mil 25.59mil -47.24mil 6.00mil 12.00mil 18.00mil "" "434" "onsolder,nopaste"]
+	Pad[21.65mil -112.20mil 21.65mil -49.21mil 6.00mil 12.00mil 18.00mil "" "435" "onsolder,nopaste"]
+	Pad[17.72mil -114.17mil 17.72mil -49.21mil 6.00mil 12.00mil 18.00mil "" "436" "onsolder,nopaste"]
+	Pad[13.78mil -112.20mil 13.78mil -51.18mil 6.00mil 12.00mil 18.00mil "" "437" "onsolder,nopaste"]
+	Pad[9.84mil -112.20mil 9.84mil -49.21mil 6.00mil 12.00mil 18.00mil "" "438" "onsolder,nopaste"]
+	Pad[5.91mil -112.20mil 5.91mil -47.24mil 6.00mil 12.00mil 18.00mil "" "439" "onsolder,nopaste"]
+	Pad[1.97mil -112.20mil 1.97mil -45.28mil 6.00mil 12.00mil 18.00mil "" "440" "onsolder,nopaste"]
+	Pad[-1.97mil -90.55mil -1.97mil -45.28mil 6.00mil 12.00mil 18.00mil "" "441" "onsolder,nopaste"]
+	Pad[-5.91mil -86.61mil -5.91mil -45.28mil 6.00mil 12.00mil 18.00mil "" "442" "onsolder,nopaste"]
+	Pad[-9.84mil -84.65mil -9.84mil -41.34mil 6.00mil 12.00mil 18.00mil "" "443" "onsolder,nopaste"]
+	Pad[-13.78mil -82.68mil -13.78mil -37.40mil 6.00mil 12.00mil 18.00mil "" "444" "onsolder,nopaste"]
+	Pad[-15.75mil -82.68mil -15.75mil -31.50mil 6.00mil 12.00mil 18.00mil "" "445" "onsolder,nopaste"]
+	Pad[-19.69mil -80.71mil -19.69mil -31.50mil 6.00mil 12.00mil 18.00mil "" "446" "onsolder,nopaste"]
+	Pad[-23.62mil -2.0000mm -23.62mil -35.43mil 6.00mil 12.00mil 18.00mil "" "447" "onsolder,nopaste"]
+	Pad[-27.56mil -2.0000mm -27.56mil -37.40mil 6.00mil 12.00mil 18.00mil "" "448" "onsolder,nopaste"]
+	Pad[-31.50mil -2.0000mm -31.50mil -37.40mil 6.00mil 12.00mil 18.00mil "" "449" "onsolder,nopaste"]
+	Pad[-35.43mil -2.0000mm -35.43mil -41.34mil 6.00mil 12.00mil 18.00mil "" "450" "onsolder,nopaste"]
+	Pad[-39.37mil -82.68mil -39.37mil -41.34mil 6.00mil 12.00mil 18.00mil "" "451" "onsolder,nopaste"]
+	Pad[-41.34mil -84.65mil -41.34mil -43.31mil 6.00mil 12.00mil 18.00mil "" "452" "onsolder,nopaste"]
+	Pad[-45.28mil -88.58mil -45.28mil -43.31mil 6.00mil 12.00mil 18.00mil "" "453" "onsolder,nopaste"]
+	Pad[-47.24mil -90.55mil -47.24mil -45.28mil 6.00mil 12.00mil 18.00mil "" "454" "onsolder,nopaste"]
+	Pad[-49.21mil -90.55mil -49.21mil -45.28mil 6.00mil 12.00mil 18.00mil "" "455" "onsolder,nopaste"]
+	Pad[-51.18mil -92.52mil -51.18mil -47.24mil 6.00mil 12.00mil 18.00mil "" "456" "onsolder,nopaste"]
+	Pad[-53.15mil -88.58mil -53.15mil -64.96mil 6.00mil 12.00mil 18.00mil "" "457" "onsolder,nopaste"]
+	Pad[-55.12mil -86.61mil -55.12mil -68.90mil 6.00mil 12.00mil 18.00mil "" "458" "onsolder,nopaste"]
+	Pad[-59.06mil -84.65mil -59.06mil -68.90mil 6.00mil 12.00mil 18.00mil "" "459" "onsolder,nopaste"]
+	Pad[-61.02mil -82.68mil -61.02mil -76.77mil 6.00mil 12.00mil 18.00mil "" "460" "onsolder,nopaste"]
 
 	)
 
-Element["" "JUMPER3" "J1" "unknown" 158500 160800 -2000 -12000 0 100 ""]
+Element["" "JUMPER3" "J1" "unknown" 1585.00mil 1608.00mil -20.00mil -120.00mil 0 100 ""]
 (
-	Pin[0 0 8000 2400 8600 4000 "1" "1" "square,thermal(0X,1X)"]
-	Pin[0 10000 8000 2400 8600 4000 "2" "2" ""]
-	Pin[0 20000 8000 2400 8600 4000 "3" "3" ""]
-	ElementLine [-5000 -5000 -5000 25000 1000]
-	ElementLine [-5000 25000 5000 25000 1000]
-	ElementLine [5000 -5000 5000 25000 1000]
-	ElementLine [-5000 -5000 5000 -5000 1000]
-	ElementLine [-5000 5000 5000 5000 1000]
-	ElementLine [5000 -5000 5000 5000 1000]
+	Pin[0.0000 0.0000 80.00mil 24.00mil 86.00mil 40.00mil "1" "1" "square,thermal(0X,1X)"]
+	Pin[0.0000 100.00mil 80.00mil 24.00mil 86.00mil 40.00mil "2" "2" ""]
+	Pin[0.0000 200.00mil 80.00mil 24.00mil 86.00mil 40.00mil "3" "3" ""]
+	ElementLine [-50.00mil -50.00mil -50.00mil 250.00mil 10.00mil]
+	ElementLine [-50.00mil 250.00mil 50.00mil 250.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 250.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
 
 	)
 
-Element["hidename" "1206" "R12" "390" 243500 264205 -1650 18840 1 100 ""]
+Element["hidename" "1206" "R12" "390" 2435.00mil 67.1081mm -16.50mil 188.40mil 1 100 ""]
 (
-	Pad[-1181 -5905 1181 -5905 5118 2000 5718 "1" "1" "square"]
-	Pad[-1181 5905 1181 5905 5118 2000 5718 "2" "2" "square"]
-	ElementLine [3740 -2362 3740 2362 800]
-	ElementLine [-3740 -2362 -3740 2362 800]
+	Pad[-11.81mil -59.05mil 11.81mil -59.05mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
+	Pad[-11.81mil 59.05mil 11.81mil 59.05mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
+	ElementLine [37.40mil -23.62mil 37.40mil 23.62mil 8.00mil]
+	ElementLine [-37.40mil -23.62mil -37.40mil 23.62mil 8.00mil]
 
 	)
 
-Element["hidename" "1206" "R14" "100" 209405 260800 -19055 7350 0 100 ""]
+Element["hidename" "1206" "R14" "100" 53.1889mm 2608.00mil -190.55mil 73.50mil 0 100 ""]
 (
-	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
-	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
-	ElementLine [-2362 -3740 2362 -3740 800]
-	ElementLine [-2362 3740 2362 3740 800]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
 
 	)
 
-Element["hidename" "1206" "R13" "100" 209405 270800 -18650 -13150 0 100 ""]
+Element["hidename" "1206" "R13" "100" 53.1889mm 2708.00mil -186.50mil -131.50mil 0 100 ""]
 (
-	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
-	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
-	ElementLine [-2362 -3740 2362 -3740 800]
-	ElementLine [-2362 3740 2362 3740 800]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
 
 	)
 
-Element["hidename" "1206" "R5" "1k" 253500 244895 -3555 -15745 0 100 ""]
+Element["hidename" "1206" "R5" "1k" 2535.00mil 62.2033mm -35.55mil -157.45mil 0 100 ""]
 (
-	Pad[-1181 -5905 1181 -5905 5118 2000 5718 "1" "1" "square"]
-	Pad[-1181 5905 1181 5905 5118 2000 5718 "2" "2" "square"]
-	ElementLine [3740 -2362 3740 2362 800]
-	ElementLine [-3740 -2362 -3740 2362 800]
+	Pad[-11.81mil -59.05mil 11.81mil -59.05mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
+	Pad[-11.81mil 59.05mil 11.81mil 59.05mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
+	ElementLine [37.40mil -23.62mil 37.40mil 23.62mil 8.00mil]
+	ElementLine [-37.40mil -23.62mil -37.40mil 23.62mil 8.00mil]
 
 	)
 
-Element["hidename" "1206" "R11" "100" 303500 181705 -3150 21555 1 100 ""]
+Element["hidename" "1206" "R11" "100" 3035.00mil 46.1531mm -31.50mil 215.55mil 1 100 ""]
 (
-	Pad[-1181 5905 1181 5905 5118 2000 5718 "1" "1" "square"]
-	Pad[-1181 -5905 1181 -5905 5118 2000 5718 "2" "2" "square"]
-	ElementLine [-3740 -2362 -3740 2362 800]
-	ElementLine [3740 -2362 3740 2362 800]
+	Pad[-11.81mil 59.05mil 11.81mil 59.05mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
+	Pad[-11.81mil -59.05mil 11.81mil -59.05mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
+	ElementLine [-37.40mil -23.62mil -37.40mil 23.62mil 8.00mil]
+	ElementLine [37.40mil -23.62mil 37.40mil 23.62mil 8.00mil]
 
 	)
 
-Element["hidename" "1206" "R10" "100" 293500 181705 -3150 22435 1 100 ""]
+Element["hidename" "1206" "R10" "100" 2935.00mil 46.1531mm -31.50mil 224.35mil 1 100 ""]
 (
-	Pad[-1181 -5905 1181 -5905 5118 2000 5718 "1" "1" "square"]
-	Pad[-1181 5905 1181 5905 5118 2000 5718 "2" "2" "square"]
-	ElementLine [3740 -2362 3740 2362 800]
-	ElementLine [-3740 -2362 -3740 2362 800]
+	Pad[-11.81mil -59.05mil 11.81mil -59.05mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
+	Pad[-11.81mil 59.05mil 11.81mil 59.05mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
+	ElementLine [37.40mil -23.62mil 37.40mil 23.62mil 8.00mil]
+	ElementLine [-37.40mil -23.62mil -37.40mil 23.62mil 8.00mil]
 
 	)
 
-Element["hidename" "1206" "R9" "10k" 273500 181705 2840 11065 3 100 ""]
+Element["hidename" "1206" "R9" "10k" 2735.00mil 46.1531mm 28.40mil 110.65mil 3 100 ""]
 (
-	Pad[-1181 5905 1181 5905 5118 2000 5718 "1" "1" "square"]
-	Pad[-1181 -5905 1181 -5905 5118 2000 5718 "2" "2" "square"]
-	ElementLine [-3740 -2362 -3740 2362 800]
-	ElementLine [3740 -2362 3740 2362 800]
+	Pad[-11.81mil 59.05mil 11.81mil 59.05mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
+	Pad[-11.81mil -59.05mil 11.81mil -59.05mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
+	ElementLine [-37.40mil -23.62mil -37.40mil 23.62mil 8.00mil]
+	ElementLine [37.40mil -23.62mil 37.40mil 23.62mil 8.00mil]
 
 	)
 
-Element["hidename" "1206" "R8" "10" 242595 153300 10970 -2650 0 100 ""]
+Element["hidename" "1206" "R8" "10" 61.6191mm 1533.00mil 109.70mil -26.50mil 0 100 ""]
 (
-	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
-	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
-	ElementLine [-2362 -3740 2362 -3740 800]
-	ElementLine [-2362 3740 2362 3740 800]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
 
 	)
 
-Element["hidename" "1206" "R7" "220" 242595 143300 10755 -3150 0 100 ""]
+Element["hidename" "1206" "R7" "220" 61.6191mm 1433.00mil 107.55mil -31.50mil 0 100 ""]
 (
-	Pad[5905 -1181 5905 1181 5118 2000 5718 "1" "1" "square"]
-	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "2" "2" "square"]
-	ElementLine [-2362 3740 2362 3740 800]
-	ElementLine [-2362 -3740 2362 -3740 800]
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
 
 	)
 
-Element["hidename" "1206" "R4" "330k" 243500 244895 -3745 -15745 0 100 ""]
+Element["hidename" "1206" "R4" "330k" 2435.00mil 62.2033mm -37.45mil -157.45mil 0 100 ""]
 (
-	Pad[-1181 5905 1181 5905 5118 2000 5718 "1" "1" "square"]
-	Pad[-1181 -5905 1181 -5905 5118 2000 5718 "2" "2" "square"]
-	ElementLine [-3740 -2362 -3740 2362 800]
-	ElementLine [3740 -2362 3740 2362 800]
+	Pad[-11.81mil 59.05mil 11.81mil 59.05mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
+	Pad[-11.81mil -59.05mil 11.81mil -59.05mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
+	ElementLine [-37.40mil -23.62mil -37.40mil 23.62mil 8.00mil]
+	ElementLine [37.40mil -23.62mil 37.40mil 23.62mil 8.00mil]
 
 	)
 
-Element["hidename" "1206" "R3" "330k" 233500 244895 -3555 -15745 0 100 ""]
+Element["hidename" "1206" "R3" "330k" 2335.00mil 62.2033mm -35.55mil -157.45mil 0 100 ""]
 (
-	Pad[-1181 -5905 1181 -5905 5118 2000 5718 "1" "1" "square"]
-	Pad[-1181 5905 1181 5905 5118 2000 5718 "2" "2" "square"]
-	ElementLine [3740 -2362 3740 2362 800]
-	ElementLine [-3740 -2362 -3740 2362 800]
+	Pad[-11.81mil -59.05mil 11.81mil -59.05mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
+	Pad[-11.81mil 59.05mil 11.81mil 59.05mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
+	ElementLine [37.40mil -23.62mil 37.40mil 23.62mil 8.00mil]
+	ElementLine [-37.40mil -23.62mil -37.40mil 23.62mil 8.00mil]
 
 	)
 
-Element["hidename" "1206" "R1" "56k" 209405 280800 -14960 -2650 0 100 ""]
+Element["hidename" "1206" "R1" "56k" 53.1889mm 2808.00mil -149.60mil -26.50mil 0 100 ""]
 (
-	Pad[5905 -1181 5905 1181 5118 2000 5718 "1" "1" "square"]
-	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "2" "2" "square"]
-	ElementLine [-2362 3740 2362 3740 800]
-	ElementLine [-2362 -3740 2362 -3740 800]
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
 
 	)
 
-Element["hidename" "5mm_EL_Cap" "C4" "10uf" 178875 150800 -1875 -9125 0 100 ""]
+Element["hidename" "5mm_EL_Cap" "C4" "10uf" 45.4342mm 1508.00mil -18.75mil -91.25mil 0 100 ""]
 (
-	Pad[-10434 0 -5316 0 3937 1200 4537 "1" "1" "square"]
-	Pad[5314 0 10432 0 3937 1200 4537 "2" "2" "square,edge2"]
-	ElementLine [10433 2559 10433 10433 600]
-	ElementLine [-10433 -8071 -10433 -2559 600]
-	ElementLine [-8071 -10433 -10433 -8071 600]
-	ElementLine [-8071 10433 -10433 8071 600]
-	ElementLine [-8071 10433 10433 10433 600]
-	ElementLine [10433 -10433 10433 -2559 600]
-	ElementLine [-8071 -10433 10433 -10433 600]
-	ElementLine [-10433 2559 -10433 8071 600]
+	Pad[-104.34mil 0.0000 -53.16mil 0.0000 39.37mil 12.00mil 45.37mil "2" "2" "square"]
+	Pad[53.14mil 0.0000 104.32mil 0.0000 39.37mil 12.00mil 45.37mil "1" "1" "square,edge2"]
+	ElementLine [104.33mil 25.59mil 104.33mil 104.33mil 6.00mil]
+	ElementLine [-104.33mil -80.71mil -104.33mil -25.59mil 6.00mil]
+	ElementLine [-80.71mil -104.33mil -104.33mil -80.71mil 6.00mil]
+	ElementLine [-80.71mil 104.33mil -104.33mil 80.71mil 6.00mil]
+	ElementLine [-80.71mil 104.33mil 104.33mil 104.33mil 6.00mil]
+	ElementLine [104.33mil -104.33mil 104.33mil -25.59mil 6.00mil]
+	ElementLine [-80.71mil -104.33mil 104.33mil -104.33mil 6.00mil]
+	ElementLine [-104.33mil 25.59mil -104.33mil 80.71mil 6.00mil]
 
 	)
 
-Element["hidename" "5mm_EL_Cap" "C3" "10uf" 176000 178673 -8621 2875 1 100 ""]
+Element["hidename" "5mm_EL_Cap" "C3" "10uf" 1760.00mil 45.3829mm -86.21mil 28.75mil 1 100 ""]
 (
-	Pad[0 5316 0 10434 3937 1200 4537 "1" "1" "square,edge2"]
-	Pad[0 -10432 0 -5314 3937 1200 4537 "2" "2" "square"]
-	ElementLine [2559 -10433 10433 -10433 600]
-	ElementLine [-8071 10433 -2559 10433 600]
-	ElementLine [-10433 8071 -8071 10433 600]
-	ElementLine [10433 8071 8071 10433 600]
-	ElementLine [10433 -10433 10433 8071 600]
-	ElementLine [-10433 -10433 -2559 -10433 600]
-	ElementLine [-10433 -10433 -10433 8071 600]
-	ElementLine [2559 10433 8071 10433 600]
+	Pad[0.0000 53.16mil 0.0000 104.34mil 39.37mil 12.00mil 45.37mil "1" "1" "square,edge2"]
+	Pad[0.0000 -104.32mil 0.0000 -53.14mil 39.37mil 12.00mil 45.37mil "2" "2" "square"]
+	ElementLine [25.59mil -104.33mil 104.33mil -104.33mil 6.00mil]
+	ElementLine [-80.71mil 104.33mil -25.59mil 104.33mil 6.00mil]
+	ElementLine [-104.33mil 80.71mil -80.71mil 104.33mil 6.00mil]
+	ElementLine [104.33mil 80.71mil 80.71mil 104.33mil 6.00mil]
+	ElementLine [104.33mil -104.33mil 104.33mil 80.71mil 6.00mil]
+	ElementLine [-104.33mil -104.33mil -25.59mil -104.33mil 6.00mil]
+	ElementLine [-104.33mil -104.33mil -104.33mil 80.71mil 6.00mil]
+	ElementLine [25.59mil 104.33mil 80.71mil 104.33mil 6.00mil]
 
 	)
 
-Element["hidename" "5mm_EL_Cap" "C1" "10uf" 213875 243300 -2875 -8625 0 100 ""]
+Element["hidename" "5mm_EL_Cap" "C1" "10uf" 54.3242mm 2433.00mil -28.75mil -86.25mil 0 100 ""]
 (
-	Pad[-10434 0 -5316 0 3937 1200 4537 "1" "1" "square"]
-	Pad[5314 0 10432 0 3937 1200 4537 "2" "2" "square,edge2"]
-	ElementLine [10433 2559 10433 10433 600]
-	ElementLine [-10433 -8071 -10433 -2559 600]
-	ElementLine [-8071 -10433 -10433 -8071 600]
-	ElementLine [-8071 10433 -10433 8071 600]
-	ElementLine [-8071 10433 10433 10433 600]
-	ElementLine [10433 -10433 10433 -2559 600]
-	ElementLine [-8071 -10433 10433 -10433 600]
-	ElementLine [-10433 2559 -10433 8071 600]
+	Pad[-104.34mil 0.0000 -53.16mil 0.0000 39.37mil 12.00mil 45.37mil "1" "1" "square"]
+	Pad[53.14mil 0.0000 104.32mil 0.0000 39.37mil 12.00mil 45.37mil "2" "2" "square,edge2"]
+	ElementLine [104.33mil 25.59mil 104.33mil 104.33mil 6.00mil]
+	ElementLine [-104.33mil -80.71mil -104.33mil -25.59mil 6.00mil]
+	ElementLine [-80.71mil -104.33mil -104.33mil -80.71mil 6.00mil]
+	ElementLine [-80.71mil 104.33mil -104.33mil 80.71mil 6.00mil]
+	ElementLine [-80.71mil 104.33mil 104.33mil 104.33mil 6.00mil]
+	ElementLine [104.33mil -104.33mil 104.33mil -25.59mil 6.00mil]
+	ElementLine [-80.71mil -104.33mil 104.33mil -104.33mil 6.00mil]
+	ElementLine [-104.33mil 25.59mil -104.33mil 80.71mil 6.00mil]
 
 	)
 
-Element["hidename" "SO8" "U2" "unknown" 211000 213550 -2250 -2750 0 100 ""]
+Element["hidename" "SO8" "U2" "unknown" 2110.00mil 2135.50mil -22.50mil -27.50mil 0 100 ""]
 (
-	Pad[-7500 7000 -7500 13500 2000 1000 2200 "1" "1" "square,edge2"]
-	Pad[-2500 7000 -2500 13500 2000 1000 2200 "2" "2" "square,edge2"]
-	Pad[2500 7000 2500 13500 2000 1000 2200 "3" "3" "square,edge2"]
-	Pad[7500 7000 7500 13500 2000 1000 2200 "4" "4" "square,edge2"]
-	Pad[7500 -13500 7500 -7000 2000 1000 2200 "5" "5" "square"]
-	Pad[2500 -13500 2500 -7000 2000 1000 2200 "6" "6" "square"]
-	Pad[-2500 -13500 -2500 -7000 2000 1000 2200 "7" "7" "square"]
-	Pad[-7500 -13500 -7500 -7000 2000 1000 2200 "8" "8" "square"]
-	ElementLine [-9500 15500 9500 15500 1000]
-	ElementLine [9500 -15500 9500 15500 1000]
-	ElementLine [-9500 -15500 9500 -15500 1000]
-	ElementLine [-9500 2500 -9500 15500 1000]
-	ElementLine [-9500 -15500 -9500 -2500 1000]
-	ElementArc [-9500 0 2500 2500 90 180 1000]
+	Pad[-75.00mil 70.00mil -75.00mil 135.00mil 20.00mil 10.00mil 22.00mil "1" "1" "square,edge2"]
+	Pad[-25.00mil 70.00mil -25.00mil 135.00mil 20.00mil 10.00mil 22.00mil "2" "2" "square,edge2"]
+	Pad[25.00mil 70.00mil 25.00mil 135.00mil 20.00mil 10.00mil 22.00mil "3" "3" "square,edge2"]
+	Pad[75.00mil 70.00mil 75.00mil 135.00mil 20.00mil 10.00mil 22.00mil "4" "4" "square,edge2"]
+	Pad[75.00mil -135.00mil 75.00mil -70.00mil 20.00mil 10.00mil 22.00mil "5" "5" "square"]
+	Pad[25.00mil -135.00mil 25.00mil -70.00mil 20.00mil 10.00mil 22.00mil "6" "6" "square"]
+	Pad[-25.00mil -135.00mil -25.00mil -70.00mil 20.00mil 10.00mil 22.00mil "7" "7" "square"]
+	Pad[-75.00mil -135.00mil -75.00mil -70.00mil 20.00mil 10.00mil 22.00mil "8" "8" "square"]
+	ElementLine [-95.00mil 155.00mil 95.00mil 155.00mil 10.00mil]
+	ElementLine [95.00mil -155.00mil 95.00mil 155.00mil 10.00mil]
+	ElementLine [-95.00mil -155.00mil 95.00mil -155.00mil 10.00mil]
+	ElementLine [-95.00mil 25.00mil -95.00mil 155.00mil 10.00mil]
+	ElementLine [-95.00mil -155.00mil -95.00mil -25.00mil 10.00mil]
+	ElementArc [-95.00mil 0.0000 25.00mil 25.00mil 90 180 10.00mil]
 
 	)
 
-Element["hidename" "1206" "C2" "4.7uf" 253500 264205 -1150 18150 1 100 ""]
+Element["hidename" "1206" "C2" "4.7uf" 2535.00mil 67.1081mm -11.50mil 181.50mil 1 100 ""]
 (
-	Pad[-1181 -5905 1181 -5905 5118 2000 5718 "1" "1" "square"]
-	Pad[-1181 5905 1181 5905 5118 2000 5718 "2" "2" "square"]
-	ElementLine [3740 -2362 3740 2362 800]
-	ElementLine [-3740 -2362 -3740 2362 800]
+	Pad[-11.81mil -59.05mil 11.81mil -59.05mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
+	Pad[-11.81mil 59.05mil 11.81mil 59.05mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
+	ElementLine [37.40mil -23.62mil 37.40mil 23.62mil 8.00mil]
+	ElementLine [-37.40mil -23.62mil -37.40mil 23.62mil 8.00mil]
 
 	)
 
-Element["hidename" "JUMPER2" "LED2" "unknown" 236000 283300 2500 12500 2 100 ""]
+Element["hidename" "JUMPER2" "LED2" "unknown" 2360.00mil 2833.00mil 25.00mil 125.00mil 2 100 ""]
 (
-	Pin[0 0 8000 2400 8600 4000 "1" "1" "square,edge2"]
-	Pin[-10000 0 8000 2400 8600 4000 "2" "2" "edge2,thermal(0X,1X)"]
-	ElementLine [-15000 -5000 5000 -5000 1000]
-	ElementLine [-15000 -5000 -15000 5000 1000]
-	ElementLine [-15000 5000 5000 5000 1000]
-	ElementLine [5000 -5000 5000 5000 1000]
-	ElementLine [-5000 -5000 -5000 5000 1000]
-	ElementLine [-5000 5000 5000 5000 1000]
+	Pin[0.0000 0.0000 80.00mil 24.00mil 86.00mil 40.00mil "1" "1" "square,edge2"]
+	Pin[-100.00mil 0.0000 80.00mil 24.00mil 86.00mil 40.00mil "2" "2" "edge2,thermal(0X,1X)"]
+	ElementLine [-150.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
+	ElementLine [-150.00mil -50.00mil -150.00mil 50.00mil 10.00mil]
+	ElementLine [-150.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
 
 	)
 
-Element["hidename" "0805" "LED1" "unknown" 227457 273300 6693 -3650 2 100 ""]
+Element["hidename" "0805" "LED1" "unknown" 57.7741mm 2733.00mil 66.93mil -36.50mil 2 100 ""]
 (
-	Pad[3543 -393 3543 393 5118 2000 5718 "1" "1" "square"]
-	Pad[-3543 -393 -3543 393 5118 2000 5718 "2" "2" "square"]
-	ElementLine [-393 2755 393 2755 800]
-	ElementLine [-393 -2755 393 -2755 800]
+	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
+	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
 
 	)
 
-Element["hidename" "1206" "C7" "0.1uf" 283500 181705 -3150 19745 1 100 ""]
+Element["hidename" "1206" "C7" "0.1uf" 2835.00mil 46.1531mm -31.50mil 197.45mil 1 100 ""]
 (
-	Pad[-1181 5905 1181 5905 5118 2000 5718 "1" "1" "square"]
-	Pad[-1181 -5905 1181 -5905 5118 2000 5718 "2" "2" "square"]
-	ElementLine [-3740 -2362 -3740 2362 800]
-	ElementLine [3740 -2362 3740 2362 800]
+	Pad[-11.81mil 59.05mil 11.81mil 59.05mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
+	Pad[-11.81mil -59.05mil 11.81mil -59.05mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
+	ElementLine [-37.40mil -23.62mil -37.40mil 23.62mil 8.00mil]
+	ElementLine [37.40mil -23.62mil 37.40mil 23.62mil 8.00mil]
 
 	)
 
-Element["hidename,onsolder" "JUMPER3" "R2" "100k" 241000 215879 -5000 -11000 2 100 "auto"]
+Element["hidename,onsolder" "JUMPER3" "R2" "100k" 2410.00mil 54.8333mm -50.00mil -110.00mil 2 100 "auto"]
 (
-	Pin[9843 -4921 8000 2400 8600 4000 "1" "1" "edge2"]
-	Pin[0 4921 8000 2400 8600 4000 "2" "2" "edge2"]
-	Pin[-9843 -4921 8000 2400 8600 4000 "3" "3" "edge2"]
-	ElementLine [10000 0 -10000 0 1000]
-	ElementLine [-10000 0 -10000 2000 1000]
-	ElementLine [10000 0 10000 2000 1000]
-	ElementLine [0 0 0 -2000 1000]
+	Pin[98.43mil -49.21mil 80.00mil 24.00mil 86.00mil 40.00mil "1" "1" "edge2"]
+	Pin[0.0000 49.21mil 80.00mil 24.00mil 86.00mil 40.00mil "2" "2" "edge2"]
+	Pin[-98.43mil -49.21mil 80.00mil 24.00mil 86.00mil 40.00mil "3" "3" "edge2"]
+	ElementLine [100.00mil 0.0000 -100.00mil 0.0000 10.00mil]
+	ElementLine [-100.00mil 0.0000 -100.00mil 20.00mil 10.00mil]
+	ElementLine [100.00mil 0.0000 100.00mil 20.00mil 10.00mil]
+	ElementLine [0.0000 0.0000 0.0000 -20.00mil 10.00mil]
 
 	)
 
-Element["hidename" "JUMPER2" "C5" "470uf" 246000 178300 -4500 -8500 2 100 ""]
+Element["hidename" "JUMPER2" "C5" "470uf" 2460.00mil 1783.00mil -45.00mil -85.00mil 2 100 ""]
 (
-	Pin[-10000 0 8000 2400 8600 4000 "" "1" ""]
-	Pin[10000 0 8000 2400 8600 4000 "" "2" "square"]
-	ElementArc [-1 1 18801 18801 180 90 1000]
-	ElementArc [0 0 18800 18800 270 90 1000]
-	ElementArc [1 -1 18801 18801 0 90 1000]
-	ElementArc [1 1 18799 18799 90 90 1000]
+	Pin[-100.00mil 0.0000 80.00mil 24.00mil 86.00mil 40.00mil "" "1" ""]
+	Pin[100.00mil 0.0000 80.00mil 24.00mil 86.00mil 40.00mil "" "2" "square"]
+	ElementArc [-0.01mil 0.01mil 188.01mil 188.01mil 180 90 10.00mil]
+	ElementArc [0.0000 0.0000 188.00mil 188.00mil 270 90 10.00mil]
+	ElementArc [0.01mil -0.01mil 188.01mil 188.01mil 0 90 10.00mil]
+	ElementArc [0.01mil 0.01mil 187.99mil 187.99mil 90 90 10.00mil]
 
 	)
 Layer(1 "component")
 (
-	Line[206000 243300 206000 245800 2000 2000 "clearline"]
-	Line[215310 280800 215310 255110 2000 2000 "clearline"]
-	Line[206000 245800 215310 255110 2000 2000 "clearline"]
-	Line[203500 270800 198500 270800 2000 2000 "clearline"]
-	Line[231000 273300 231000 278300 2000 2000 "clearline"]
-	Line[231000 278300 236000 283300 2000 2000 "clearline"]
-	Line[243500 270110 239190 270110 2000 2000 "clearline"]
-	Line[239190 270110 236000 273300 2000 2000 "clearline"]
-	Line[236000 273300 231000 273300 2000 2000 "clearline"]
-	Line[213500 223800 213500 230800 2000 2000 "clearline"]
-	Line[213500 230800 221000 238300 2000 2000 "clearline"]
-	Line[221748 243300 229190 243300 2000 2000 "clearline"]
-	Line[229190 243300 233500 238990 2000 2000 "clearline"]
-	Line[233500 238990 243500 238990 2000 2000 "clearline"]
-	Line[208500 223800 208500 218300 2000 2000 "clearline"]
-	Line[208500 218300 211000 215800 2000 2000 "clearline"]
-	Line[253500 238990 253500 220800 2000 2000 "clearline"]
-	Line[213500 203300 213500 210958 2000 2000 "clearline"]
-	Line[253500 258300 253500 250800 2000 2000 "clearline"]
-	Line[243500 258300 243500 250800 2000 2000 "clearline"]
-	Line[243500 258300 236000 258300 2000 2000 "clearline"]
-	Line[218500 223800 218500 230800 2000 2000 ""]
-	Line[203500 280800 198500 280800 2000 2000 ""]
-	Line[233500 250800 226000 250800 2000 2000 ""]
-	Line[223914 273300 223914 266214 2000 2000 ""]
-	Line[253500 270110 253500 275800 2000 2000 ""]
-	Line[198000 249800 198000 232800 2000 2000 "clearline"]
-	Line[198000 232800 188500 223300 2000 2000 "clearline"]
-	Line[203500 260800 203500 255300 2000 2000 "clearline"]
-	Line[203500 255300 198000 249800 2000 2000 "clearline"]
-	Line[250843 210958 250843 218143 2000 2000 "clearline"]
-	Line[250843 218143 253500 220800 2000 2000 "clearline"]
-	Line[211000 215800 223500 215800 2000 2000 "clearline"]
-	Line[241000 220800 228500 220800 2000 2000 "clearline"]
-	Line[228500 220800 223500 215800 2000 2000 "clearline"]
-	Line[208500 203300 208500 193300 2000 2000 "clearline"]
-	Line[218500 183300 218500 161686 2000 2000 "clearline"]
-	Line[218500 161686 226886 153300 2000 2000 "clearline"]
-	Line[186748 150800 197614 150800 2000 2000 "clearline"]
-	Line[197614 150800 200114 153300 2000 2000 "clearline"]
-	Line[224445 133300 220193 137552 2000 2000 "clearline"]
-	Line[248500 153300 253500 153300 2000 2000 ""]
-	Line[176000 170800 176000 160800 2000 2000 "clearline"]
-	Line[171000 150800 171000 143300 2000 2000 "clearline"]
-	Line[171000 143300 176000 138300 2000 2000 "clearline"]
-	Line[176000 138300 176000 128300 2000 2000 "clearline"]
-	Line[158500 170800 153500 170800 2000 2000 "clearline"]
-	Line[153500 170800 146000 163300 2000 2000 "clearline"]
-	Line[146000 163300 141000 163300 2000 2000 "clearline"]
-	Line[158500 180800 158500 218300 2000 2000 "clearline"]
-	Line[158500 218300 188500 248300 2000 2000 "clearline"]
-	Line[316000 175800 283500 175800 2000 2000 "clearline"]
-	Line[286000 145800 286000 175800 2000 2000 "clearline"]
-	Line[176000 186548 176000 193300 2000 2000 "clearline"]
-	Line[231157 210958 193658 210958 2000 2000 "clearline"]
-	Line[193658 210958 176000 193300 2000 2000 "clearline"]
-	Line[273500 187610 283500 187610 2000 2000 "clearline"]
-	Line[303500 187610 303500 213300 2000 2000 "clearline"]
-	Line[303500 213300 313500 223300 2000 2000 "clearline"]
-	Line[293500 187610 293500 228300 2000 2000 "clearline"]
-	Line[293500 228300 313500 248300 2000 2000 "clearline"]
-	Line[273500 175800 273500 170800 2000 2000 ""]
-	Line[224445 133300 253500 133300 2000 2000 "clearline"]
-	Line[253500 133300 266000 145800 2000 2000 "clearline"]
-	Line[266000 145800 251000 145800 2000 2000 "clearline"]
-	Line[251000 145800 248500 143300 2000 2000 "clearline"]
-	Line[178500 148300 178500 158300 2000 2000 "clearline"]
-	Line[178500 158300 176000 160800 2000 2000 "clearline"]
-	Line[218500 183300 208500 193300 2000 2000 "clearline"]
-	Line[221000 238300 221000 243300 2000 2000 "clearline"]
-	Line[236690 143300 236690 177610 2000 2000 "clearline"]
-	Line[236690 177610 236000 178300 2000 2000 "clearline"]
+	Line[2060.00mil 2433.00mil 2060.00mil 2458.00mil 20.00mil 20.00mil "clearline"]
+	Line[2153.10mil 2808.00mil 2153.10mil 2551.10mil 20.00mil 20.00mil "clearline"]
+	Line[2060.00mil 2458.00mil 2153.10mil 2551.10mil 20.00mil 20.00mil "clearline"]
+	Line[2035.00mil 2708.00mil 1985.00mil 2708.00mil 20.00mil 20.00mil "clearline"]
+	Line[2310.00mil 2733.00mil 2310.00mil 2783.00mil 20.00mil 20.00mil "clearline"]
+	Line[2310.00mil 2783.00mil 2360.00mil 2833.00mil 20.00mil 20.00mil "clearline"]
+	Line[2435.00mil 2701.10mil 2391.90mil 2701.10mil 20.00mil 20.00mil "clearline"]
+	Line[2391.90mil 2701.10mil 2360.00mil 2733.00mil 20.00mil 20.00mil "clearline"]
+	Line[2360.00mil 2733.00mil 2310.00mil 2733.00mil 20.00mil 20.00mil "clearline"]
+	Line[2135.00mil 2238.00mil 2135.00mil 2308.00mil 20.00mil 20.00mil "clearline"]
+	Line[2135.00mil 2308.00mil 2210.00mil 2383.00mil 20.00mil 20.00mil "clearline"]
+	Line[56.3240mm 2433.00mil 2291.90mil 2433.00mil 20.00mil 20.00mil "clearline"]
+	Line[2291.90mil 2433.00mil 2335.00mil 2389.90mil 20.00mil 20.00mil "clearline"]
+	Line[2335.00mil 2389.90mil 2435.00mil 2389.90mil 20.00mil 20.00mil "clearline"]
+	Line[2085.00mil 2238.00mil 2085.00mil 2183.00mil 20.00mil 20.00mil "clearline"]
+	Line[2085.00mil 2183.00mil 2110.00mil 2158.00mil 20.00mil 20.00mil "clearline"]
+	Line[2535.00mil 2389.90mil 2535.00mil 2208.00mil 20.00mil 20.00mil "clearline"]
+	Line[2135.00mil 2033.00mil 2135.00mil 53.5833mm 20.00mil 20.00mil "clearline"]
+	Line[2535.00mil 2583.00mil 2535.00mil 2508.00mil 20.00mil 20.00mil "clearline"]
+	Line[2435.00mil 2583.00mil 2435.00mil 2508.00mil 20.00mil 20.00mil "clearline"]
+	Line[2435.00mil 2583.00mil 2360.00mil 2583.00mil 20.00mil 20.00mil "clearline"]
+	Line[2185.00mil 2238.00mil 2185.00mil 2308.00mil 20.00mil 20.00mil ""]
+	Line[2035.00mil 2808.00mil 1985.00mil 2808.00mil 20.00mil 20.00mil ""]
+	Line[2335.00mil 2508.00mil 2260.00mil 2508.00mil 20.00mil 20.00mil ""]
+	Line[56.8742mm 2733.00mil 56.8742mm 67.6184mm 20.00mil 20.00mil ""]
+	Line[2535.00mil 2701.10mil 2535.00mil 2758.00mil 20.00mil 20.00mil ""]
+	Line[1980.00mil 2498.00mil 1980.00mil 2328.00mil 20.00mil 20.00mil "clearline"]
+	Line[1980.00mil 2328.00mil 1885.00mil 2233.00mil 20.00mil 20.00mil "clearline"]
+	Line[2035.00mil 2608.00mil 2035.00mil 2553.00mil 20.00mil 20.00mil "clearline"]
+	Line[2035.00mil 2553.00mil 1980.00mil 2498.00mil 20.00mil 20.00mil "clearline"]
+	Line[63.7141mm 53.5833mm 63.7141mm 55.4083mm 20.00mil 20.00mil "clearline"]
+	Line[63.7141mm 55.4083mm 2535.00mil 2208.00mil 20.00mil 20.00mil "clearline"]
+	Line[2110.00mil 2158.00mil 2235.00mil 2158.00mil 20.00mil 20.00mil "clearline"]
+	Line[2410.00mil 2208.00mil 2285.00mil 2208.00mil 20.00mil 20.00mil "clearline"]
+	Line[2285.00mil 2208.00mil 2235.00mil 2158.00mil 20.00mil 20.00mil "clearline"]
+	Line[2085.00mil 2033.00mil 2085.00mil 1933.00mil 20.00mil 20.00mil "clearline"]
+	Line[2185.00mil 1833.00mil 2185.00mil 41.0682mm 20.00mil 20.00mil "clearline"]
+	Line[2185.00mil 41.0682mm 57.6290mm 1533.00mil 20.00mil 20.00mil "clearline"]
+	Line[47.4340mm 1508.00mil 50.1940mm 1508.00mil 20.00mil 20.00mil "clearline"]
+	Line[50.1940mm 1508.00mil 50.8290mm 1533.00mil 20.00mil 20.00mil "clearline"]
+	Line[57.0090mm 1333.00mil 55.9290mm 34.9382mm 20.00mil 20.00mil "clearline"]
+	Line[2485.00mil 1533.00mil 2535.00mil 1533.00mil 20.00mil 20.00mil ""]
+	Line[1760.00mil 1708.00mil 1760.00mil 1608.00mil 20.00mil 20.00mil "clearline"]
+	Line[1710.00mil 1508.00mil 1710.00mil 1433.00mil 20.00mil 20.00mil "clearline"]
+	Line[1710.00mil 1433.00mil 1760.00mil 1383.00mil 20.00mil 20.00mil "clearline"]
+	Line[1760.00mil 1383.00mil 1760.00mil 1283.00mil 20.00mil 20.00mil "clearline"]
+	Line[1585.00mil 1708.00mil 1535.00mil 1708.00mil 20.00mil 20.00mil "clearline"]
+	Line[1535.00mil 1708.00mil 1460.00mil 1633.00mil 20.00mil 20.00mil "clearline"]
+	Line[1460.00mil 1633.00mil 1410.00mil 1633.00mil 20.00mil 20.00mil "clearline"]
+	Line[1585.00mil 1808.00mil 1585.00mil 2183.00mil 20.00mil 20.00mil "clearline"]
+	Line[1585.00mil 2183.00mil 1885.00mil 2483.00mil 20.00mil 20.00mil "clearline"]
+	Line[3160.00mil 1758.00mil 2835.00mil 1758.00mil 20.00mil 20.00mil "clearline"]
+	Line[2860.00mil 1458.00mil 2860.00mil 1758.00mil 20.00mil 20.00mil "clearline"]
+	Line[1760.00mil 47.3832mm 1760.00mil 1933.00mil 20.00mil 20.00mil "clearline"]
+	Line[58.7139mm 53.5833mm 49.1891mm 53.5833mm 20.00mil 20.00mil "clearline"]
+	Line[49.1891mm 53.5833mm 1760.00mil 1933.00mil 20.00mil 20.00mil "clearline"]
+	Line[2735.00mil 1876.10mil 2835.00mil 1876.10mil 20.00mil 20.00mil "clearline"]
+	Line[3035.00mil 1876.10mil 3035.00mil 2133.00mil 20.00mil 20.00mil "clearline"]
+	Line[3035.00mil 2133.00mil 3135.00mil 2233.00mil 20.00mil 20.00mil "clearline"]
+	Line[2935.00mil 1876.10mil 2935.00mil 2283.00mil 20.00mil 20.00mil "clearline"]
+	Line[2935.00mil 2283.00mil 3135.00mil 2483.00mil 20.00mil 20.00mil "clearline"]
+	Line[2735.00mil 1758.00mil 2735.00mil 1708.00mil 20.00mil 20.00mil ""]
+	Line[57.0090mm 1333.00mil 2535.00mil 1333.00mil 20.00mil 20.00mil "clearline"]
+	Line[2535.00mil 1333.00mil 2660.00mil 1458.00mil 20.00mil 20.00mil "clearline"]
+	Line[2660.00mil 1458.00mil 2510.00mil 1458.00mil 20.00mil 20.00mil "clearline"]
+	Line[2510.00mil 1458.00mil 2485.00mil 1433.00mil 20.00mil 20.00mil "clearline"]
+	Line[1785.00mil 1483.00mil 1785.00mil 1583.00mil 20.00mil 20.00mil "clearline"]
+	Line[1785.00mil 1583.00mil 1760.00mil 1608.00mil 20.00mil 20.00mil "clearline"]
+	Line[2185.00mil 1833.00mil 2085.00mil 1933.00mil 20.00mil 20.00mil "clearline"]
+	Line[2210.00mil 2383.00mil 2210.00mil 2433.00mil 20.00mil 20.00mil "clearline"]
+	Line[2366.90mil 1433.00mil 2366.90mil 1776.10mil 20.00mil 20.00mil "clearline"]
+	Line[2366.90mil 1776.10mil 2360.00mil 1783.00mil 20.00mil 20.00mil "clearline"]
 	Polygon("clearpoly,lock")
 	(
-		[133500 118300] [323500 118300] [323500 290800] [133500 290800] 
+		[1335.00mil 1183.00mil] [3235.00mil 1183.00mil] [3235.00mil 2908.00mil] [1335.00mil 2908.00mil] 
 	)
 )
 Layer(2 "solder")
 (
-	Line[198500 270800 198500 213300 2000 2000 "clearline"]
-	Line[198500 213300 176000 190800 2000 2000 "clearline"]
-	Line[176000 190800 156000 190800 2000 2000 "clearline"]
-	Line[258500 198300 258500 263300 2000 2000 "clearline"]
-	Line[258500 263300 268500 273300 2000 2000 "clearline"]
-	Line[218500 240800 236000 258300 2000 2000 "clearline"]
-	Line[215055 145800 206807 137552 2000 2000 "clearline"]
-	Line[215055 145800 238500 145800 2000 2000 "clearline"]
-	Line[238500 145800 256000 163300 2000 2000 "clearline"]
-	Line[256000 163300 256000 180800 2000 2000 "clearline"]
-	Line[316000 185800 271000 185800 2000 2000 "clearline"]
-	Line[271000 185800 258500 198300 2000 2000 "clearline"]
-	Line[166000 128300 166000 135800 2000 2000 "clearline"]
-	Line[166000 135800 178500 148300 2000 2000 "clearline"]
-	Line[141000 153300 186000 153300 2000 2000 "clearline"]
-	Line[186000 153300 211000 178300 2000 2000 "clearline"]
-	Line[218500 240800 218500 178300 2000 2000 "clearline"]
-	Line[141000 185800 151000 185800 2000 2000 "clearline"]
-	Line[151000 185800 156000 190800 2000 2000 "clearline"]
-	Line[211000 178300 218500 178300 2000 2000 "clearline"]
-	Line[141000 175800 151000 175800 2000 2000 ""]
+	Line[1985.00mil 2708.00mil 1985.00mil 2133.00mil 20.00mil 20.00mil "clearline"]
+	Line[1985.00mil 2133.00mil 1760.00mil 1908.00mil 20.00mil 20.00mil "clearline"]
+	Line[1760.00mil 1908.00mil 1560.00mil 1908.00mil 20.00mil 20.00mil "clearline"]
+	Line[2585.00mil 1983.00mil 2585.00mil 2633.00mil 20.00mil 20.00mil "clearline"]
+	Line[2585.00mil 2633.00mil 2685.00mil 2733.00mil 20.00mil 20.00mil "clearline"]
+	Line[2185.00mil 2408.00mil 2360.00mil 2583.00mil 20.00mil 20.00mil "clearline"]
+	Line[54.6240mm 1458.00mil 52.5290mm 34.9382mm 20.00mil 20.00mil "clearline"]
+	Line[54.6240mm 1458.00mil 2385.00mil 1458.00mil 20.00mil 20.00mil "clearline"]
+	Line[2385.00mil 1458.00mil 2560.00mil 1633.00mil 20.00mil 20.00mil "clearline"]
+	Line[2560.00mil 1633.00mil 2560.00mil 1808.00mil 20.00mil 20.00mil "clearline"]
+	Line[3160.00mil 1858.00mil 2710.00mil 1858.00mil 20.00mil 20.00mil "clearline"]
+	Line[2710.00mil 1858.00mil 2585.00mil 1983.00mil 20.00mil 20.00mil "clearline"]
+	Line[1660.00mil 1283.00mil 1660.00mil 1358.00mil 20.00mil 20.00mil "clearline"]
+	Line[1660.00mil 1358.00mil 1785.00mil 1483.00mil 20.00mil 20.00mil "clearline"]
+	Line[1410.00mil 1533.00mil 1860.00mil 1533.00mil 20.00mil 20.00mil "clearline"]
+	Line[1860.00mil 1533.00mil 2110.00mil 1783.00mil 20.00mil 20.00mil "clearline"]
+	Line[2185.00mil 2408.00mil 2185.00mil 1783.00mil 20.00mil 20.00mil "clearline"]
+	Line[1410.00mil 1858.00mil 1510.00mil 1858.00mil 20.00mil 20.00mil "clearline"]
+	Line[1510.00mil 1858.00mil 1560.00mil 1908.00mil 20.00mil 20.00mil "clearline"]
+	Line[2110.00mil 1783.00mil 2185.00mil 1783.00mil 20.00mil 20.00mil "clearline"]
+	Line[1410.00mil 1758.00mil 1510.00mil 1758.00mil 20.00mil 20.00mil ""]
 	Polygon("clearpoly,lock")
 	(
-		[133500 118300] [323500 118300] [323500 290800] [133500 290800] 
+		[1335.00mil 1183.00mil] [3235.00mil 1183.00mil] [3235.00mil 2908.00mil] [1335.00mil 2908.00mil] 
 	)
 )
 Layer(3 "outline")
 (
-	Line[133500 130800 133500 280800 1000 1000 "clearline"]
-	Line[323500 280800 323500 130800 1000 1000 "clearline"]
-	Line[143500 290800 313500 290800 1000 1000 "clearline"]
-	Line[143500 120800 313500 120800 1000 1000 "clearline"]
-	Arc[143500 280800 10000 10000 1000 0 90 -90 "clearline"]
-	Arc[313500 280800 10000 10000 1000 0 90 90 "clearline"]
-	Arc[313500 130800 10000 10000 1000 0 -90 -90 "clearline"]
-	Arc[143500 130800 10000 10000 1000 0 0 -90 "clearline"]
+	Line[1335.00mil 1308.00mil 1335.00mil 2808.00mil 10.00mil 10.00mil "clearline"]
+	Line[3235.00mil 2808.00mil 3235.00mil 1308.00mil 10.00mil 10.00mil "clearline"]
+	Line[1435.00mil 2908.00mil 3135.00mil 2908.00mil 10.00mil 10.00mil "clearline"]
+	Line[1435.00mil 1208.00mil 3135.00mil 1208.00mil 10.00mil 10.00mil "clearline"]
+	Arc[1435.00mil 2808.00mil 100.00mil 100.00mil 10.00mil 0.0000 90 -90 "clearline"]
+	Arc[3135.00mil 2808.00mil 100.00mil 100.00mil 10.00mil 0.0000 90 90 "clearline"]
+	Arc[3135.00mil 1308.00mil 100.00mil 100.00mil 10.00mil 0.0000 -90 -90 "clearline"]
+	Arc[1435.00mil 1308.00mil 100.00mil 100.00mil 10.00mil 0.0000 0 -90 "clearline"]
 )
 Layer(4 "GND")
 (
@@ -1870,180 +1869,197 @@ Layer(8 "signal3")
 )
 Layer(9 "silk")
 (
-	Line[143500 143300 138500 143300 1000 1000 "clearline"]
-	Line[141000 140800 141000 145800 1000 1000 "clearline"]
-	Line[143500 195800 138500 195800 1000 1000 "clearline"]
-	Line[141000 193300 141000 198300 1000 1000 "clearline"]
-	Line[318500 163300 313500 163300 1000 1000 "clearline"]
-	Line[316000 160800 316000 165800 1000 1000 "clearline"]
-	Text[155300 202800 3 100 "Pickup" "clearline,onsolder"]
-	Text[236500 271000 2 100 "LED" "clearline,onsolder"]
-	Text[309110 181610 3 100 "Speaker" "clearline,onsolder"]
-	Text[247000 201000 2 100 "Gain" "clearline,onsolder"]
-	Text[196500 135500 2 100 "Volume" "clearline,onsolder"]
-	Text[166500 279500 2 150 "IN" "clearline,onsolder"]
-	Text[293000 279500 2 150 "OUT" "clearline,onsolder"]
-	Text[307000 281500 3 100 "Copyright 2014" "clearline,onsolder"]
-	Text[299500 275000 3 100 "Tim Heath" "clearline,onsolder"]
-	Text[293500 275000 3 100 "Matt O'Gorman" "clearline,onsolder"]
-	Text[284000 275500 3 60 "This board is" "clearline,onsolder"]
-	Text[280000 275000 3 60 "Licensed CC-BY-SA 4.0" "clearline,onsolder"]
-	Text[179000 275000 3 100 "Sound Producing Amplifier Module" "clearline,onsolder"]
-	Text[167500 143500 2 100 "Power" "clearline,onsolder"]
-	Text[175500 149500 2 100 "9-12 vdc" "clearline,onsolder"]
-	Text[170000 275500 3 100 "Ver:" "clearline,onsolder"]
-	Text[170000 260500 3 100 "@v@" "clearline,onsolder"]
-	Text[170000 246000 3 100 "- Liberty Nickel" "clearline,onsolder"]
-	Text[162500 273000 3 100 "git:@git@" "clearline,selected,onsolder"]
+	Line[1435.00mil 1433.00mil 1385.00mil 1433.00mil 10.00mil 10.00mil "clearline"]
+	Line[1410.00mil 1408.00mil 1410.00mil 1458.00mil 10.00mil 10.00mil "clearline"]
+	Line[1435.00mil 1958.00mil 1385.00mil 1958.00mil 10.00mil 10.00mil "clearline"]
+	Line[1410.00mil 1933.00mil 1410.00mil 1983.00mil 10.00mil 10.00mil "clearline"]
+	Line[3185.00mil 1633.00mil 3135.00mil 1633.00mil 10.00mil 10.00mil "clearline"]
+	Line[3160.00mil 1608.00mil 3160.00mil 1658.00mil 10.00mil 10.00mil "clearline"]
+	Text[1553.00mil 2028.00mil 3 100 "Pickup" "clearline,onsolder"]
+	Text[2365.00mil 2710.00mil 2 100 "LED" "clearline,onsolder"]
+	Text[3091.10mil 1816.10mil 3 100 "Speaker" "clearline,onsolder"]
+	Text[2470.00mil 2010.00mil 2 100 "Gain" "clearline,onsolder"]
+	Text[1965.00mil 1355.00mil 2 100 "Volume" "clearline,onsolder"]
+	Text[1665.00mil 2795.00mil 2 150 "IN" "clearline,onsolder"]
+	Text[2930.00mil 2795.00mil 2 150 "OUT" "clearline,onsolder"]
+	Text[3070.00mil 2815.00mil 3 100 "Copyright 2014" "clearline,onsolder"]
+	Text[2995.00mil 2750.00mil 3 100 "Tim Heath" "clearline,onsolder"]
+	Text[2935.00mil 2750.00mil 3 100 "Matt O'Gorman" "clearline,onsolder"]
+	Text[2840.00mil 2755.00mil 3 60 "This board is" "clearline,onsolder"]
+	Text[2800.00mil 2750.00mil 3 60 "Licensed CC-BY-SA 4.0" "clearline,onsolder"]
+	Text[1790.00mil 2750.00mil 3 100 "Sound Producing Amplifier Module" "clearline,onsolder"]
+	Text[1675.00mil 1435.00mil 2 100 "Power" "clearline,onsolder"]
+	Text[1755.00mil 1495.00mil 2 100 "9-12 vdc" "clearline,onsolder"]
+	Text[1700.00mil 2755.00mil 3 100 "Ver:" "clearline,onsolder"]
+	Text[1700.00mil 2605.00mil 3 100 "@v@" "clearline,onsolder"]
+	Text[1700.00mil 2460.00mil 3 100 "- Liberty Nickel" "clearline,onsolder"]
+	Text[1625.00mil 2730.00mil 3 100 "git:@git@" "clearline,onsolder"]
 	Polygon("clearpoly")
 	(
-		[294533 215224] [295607 216586] [296372 219261] [296649 222104] [296600 222923] 
-		[296036 222646] [295786 222532] [294083 221247] [293540 221095] [293421 221236] 
-		[293003 220818] [293112 220530] [293920 220124] [294767 220058] [295195 219293] 
-		[294739 216787] [294322 215995] 
+		[74.8114mm 54.6669mm] [75.0842mm 55.0128mm] [75.2785mm 55.6923mm] [75.3488mm 56.4144mm] [2966.00mil 56.6224mm] 
+		[75.1931mm 56.5521mm] [75.1296mm 56.5231mm] [74.6971mm 56.1967mm] [2935.40mil 56.1581mm] [74.5289mm 56.1939mm] 
+		[74.4228mm 56.0878mm] [74.4504mm 2205.30mil] [2939.20mil 55.9115mm] [74.8708mm 55.8947mm] [74.9795mm 55.7004mm] 
+		[74.8637mm 55.0639mm] [74.7578mm 54.8627mm] 
 	)
 	Polygon("clearpoly")
 	(
-		[266311 193442] [264938 200164] [264819 203717] [264960 205372] [265063 207114] 
-		[265437 207634] [265388 207520] [265426 207406] [265719 207803] [269018 212181] 
-		[274595 215903] [277232 217188] [279614 218170] [281767 218941] [284312 219673] 
-		[285489 219836] [287795 220037] [289504 219727] [289575 218832] [290095 218751] 
-		[290616 219391] [290394 220324] [290090 221306] [290350 222098] [293644 224008] 
-		[297246 225571] [298195 226352] [298754 226742] [298315 226173] [297658 223921] 
-		[297517 221252] [297620 218480] [297696 215919] [297908 214763] [297902 214112] 
-		[297485 213543] [296438 212615] [298939 211546] [301093 208302] [301288 207347] 
-		[301386 206197] [301000 203300] [300398 200348] [299910 198525] [299411 197022] 
-		[298472 194359] [302764 200896] [303480 203424] [303621 205698] [302899 208161] 
-		[302807 208394] [302091 209501] [300821 211427] [299720 213456] [298749 216125] 
-		[298092 219657] [297837 222755] [298917 225826] [299606 227171] [299384 228012] 
-		[298787 227621] [297571 226677] [294311 225180] [292569 224811] [291213 224100] 
-		[289857 223444] [288419 223145] [286916 222614] [285261 222001] [283894 221464] 
-		[282288 220802] [280520 220015] [278724 219147] [277590 218561] [276022 217698] 
-		[274487 216781] [272534 215501] [270266 213841] [269756 213396] [268475 212262] 
-		[266262 210184] [264504 208334] [265193 202659] [265557 199686] [265719 198319] 
+		[67.6430mm 49.1343mm] [67.2943mm 50.8417mm] [67.2640mm 51.7441mm] [2649.60mil 52.1645mm] [67.3260mm 52.6070mm] 
+		[67.4210mm 52.7390mm] [67.4086mm 2075.20mil] [67.4182mm 52.6811mm] [67.4926mm 52.7820mm] [68.3306mm 53.8940mm] 
+		[69.7471mm 54.8394mm] [70.4169mm 55.1658mm] [71.0220mm 2181.70mil] [71.5688mm 55.6110mm] [72.2152mm 55.7969mm] 
+		[72.5142mm 55.8383mm] [73.0999mm 55.8894mm] [73.5340mm 55.8107mm] [73.5520mm 55.5833mm] [73.6841mm 55.5628mm] 
+		[73.8165mm 55.7253mm] [73.7601mm 55.9623mm] [2900.90mil 56.2117mm] [2903.50mil 56.4129mm] [74.5856mm 56.8980mm] 
+		[75.5005mm 57.2950mm] [75.7415mm 57.4934mm] [75.8835mm 57.5925mm] [75.7720mm 57.4479mm] [75.6051mm 56.8759mm] 
+		[75.5693mm 56.1980mm] [2976.20mil 2184.80mil] [75.6148mm 54.8434mm] [75.6686mm 54.5498mm] [75.6671mm 54.3844mm] 
+		[75.5612mm 54.2399mm] [75.2953mm 54.0042mm] [75.9305mm 53.7327mm] [76.4776mm 52.9087mm] [76.5272mm 52.6661mm] 
+		[76.5520mm 52.3740mm] [3010.00mil 2033.00mil] [76.3011mm 50.8884mm] [2999.10mil 50.4254mm] [76.0504mm 50.0436mm] 
+		[75.8119mm 49.3672mm] [76.9021mm 51.0276mm] [3034.80mil 51.6697mm] [77.1197mm 52.2473mm] [76.9363mm 52.8729mm] 
+		[76.9130mm 52.9321mm] [76.7311mm 53.2133mm] [76.4085mm 53.7025mm] [2997.20mil 54.2178mm] [75.8822mm 54.8957mm] 
+		[75.7154mm 55.7929mm] [75.6506mm 56.5798mm] [75.9249mm 57.3598mm] [76.0999mm 57.7014mm] [76.0435mm 57.9150mm] 
+		[75.8919mm 57.8157mm] [75.5830mm 57.5760mm] [74.7550mm 2251.80mil] [74.3125mm 57.1020mm] [73.9681mm 2241.00mil] 
+		[73.6237mm 56.7548mm] [73.2584mm 56.6788mm] [72.8767mm 56.5440mm] [72.4563mm 56.3883mm] [72.1091mm 56.2519mm] 
+		[71.7012mm 56.0837mm] [2805.20mil 55.8838mm] [70.7959mm 55.6633mm] [2775.90mil 55.5145mm] [70.1096mm 55.2953mm] 
+		[69.7197mm 55.0624mm] [69.2236mm 54.7373mm] [68.6476mm 54.3156mm] [68.5180mm 54.2026mm] [68.1927mm 53.9145mm] 
+		[67.6305mm 53.3867mm] [67.1840mm 52.9168mm] [67.3590mm 51.4754mm] [67.4515mm 50.7202mm] [67.4926mm 50.3730mm] 
 	)
 	Polygon("clearpoly")
 	(
-		[291864 186020] [287513 182992] [284806 182352] [282646 182911] [280926 184398] 
-		[279624 186443] [279044 187713] [277612 191651] [279076 196154] [280845 197852] 
-		[282972 198254] [286043 197115] [289032 194510] [290589 192492] [291218 191261] 
-		[291788 189823] [292293 188684] [292700 188331] [292982 189221] [292841 190962] 
-		[292325 193008] [291511 194836] [288278 198411] [286482 199724] [284556 200424] 
-		[281154 199773] [278762 197966] [276906 193897] [277161 189167] [278935 185163] 
-		[280259 183573] [284014 181652] [288544 182851] 
+		[74.1335mm 1860.20mil] [73.0283mm 46.4800mm] [72.3407mm 46.3174mm] [71.7921mm 46.4594mm] [71.3552mm 46.8371mm] 
+		[71.0245mm 47.3565mm] [70.8772mm 47.6791mm] [70.5134mm 48.6794mm] [70.8853mm 49.8231mm] [71.3346mm 50.2544mm] 
+		[71.8749mm 50.3565mm] [72.6549mm 50.0672mm] [73.4141mm 1945.10mil] [73.8096mm 48.8930mm] [73.9694mm 48.5803mm] 
+		[74.1142mm 48.2150mm] [74.2424mm 47.9257mm] [2927.00mil 47.8361mm] [74.4174mm 48.0621mm] [74.3816mm 48.5043mm] 
+		[74.2506mm 49.0240mm] [74.0438mm 49.4883mm] [73.2226mm 50.3964mm] [72.7664mm 50.7299mm] [72.2772mm 50.9077mm] 
+		[71.4131mm 50.7423mm] [70.8055mm 50.2834mm] [70.3341mm 49.2498mm] [70.3989mm 48.0484mm] [70.8495mm 47.0314mm] 
+		[71.1858mm 46.6275mm] [72.1396mm 46.1396mm] [73.2902mm 46.4442mm] 
 	)
 	Polygon("clearpoly")
 	(
-		[287231 186329] [286862 187647] [285869 188635] [284469 188201] [283835 187246] 
-		[284339 185097] [285223 184642] [286319 185103] 
+		[72.9567mm 47.3276mm] [72.8629mm 47.6623mm] [72.6107mm 47.9133mm] [72.2551mm 47.8031mm] [72.0941mm 47.5605mm] 
+		[72.2221mm 47.0146mm] [72.4466mm 46.8991mm] [72.7250mm 47.0162mm] 
 	)
 	Polygon("clearpoly")
 	(
-		[285207 192991] [284334 194445] [282565 194706] [281588 193425] [281447 192194] 
-		[282679 191282] [284545 192047] 
+		[72.4426mm 49.0197mm] [72.2208mm 49.3890mm] [71.7715mm 49.4553mm] [71.5234mm 49.1300mm] [71.4875mm 48.8173mm] 
+		[71.8005mm 48.5856mm] [72.2744mm 48.7799mm] 
 	)
 	Polygon("clearpoly")
 	(
-		[295282 191820] [296058 191499] [296063 191223] [296188 191109] [297181 190729] 
-		[299910 187029] [300702 186546] [301597 186671] [301624 187333] [301386 188016] 
-		[303344 188326] [305433 187821] [307012 187241] [308037 187013] [308227 187588] 
-		[307267 189432] [303990 194142] [303420 195313] [302850 196702] [302243 197782] 
-		[301532 198031] [301244 197082] [302118 195438] [303963 192943] [305753 190545] 
-		[306550 188960] [305422 188922] [302991 188922] [301087 189563] [300203 190734] 
-		[299801 190973] [299617 190707] [299807 189953] [300203 189053] [300734 187913] 
-		[300952 187273] [300664 187257] [300333 187599] [300018 188331] [299167 189535] 
-		[298152 190729] [297354 191429] [297555 192340] [296416 192221] [294870 192378] 
-		[294099 192384] 
+		[75.0016mm 1918.20mil] [75.1987mm 48.6407mm] [75.2000mm 48.5706mm] [75.2318mm 48.5417mm] [75.4840mm 48.4452mm] 
+		[2999.10mil 47.5054mm] [76.3783mm 47.3827mm] [76.6056mm 47.4144mm] [76.6125mm 47.5826mm] [76.5520mm 47.7561mm] 
+		[77.0494mm 47.8348mm] [77.5800mm 47.7065mm] [77.9810mm 47.5592mm] [78.2414mm 47.5013mm] [78.2897mm 47.6474mm] 
+		[78.0458mm 48.1157mm] [3039.90mil 49.3121mm] [3034.20mil 49.6095mm] [3028.50mil 49.9623mm] [76.7697mm 50.2366mm] 
+		[76.5891mm 50.2999mm] [76.5160mm 50.0588mm] [76.7380mm 49.6413mm] [77.2066mm 49.0075mm] [77.6613mm 48.3984mm] 
+		[3065.50mil 1889.60mil] [77.5772mm 47.9862mm] [76.9597mm 47.9862mm] [76.4761mm 48.1490mm] [76.2516mm 48.4464mm] 
+		[76.1495mm 48.5071mm] [76.1027mm 48.4396mm] [76.1510mm 48.2481mm] [76.2516mm 48.0195mm] [76.3864mm 47.7299mm] 
+		[76.4418mm 47.5673mm] [76.3687mm 47.5633mm] [76.2846mm 47.6501mm] [76.2046mm 47.8361mm] [75.9884mm 48.1419mm] 
+		[75.7306mm 48.4452mm] [75.5279mm 48.6230mm] [75.5790mm 1923.40mil] [75.2897mm 48.8241mm] [74.8970mm 48.8640mm] 
+		[74.7011mm 48.8655mm] 
 	)
 	Polygon("clearpoly")
 	(
-		[300328 189416] [300501 189080] [300349 189210] 
+		[76.2833mm 48.1117mm] [76.3273mm 1890.80mil] [76.2886mm 1892.10mil] 
 	)
 	Polygon("clearpoly")
 	(
-		[299047 189253] [299264 188852] [299112 188982] 
+		[75.9579mm 48.0703mm] [76.0131mm 47.9684mm] [75.9744mm 48.0014mm] 
 	)
 	Polygon("clearpoly")
 	(
-		[287784 205312] [287372 205594] [287562 203918] [288055 201515] [288538 199632] 
-		[289206 198726] [289482 198905] [289184 199719] [288104 203636] [289667 207472] 
-		[291663 210309] [292895 212110] [293394 213526] [291587 212089] [290003 210450] 
-		[287936 208833] [285674 208426] [284198 206761] [285777 205339] 
+		[73.0971mm 52.1492mm] [72.9925mm 52.2209mm] [73.0407mm 51.7952mm] [73.1660mm 51.1848mm] [73.2887mm 50.7065mm] 
+		[73.4583mm 50.4764mm] [73.5284mm 50.5219mm] [73.4527mm 50.7286mm] [73.1784mm 51.7235mm] [73.5754mm 52.6979mm] 
+		[74.0824mm 53.4185mm] [74.3953mm 2121.10mil] [74.5221mm 54.2356mm] [74.0631mm 53.8706mm] [73.6608mm 2104.50mil] 
+		[73.1357mm 53.0436mm] [72.5612mm 52.9402mm] [72.1863mm 52.5173mm] [72.5874mm 52.1561mm] 
 	)
 )
 Layer(10 "silk")
 (
-	Line[226000 198300 226000 225800 1000 1000 "clearline"]
-	Line[226000 225800 231000 230800 1000 1000 "clearline"]
-	Line[231000 230800 251000 230800 1000 1000 "clearline"]
-	Line[251000 230800 256000 225800 1000 1000 "clearline"]
-	Line[256000 225800 256000 198300 1000 1000 "clearline"]
-	Line[226000 198300 256000 198300 1000 1000 "clearline"]
-	Text[152000 173000 3 100 "Pickup" "clearline"]
-	Text[204800 212300 0 60 "TL071CP" "clearline"]
-	Text[238800 231800 0 60 "330K" "clearline"]
-	Text[227800 231800 0 60 "330K" "clearline"]
-	Text[238800 167800 0 100 "470uF" "clearline"]
-	Text[197000 166000 0 100 "1000uF" "clearline"]
-	Text[266000 131500 0 100 "2200uF" "clearline"]
-	Text[251500 287000 1 80 "4.7uF" "clearline"]
-	Text[271200 168300 1 80 "10K" "clearline"]
-	Text[177300 141800 0 80 "10uF" "clearline"]
-	Text[280200 168300 1 80 "0.1uF" "clearline"]
-	Text[251800 231800 0 60 "1K" "clearline"]
-	Text[233000 200000 0 80 "10K pot" "clearline"]
-	Text[230000 158500 0 80 "10`" "clearline"]
-	Text[237500 133000 0 80 "220`" "clearline"]
-	Text[283500 269000 1 100 "Free your amp" "clearline"]
-	Text[169500 258000 0 80 "100`" "clearline"]
-	Text[169500 267500 0 80 "100`" "clearline"]
-	Text[152000 152200 3 100 "Batt" "clearline"]
-	Text[181657 134158 0 80 "100K" "clearline"]
-	Text[301500 171500 1 80 "100`" "clearline"]
-	Text[293500 171500 1 80 "100`" "clearline"]
-	Text[154500 262500 1 70 "@hackvana_c@" "clearline"]
-	Text[170800 276800 0 80 "56K" "clearline"]
-	Text[212500 234500 0 80 "10uF" "clearline"]
-	Text[242000 286000 1 80 "390`" "clearline"]
-	Text[222000 263000 0 100 "LED" ""]
-	Text[159000 133300 0 100 "Volume" "clearline"]
-	Text[197500 124500 0 125 "tda2003" "clearline"]
-	Text[313000 168000 1 100 "SPK" "clearline"]
-	Text[167000 180000 1 80 "10uF" "clearline"]
-	Text[294500 280000 1 100 "with this meaty sound" "clearline"]
+	Line[2260.00mil 1983.00mil 2260.00mil 2258.00mil 10.00mil 10.00mil "clearline"]
+	Line[2260.00mil 2258.00mil 2310.00mil 2308.00mil 10.00mil 10.00mil "clearline"]
+	Line[2310.00mil 2308.00mil 2510.00mil 2308.00mil 10.00mil 10.00mil "clearline"]
+	Line[2510.00mil 2308.00mil 2560.00mil 2258.00mil 10.00mil 10.00mil "clearline"]
+	Line[2560.00mil 2258.00mil 2560.00mil 1983.00mil 10.00mil 10.00mil "clearline"]
+	Line[2260.00mil 1983.00mil 2560.00mil 1983.00mil 10.00mil 10.00mil "clearline"]
+	Text[1520.00mil 1730.00mil 3 100 "Pickup" "clearline"]
+	Text[2048.00mil 2123.00mil 0 60 "TL071CP" "clearline"]
+	Text[2388.00mil 2318.00mil 0 60 "330K" "clearline"]
+	Text[2278.00mil 2318.00mil 0 60 "330K" "clearline"]
+	Text[2368.00mil 1663.00mil 0 100 "470uF" "clearline"]
+	Text[1980.00mil 1665.00mil 0 100 "1000uF" "clearline"]
+	Text[2655.00mil 1310.00mil 0 100 "2200uF" "clearline"]
+	Text[2515.00mil 2870.00mil 1 80 "4.7uF" "clearline"]
+	Text[2712.00mil 1683.00mil 1 80 "10K" "clearline"]
+	Text[1773.00mil 1418.00mil 0 80 "10uF" "clearline"]
+	Text[2802.00mil 1683.00mil 1 80 "0.1uF" "clearline"]
+	Text[2518.00mil 2318.00mil 0 60 "1K" "clearline"]
+	Text[2330.00mil 2000.00mil 0 80 "10K pot" "clearline"]
+	Text[2535.00mil 1505.00mil 0 80 "10`" "clearline"]
+	Text[2375.00mil 1330.00mil 0 80 "220`" "clearline"]
+	Text[2835.00mil 2690.00mil 1 100 "Free your amp" "clearline"]
+	Text[1695.00mil 2580.00mil 0 80 "100`" "clearline"]
+	Text[1695.00mil 2675.00mil 0 80 "100`" "clearline"]
+	Text[1520.00mil 1522.00mil 3 100 "Batt" "clearline"]
+	Text[46.1409mm 34.0761mm 0 80 "100K" "clearline"]
+	Text[3015.00mil 1715.00mil 1 80 "100`" "clearline"]
+	Text[2935.00mil 1715.00mil 1 80 "100`" "clearline"]
+	Text[1545.00mil 2625.00mil 1 70 "@hackvana_c@" "clearline"]
+	Text[1708.00mil 2768.00mil 0 80 "56K" "clearline"]
+	Text[2125.00mil 2345.00mil 0 80 "10uF" "clearline"]
+	Text[2420.00mil 2860.00mil 1 80 "390`" "clearline"]
+	Text[2220.00mil 2630.00mil 0 100 "LED" ""]
+	Text[1590.00mil 1333.00mil 0 100 "Volume" "clearline"]
+	Text[1975.00mil 1245.00mil 0 125 "tda2003" "clearline"]
+	Text[3130.00mil 1680.00mil 1 100 "SPK" "clearline"]
+	Text[1670.00mil 1800.00mil 1 80 "10uF" "clearline"]
+	Text[2945.00mil 2800.00mil 1 100 "with this meaty sound" "clearline"]
+	Text[1570.00mil 1873.00mil 0 100 "A" "clearline"]
 )
 NetList()
 (
-	Net("unnamed_net14" "(unknown)")
+	Net("GND" "(unknown)")
 	(
-		Connect("R2-1")
-		Connect("R5-1")
+		Connect("C2-2")
+		Connect("C8-2")
+		Connect("Input1-1")
+		Connect("J1-1")
+		Connect("LED1-2")
+		Connect("LED2-2")
+		Connect("Output1-1")
+		Connect("Pickup1-1")
+		Connect("R1-2")
+		Connect("R3-2")
+		Connect("R6-1")
+		Connect("R8-2")
+		Connect("R9-2")
+		Connect("U1-3")
+		Connect("U2-4")
 	)
-	Net("unnamed_net13" "(unknown)")
+	Net("IN+" "(unknown)")
 	(
-		Connect("LED2-1")
-		Connect("LED1-1")
-		Connect("R12-2")
-	)
-	Net("unnamed_net12" "(unknown)")
-	(
-		Connect("R14-1")
-		Connect("Input1-3")
-	)
-	Net("unnamed_net11" "(unknown)")
-	(
-		Connect("J1-3")
-		Connect("Input1-2")
+		Connect("C1-2")
+		Connect("R3-1")
+		Connect("R4-2")
+		Connect("U2-3")
 	)
 	Net("IN-" "(unknown)")
 	(
 		Connect("R2-2")
 		Connect("U2-2")
 	)
-	Net("T" "(unknown)")
+	Net("OUT" "(unknown)")
 	(
-		Connect("Output1-3")
-		Connect("R11-1")
+		Connect("C3-1")
+		Connect("R2-3")
+		Connect("U2-6")
+	)
+	Net("PIN2" "(unknown)")
+	(
+		Connect("C5-2")
+		Connect("U1-2")
+	)
+	Net("PIN4" "(unknown)")
+	(
+		Connect("C6-1")
+		Connect("R7-1")
+		Connect("U1-4")
 	)
 	Net("R" "(unknown)")
 	(
@@ -2055,113 +2071,95 @@ NetList()
 		Connect("Output1-4")
 		Connect("Speaker1-1")
 	)
-	Net("unnamed_net10" "(unknown)")
+	Net("T" "(unknown)")
 	(
-		Connect("R9-1")
-		Connect("C7-1")
+		Connect("Output1-3")
+		Connect("R11-1")
 	)
-	Net("unnamed_net9" "(unknown)")
+	Net("unnamed_net1" "(unknown)")
 	(
-		Connect("R11-2")
-		Connect("R10-1")
-		Connect("Speaker1-2")
-		Connect("C7-2")
-		Connect("C6-2")
+		Connect("Batt1-1")
+		Connect("J1-2")
 	)
-	Net("PIN2" "(unknown)")
+	Net("unnamed_net2" "(unknown)")
 	(
-		Connect("U1-2")
-		Connect("C5-2")
+		Connect("Pickup1-2")
+		Connect("R13-1")
 	)
-	Net("PIN4" "(unknown)")
+	Net("unnamed_net3" "(unknown)")
 	(
-		Connect("U1-4")
-		Connect("C6-1")
-		Connect("R7-1")
+		Connect("C1-1")
+		Connect("R1-1")
+		Connect("R13-2")
+		Connect("R14-2")
 	)
-	Net("unnamed_net8" "(unknown)")
+	Net("unnamed_net4" "(unknown)")
 	(
-		Connect("C5-1")
-		Connect("R8-1")
-		Connect("R7-2")
+		Connect("C2-1")
+		Connect("R5-2")
 	)
-	Net("unnamed_net7" "(unknown)")
+	Net("unnamed_net5" "(unknown)")
 	(
-		Connect("U1-1")
-		Connect("C4-1")
+		Connect("C3-2")
+		Connect("R6-3")
 	)
 	Net("unnamed_net6" "(unknown)")
 	(
 		Connect("C4-2")
 		Connect("R6-2")
 	)
-	Net("unnamed_net5" "(unknown)")
+	Net("unnamed_net7" "(unknown)")
 	(
-		Connect("R6-3")
-		Connect("C3-2")
+		Connect("C4-1")
+		Connect("U1-1")
 	)
-	Net("OUT" "(unknown)")
+	Net("unnamed_net8" "(unknown)")
 	(
-		Connect("U2-6")
-		Connect("R2-3")
-		Connect("C3-1")
+		Connect("C5-1")
+		Connect("R7-2")
+		Connect("R8-1")
 	)
-	Net("unnamed_net4" "(unknown)")
+	Net("unnamed_net9" "(unknown)")
 	(
-		Connect("R5-2")
-		Connect("C2-1")
+		Connect("C6-2")
+		Connect("C7-2")
+		Connect("R10-1")
+		Connect("R11-2")
+		Connect("Speaker1-2")
 	)
-	Net("IN+" "(unknown)")
+	Net("unnamed_net10" "(unknown)")
 	(
-		Connect("U2-3")
-		Connect("R4-2")
-		Connect("R3-1")
-		Connect("C1-2")
+		Connect("C7-1")
+		Connect("R9-1")
 	)
-	Net("unnamed_net3" "(unknown)")
+	Net("unnamed_net11" "(unknown)")
 	(
-		Connect("R13-2")
-		Connect("R14-2")
-		Connect("C1-1")
-		Connect("R1-1")
+		Connect("Input1-2")
+		Connect("J1-3")
 	)
-	Net("GND" "(unknown)")
+	Net("unnamed_net12" "(unknown)")
 	(
-		Connect("LED2-2")
-		Connect("J1-1")
-		Connect("U1-3")
-		Connect("C8-2")
-		Connect("LED1-2")
-		Connect("Output1-1")
-		Connect("Input1-1")
-		Connect("Input1-5")
-		Connect("Input1-6")
-		Connect("U2-4")
-		Connect("R9-2")
-		Connect("R8-2")
-		Connect("R6-1")
-		Connect("C2-2")
-		Connect("R3-2")
-		Connect("R1-2")
-		Connect("Pickup1-1")
+		Connect("Input1-3")
+		Connect("R14-1")
 	)
-	Net("unnamed_net2" "(unknown)")
+	Net("unnamed_net13" "(unknown)")
 	(
-		Connect("R13-1")
-		Connect("Pickup1-2")
+		Connect("LED1-1")
+		Connect("LED2-1")
+		Connect("R12-2")
+	)
+	Net("unnamed_net14" "(unknown)")
+	(
+		Connect("R2-1")
+		Connect("R5-1")
 	)
 	Net("Vcc" "(unknown)")
 	(
-		Connect("U1-5")
-		Connect("C8-1")
-		Connect("R12-1")
-		Connect("U2-7")
-		Connect("R4-1")
 		Connect("Batt1-2")
-	)
-	Net("unnamed_net1" "(unknown)")
-	(
-		Connect("J1-2")
-		Connect("Batt1-1")
+		Connect("C8-1")
+		Connect("R4-1")
+		Connect("R12-1")
+		Connect("U1-5")
+		Connect("U2-7")
 	)
 )
