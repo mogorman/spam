@@ -1882,7 +1882,7 @@ Layer(9 "silk")
 	Text[1965.00mil 1355.00mil 2 100 "Volume" "clearline,onsolder"]
 	Text[1665.00mil 2795.00mil 2 150 "IN" "clearline,onsolder"]
 	Text[2930.00mil 2795.00mil 2 150 "OUT" "clearline,onsolder"]
-	Text[3070.00mil 2815.00mil 3 100 "Copyright 2014" "clearline,onsolder"]
+	Text[3070.00mil 2815.00mil 3 100 "Copyright 2015" "clearline,onsolder"]
 	Text[2995.00mil 2750.00mil 3 100 "Tim Heath" "clearline,onsolder"]
 	Text[2935.00mil 2750.00mil 3 100 "Matt O'Gorman" "clearline,onsolder"]
 	Text[2840.00mil 2755.00mil 3 60 "This board is" "clearline,onsolder"]
