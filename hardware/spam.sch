@@ -589,7 +589,7 @@ refdes=R2
 T 55100 47500 5 10 0 1 90 0 1
 footprint=JUMPER3
 T 56700 47100 5 10 1 1 0 0 1
-value=100k
+value=10k
 T 56600 47100 5 10 0 1 0 0 1
 manufacturer-part=RV170SF-10-15R1-B100K
 }
